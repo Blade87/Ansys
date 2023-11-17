@@ -1,0 +1,162 @@
+*************************************************************
+FileName = OpenRex_V1I1_PCB.PcbDoc
+ODB++ directory structure
+*************************************************************
+Generated File : D:\Course\Hardware Design\Fedevel\Download\i.mx6\Open Rex\V1I1\Project Outputs for OpenRex_V1I1\odb\steps\pcb\profile
+
+Generated File : D:\Course\Hardware Design\Fedevel\Download\i.mx6\Open Rex\V1I1\Project Outputs for OpenRex_V1I1\odb\steps\pcb\stephdr
+
+Generated File : D:\Course\Hardware Design\Fedevel\Download\i.mx6\Open Rex\V1I1\Project Outputs for OpenRex_V1I1\odb\steps\pcb\attrlist
+
+Generated File : D:\Course\Hardware Design\Fedevel\Download\i.mx6\Open Rex\V1I1\Project Outputs for OpenRex_V1I1\odb\steps\pcb\layers\dielectric_1\features
+
+Generated File : D:\Course\Hardware Design\Fedevel\Download\i.mx6\Open Rex\V1I1\Project Outputs for OpenRex_V1I1\odb\steps\pcb\layers\dielectric_1\attrlist
+
+Generated File : D:\Course\Hardware Design\Fedevel\Download\i.mx6\Open Rex\V1I1\Project Outputs for OpenRex_V1I1\odb\steps\pcb\layers\dielectric_2\features
+
+Generated File : D:\Course\Hardware Design\Fedevel\Download\i.mx6\Open Rex\V1I1\Project Outputs for OpenRex_V1I1\odb\steps\pcb\layers\dielectric_2\attrlist
+
+Generated File : D:\Course\Hardware Design\Fedevel\Download\i.mx6\Open Rex\V1I1\Project Outputs for OpenRex_V1I1\odb\steps\pcb\layers\dielectric_3\features
+
+Generated File : D:\Course\Hardware Design\Fedevel\Download\i.mx6\Open Rex\V1I1\Project Outputs for OpenRex_V1I1\odb\steps\pcb\layers\dielectric_3\attrlist
+
+Generated File : D:\Course\Hardware Design\Fedevel\Download\i.mx6\Open Rex\V1I1\Project Outputs for OpenRex_V1I1\odb\steps\pcb\layers\dielectric_4\features
+
+Generated File : D:\Course\Hardware Design\Fedevel\Download\i.mx6\Open Rex\V1I1\Project Outputs for OpenRex_V1I1\odb\steps\pcb\layers\dielectric_4\attrlist
+
+Generated File : D:\Course\Hardware Design\Fedevel\Download\i.mx6\Open Rex\V1I1\Project Outputs for OpenRex_V1I1\odb\steps\pcb\layers\dielectric_5\features
+
+Generated File : D:\Course\Hardware Design\Fedevel\Download\i.mx6\Open Rex\V1I1\Project Outputs for OpenRex_V1I1\odb\steps\pcb\layers\dielectric_5\attrlist
+
+Generated File : D:\Course\Hardware Design\Fedevel\Download\i.mx6\Open Rex\V1I1\Project Outputs for OpenRex_V1I1\odb\steps\pcb\layers\dielectric_6\features
+
+Generated File : D:\Course\Hardware Design\Fedevel\Download\i.mx6\Open Rex\V1I1\Project Outputs for OpenRex_V1I1\odb\steps\pcb\layers\dielectric_6\attrlist
+
+Generated File : D:\Course\Hardware Design\Fedevel\Download\i.mx6\Open Rex\V1I1\Project Outputs for OpenRex_V1I1\odb\steps\pcb\layers\dielectric_7\features
+
+Generated File : D:\Course\Hardware Design\Fedevel\Download\i.mx6\Open Rex\V1I1\Project Outputs for OpenRex_V1I1\odb\steps\pcb\layers\dielectric_7\attrlist
+
+Generated File : D:\Course\Hardware Design\Fedevel\Download\i.mx6\Open Rex\V1I1\Project Outputs for OpenRex_V1I1\odb\steps\pcb\layers\dielectric_8\features
+
+Generated File : D:\Course\Hardware Design\Fedevel\Download\i.mx6\Open Rex\V1I1\Project Outputs for OpenRex_V1I1\odb\steps\pcb\layers\dielectric_8\attrlist
+
+Generated File : D:\Course\Hardware Design\Fedevel\Download\i.mx6\Open Rex\V1I1\Project Outputs for OpenRex_V1I1\odb\steps\pcb\layers\dielectric_9\features
+
+Generated File : D:\Course\Hardware Design\Fedevel\Download\i.mx6\Open Rex\V1I1\Project Outputs for OpenRex_V1I1\odb\steps\pcb\layers\dielectric_9\attrlist
+
+Generated File : D:\Course\Hardware Design\Fedevel\Download\i.mx6\Open Rex\V1I1\Project Outputs for OpenRex_V1I1\odb\steps\pcb\layers\top_solder\features
+
+Generated File : D:\Course\Hardware Design\Fedevel\Download\i.mx6\Open Rex\V1I1\Project Outputs for OpenRex_V1I1\odb\steps\pcb\layers\top_solder\attrlist
+
+Generated File : D:\Course\Hardware Design\Fedevel\Download\i.mx6\Open Rex\V1I1\Project Outputs for OpenRex_V1I1\odb\steps\pcb\layers\dielectric_10\features
+
+Generated File : D:\Course\Hardware Design\Fedevel\Download\i.mx6\Open Rex\V1I1\Project Outputs for OpenRex_V1I1\odb\steps\pcb\layers\dielectric_10\attrlist
+
+Generated File : D:\Course\Hardware Design\Fedevel\Download\i.mx6\Open Rex\V1I1\Project Outputs for OpenRex_V1I1\odb\steps\pcb\layers\l6__pwr_\features
+
+Generated File : D:\Course\Hardware Design\Fedevel\Download\i.mx6\Open Rex\V1I1\Project Outputs for OpenRex_V1I1\odb\steps\pcb\layers\l6__pwr_\attrlist
+
+Generated File : D:\Course\Hardware Design\Fedevel\Download\i.mx6\Open Rex\V1I1\Project Outputs for OpenRex_V1I1\odb\steps\pcb\layers\dielectric_12\features
+
+Generated File : D:\Course\Hardware Design\Fedevel\Download\i.mx6\Open Rex\V1I1\Project Outputs for OpenRex_V1I1\odb\steps\pcb\layers\dielectric_12\attrlist
+
+Generated File : D:\Course\Hardware Design\Fedevel\Download\i.mx6\Open Rex\V1I1\Project Outputs for OpenRex_V1I1\odb\steps\pcb\layers\dielectric_13\features
+
+Generated File : D:\Course\Hardware Design\Fedevel\Download\i.mx6\Open Rex\V1I1\Project Outputs for OpenRex_V1I1\odb\steps\pcb\layers\dielectric_13\attrlist
+
+Generated File : D:\Course\Hardware Design\Fedevel\Download\i.mx6\Open Rex\V1I1\Project Outputs for OpenRex_V1I1\odb\steps\pcb\layers\l4__pwr_\features
+
+Generated File : D:\Course\Hardware Design\Fedevel\Download\i.mx6\Open Rex\V1I1\Project Outputs for OpenRex_V1I1\odb\steps\pcb\layers\l4__pwr_\attrlist
+
+Generated File : D:\Course\Hardware Design\Fedevel\Download\i.mx6\Open Rex\V1I1\Project Outputs for OpenRex_V1I1\odb\steps\pcb\layers\dielectric_14\features
+
+Generated File : D:\Course\Hardware Design\Fedevel\Download\i.mx6\Open Rex\V1I1\Project Outputs for OpenRex_V1I1\odb\steps\pcb\layers\dielectric_14\attrlist
+
+Generated File : D:\Course\Hardware Design\Fedevel\Download\i.mx6\Open Rex\V1I1\Project Outputs for OpenRex_V1I1\odb\steps\pcb\layers\l7__pwr_\features
+
+Generated File : D:\Course\Hardware Design\Fedevel\Download\i.mx6\Open Rex\V1I1\Project Outputs for OpenRex_V1I1\odb\steps\pcb\layers\l7__pwr_\attrlist
+
+Generated File : D:\Course\Hardware Design\Fedevel\Download\i.mx6\Open Rex\V1I1\Project Outputs for OpenRex_V1I1\odb\steps\pcb\layers\dielectric_15\features
+
+Generated File : D:\Course\Hardware Design\Fedevel\Download\i.mx6\Open Rex\V1I1\Project Outputs for OpenRex_V1I1\odb\steps\pcb\layers\dielectric_15\attrlist
+
+Generated File : D:\Course\Hardware Design\Fedevel\Download\i.mx6\Open Rex\V1I1\Project Outputs for OpenRex_V1I1\odb\steps\pcb\layers\l9\features
+
+Generated File : D:\Course\Hardware Design\Fedevel\Download\i.mx6\Open Rex\V1I1\Project Outputs for OpenRex_V1I1\odb\steps\pcb\layers\l9\attrlist
+
+Generated File : D:\Course\Hardware Design\Fedevel\Download\i.mx6\Open Rex\V1I1\Project Outputs for OpenRex_V1I1\odb\steps\pcb\layers\l5__pwr_\features
+
+Generated File : D:\Course\Hardware Design\Fedevel\Download\i.mx6\Open Rex\V1I1\Project Outputs for OpenRex_V1I1\odb\steps\pcb\layers\l5__pwr_\attrlist
+
+Generated File : D:\Course\Hardware Design\Fedevel\Download\i.mx6\Open Rex\V1I1\Project Outputs for OpenRex_V1I1\odb\steps\pcb\layers\l2\features
+
+Generated File : D:\Course\Hardware Design\Fedevel\Download\i.mx6\Open Rex\V1I1\Project Outputs for OpenRex_V1I1\odb\steps\pcb\layers\l2\attrlist
+
+Generated File : D:\Course\Hardware Design\Fedevel\Download\i.mx6\Open Rex\V1I1\Project Outputs for OpenRex_V1I1\odb\steps\pcb\layers\l8\features
+
+Generated File : D:\Course\Hardware Design\Fedevel\Download\i.mx6\Open Rex\V1I1\Project Outputs for OpenRex_V1I1\odb\steps\pcb\layers\l8\attrlist
+
+Generated File : D:\Course\Hardware Design\Fedevel\Download\i.mx6\Open Rex\V1I1\Project Outputs for OpenRex_V1I1\odb\steps\pcb\layers\dielectric_11\features
+
+Generated File : D:\Course\Hardware Design\Fedevel\Download\i.mx6\Open Rex\V1I1\Project Outputs for OpenRex_V1I1\odb\steps\pcb\layers\dielectric_11\attrlist
+
+Generated File : D:\Course\Hardware Design\Fedevel\Download\i.mx6\Open Rex\V1I1\Project Outputs for OpenRex_V1I1\odb\steps\pcb\layers\bottom_solder\features
+
+Generated File : D:\Course\Hardware Design\Fedevel\Download\i.mx6\Open Rex\V1I1\Project Outputs for OpenRex_V1I1\odb\steps\pcb\layers\bottom_solder\attrlist
+
+Generated File : D:\Course\Hardware Design\Fedevel\Download\i.mx6\Open Rex\V1I1\Project Outputs for OpenRex_V1I1\odb\steps\pcb\layers\l1\features
+
+Generated File : D:\Course\Hardware Design\Fedevel\Download\i.mx6\Open Rex\V1I1\Project Outputs for OpenRex_V1I1\odb\steps\pcb\layers\l1\attrlist
+
+Generated File : D:\Course\Hardware Design\Fedevel\Download\i.mx6\Open Rex\V1I1\Project Outputs for OpenRex_V1I1\odb\steps\pcb\layers\l3\features
+
+Generated File : D:\Course\Hardware Design\Fedevel\Download\i.mx6\Open Rex\V1I1\Project Outputs for OpenRex_V1I1\odb\steps\pcb\layers\l3\attrlist
+
+Generated File : D:\Course\Hardware Design\Fedevel\Download\i.mx6\Open Rex\V1I1\Project Outputs for OpenRex_V1I1\odb\steps\pcb\layers\l10\features
+
+Generated File : D:\Course\Hardware Design\Fedevel\Download\i.mx6\Open Rex\V1I1\Project Outputs for OpenRex_V1I1\odb\steps\pcb\layers\l10\attrlist
+
+Generated File : D:\Course\Hardware Design\Fedevel\Download\i.mx6\Open Rex\V1I1\Project Outputs for OpenRex_V1I1\odb\steps\pcb\layers\comp_+_top\features
+
+Generated File : D:\Course\Hardware Design\Fedevel\Download\i.mx6\Open Rex\V1I1\Project Outputs for OpenRex_V1I1\odb\steps\pcb\layers\comp_+_top\components
+
+Generated File : D:\Course\Hardware Design\Fedevel\Download\i.mx6\Open Rex\V1I1\Project Outputs for OpenRex_V1I1\odb\steps\pcb\layers\comp_+_bot\features
+
+Generated File : D:\Course\Hardware Design\Fedevel\Download\i.mx6\Open Rex\V1I1\Project Outputs for OpenRex_V1I1\odb\steps\pcb\layers\comp_+_bot\components
+
+Generated File : D:\Course\Hardware Design\Fedevel\Download\i.mx6\Open Rex\V1I1\Project Outputs for OpenRex_V1I1\odb\steps\pcb\eda\data
+
+Generated File : D:\Course\Hardware Design\Fedevel\Download\i.mx6\Open Rex\V1I1\Project Outputs for OpenRex_V1I1\odb\matrix\matrix
+
+Generated File : D:\Course\Hardware Design\Fedevel\Download\i.mx6\Open Rex\V1I1\Project Outputs for OpenRex_V1I1\odb\symbols\uds_rect1899.99874x2424.99896xr569.99886_270_offset0x362.99902\features
+
+Generated File : D:\Course\Hardware Design\Fedevel\Download\i.mx6\Open Rex\V1I1\Project Outputs for OpenRex_V1I1\odb\symbols\uds_rect1899.99874x2424.99896xr569.99886_270_offset0x-362.99902\features
+
+Generated File : D:\Course\Hardware Design\Fedevel\Download\i.mx6\Open Rex\V1I1\Project Outputs for OpenRex_V1I1\odb\symbols\uds_rect2103.19874x2628.19896xr671.59886_270_offset0x362.99902\features
+
+Generated File : D:\Course\Hardware Design\Fedevel\Download\i.mx6\Open Rex\V1I1\Project Outputs for OpenRex_V1I1\odb\symbols\uds_rect2103.19874x2628.19896xr671.59886_270_offset0x-362.99902\features
+
+Generated File : D:\Course\Hardware Design\Fedevel\Download\i.mx6\Open Rex\V1I1\Project Outputs for OpenRex_V1I1\odb\symbols\uds_oblong_th4799.99802x2599.99734x45x4x2000.00108_180\features
+
+Generated File : D:\Course\Hardware Design\Fedevel\Download\i.mx6\Open Rex\V1I1\Project Outputs for OpenRex_V1I1\odb\symbols\uds_oblong_th3699.99768x1899.99874x45x4x499.999_270\features
+
+Generated File : D:\Course\Hardware Design\Fedevel\Download\i.mx6\Open Rex\V1I1\Project Outputs for OpenRex_V1I1\odb\symbols\uds_oblong_th2699.99714x1899.99874x45x4x499.999_270\features
+
+Generated File : D:\Course\Hardware Design\Fedevel\Download\i.mx6\Open Rex\V1I1\Project Outputs for OpenRex_V1I1\odb\symbols\uds_oblong_th4799.99802x2599.99734x45x4x2000.00108_180\features
+
+Generated File : D:\Course\Hardware Design\Fedevel\Download\i.mx6\Open Rex\V1I1\Project Outputs for OpenRex_V1I1\odb\symbols\uds_oblong_th3699.99768x1899.99874x45x4x499.999_270\features
+
+Generated File : D:\Course\Hardware Design\Fedevel\Download\i.mx6\Open Rex\V1I1\Project Outputs for OpenRex_V1I1\odb\symbols\uds_oblong_th2699.99714x1899.99874x45x4x499.999_270\features
+
+Generated File : D:\Course\Hardware Design\Fedevel\Download\i.mx6\Open Rex\V1I1\Project Outputs for OpenRex_V1I1\odb\symbols\uds_rect2103.19874x2628.19896xr671.59886_270_offset0x362.99902\features
+
+Generated File : D:\Course\Hardware Design\Fedevel\Download\i.mx6\Open Rex\V1I1\Project Outputs for OpenRex_V1I1\odb\symbols\uds_rect2103.19874x2628.19896xr671.59886_270_offset0x-362.99902\features
+
+Generated File : D:\Course\Hardware Design\Fedevel\Download\i.mx6\Open Rex\V1I1\Project Outputs for OpenRex_V1I1\odb\symbols\uds_rect1899.99874x2424.99896xr569.99886_270_offset0x362.99902\features
+
+Generated File : D:\Course\Hardware Design\Fedevel\Download\i.mx6\Open Rex\V1I1\Project Outputs for OpenRex_V1I1\odb\symbols\uds_rect1899.99874x2424.99896xr569.99886_270_offset0x-362.99902\features
+
+Generated File : D:\Course\Hardware Design\Fedevel\Download\i.mx6\Open Rex\V1I1\Project Outputs for OpenRex_V1I1\odb\symbols\uds_rect1899.99874x2424.99896xr569.99886_270_offset0x362.99902\features
+
+Generated File : D:\Course\Hardware Design\Fedevel\Download\i.mx6\Open Rex\V1I1\Project Outputs for OpenRex_V1I1\odb\symbols\uds_rect1899.99874x2424.99896xr569.99886_270_offset0x-362.99902\features
+
