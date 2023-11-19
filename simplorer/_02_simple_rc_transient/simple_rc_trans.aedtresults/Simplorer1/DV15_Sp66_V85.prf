@@ -1,0 +1,17 @@
+$begin 'Profile'
+	$begin 'ProfileGroup'
+		MajorVer=2022
+		MinorVer=2
+		Name='Solution Process'
+		$begin 'StartInfo'
+			I(0, 'Time:  11/19/2023 23:33:47, Host ')
+		$end 'StartInfo'
+		$begin 'TotalInfo'
+			I(0, 'Time:  11/19/2023 23:33:49, Status: Normal Completion')
+		$end 'TotalInfo'
+		GroupOptions=0
+		TaskDataOptions()
+		ProfileItem('', 0, 0, 0, 0, 0, 'I(1, 0, \'\')', false, true)
+		ProfileItem('Analysis', 1, 994212, 0, 125000, 41692, 'I(1, 0, \'Elapsed time : 00:00:01 , SimplorerCOMEngine Memory : 40.7 M\')', true, true)
+	$end 'ProfileGroup'
+$end 'Profile'
