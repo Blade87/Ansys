@@ -6,11 +6,13 @@
 //*************************************************************************************************
 
 // Global Ports
+PortGlobal Electrical : in ;
+PortGlobal Electrical : out ;
 
 // begin toplevel circuit
 
-INTERN R R1 N1:= Out , N2:= in (R:=1000);
-INTERN C C1 N1:= Out , N2:= GND (C:=1e-07);
+INTERN R R1 N1:= out , N2:= in (R:=1000);
+INTERN C C1 N1:= out , N2:= GND (C:=1e-07);
 COUPL e_ac e_ac1 p:= GND, m:= in ( ampl:= 1, freq:= 1, phase:= 0) DST: SIM(Type:=SimVHDL) SRC: DB(File:="Simplorer Elements\Aircraft Electrical VHDLAMS\Aircraft Electrical VHDLAMS", Lang:=VHDLA, Lvl:="behav");
 // end toplevel circuit
 
