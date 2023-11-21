@@ -1,0 +1,32 @@
+   Module        Real Time   CPU Time     Memory          Size
+_______________________________________________________________________
+
+            siwave_ng 2022 R2 (Built: May 27 2022 01:08:39)
+    Commenced on host DESKTOP-9MCAJIT at Tue Nov 21 23:18:14 2023
+
+------------------------------------------------------------------------
+|               |   Real   |   Cpu    |  Memory  |                     |
+|    Command    |   Time   |   Time   |          |                     |
+| geomproc      | 00:00:14 | 00:00:13 |  159260K |    54554 triangle   |
+| solve_setup   | 00:00:23 | 00:00:39 |  505272K |        1 project    |
+------------------------------------------------------------------------
+         Finished on DESKTOP-9MCAJIT at 11/21/2023 23:18:51
+
+
+           SIwave 2022 R2 May 27 2022 at 00:59:38 beginning
+           D:\programs\AnsysEM\v222\Win64\siwave_solver.exe
+               on DESKTOP-9MCAJIT at 11/21/2023 23:18:52
+------------------------------------------------------------------------
+|               |   Real   |   Cpu    |  Memory  |                     |
+|    Command    |   Time   |   Time   |          | Number of Elements  |
+| geomproc      | 00:00:04 | 00:00:03 |  162320K |    55878 triangle   |
+| coupling      | 00:00:04 | 00:00:08 |  378808K |      516 xsections  |
+| xsec_solve    | 00:00:01 | 00:00:03 |  383172K |       81 MoMs       |
+| hotspot       | 00:00:00 | 00:00:00 |  383172K |        9 nets       |
+| SIwave        | 00:00:09 | 00:00:10 |  383172K |        0 matrix     |
+------------------------------------------------------------------------
+         Finished on DESKTOP-9MCAJIT at 11/21/2023 23:19:10
+
+
+
+_______________________________________________________________________

@@ -1,0 +1,203 @@
+<html>
+<head>
+ <meta charset="UTF-8" />
+ <meta name="viewport" content="width=device-width" />
+ <title> Hotspot Data </title>
+ <style>
+  table {font-family: verdana; font-size:12px; width: 95%}
+  table.myTable { border-collapse:collapse; }
+  table.myTable td, table.myTable th { border:1px solid black;padding:3px; }
+  tr.violation { background-color:red; color:white }
+  tr.warning { background-color:orange; color:black }
+  tr.error { background-color:PaleGoldenRod; color:DarkGoldenRod }
+  tr.pass { background-color:green; color:black }
+  h1{ font-size:20px; line-height: 10px;}
+ </style>
+</head>
+<body>
+<TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0 width='100%'>
+<TR>
+<TD width="200px">
+<a href = "ansys.com"> <img src = "https://www.ansys.com/content/dam/company/brand/logos/ansys-logos/ansys-logo.jpg" alt = "" width = "200" height = "98"> </a>
+</TD>
+<TD align="right" valign="bottom">
+<P style='margin-bottom:4pt; text-align:right font-size:8pt; color:#000000; font-family:Verdana'>
+  Ansys SIwave 2022 R2 (solver build: May 27 2022 Win64)  Host Name: DESKTOP-9MCAJIT
+</TD>
+</TR>
+</TABLE>
+<h1> <br> Single Ended and Differential Net Impedance Violation </h1>
+<table class=myTable>
+<tr>
+<td align="center"> Net Name </td>
+<td align="center"> Impedance Warning<br> Tolerance </td>
+<td align="center"> Impedance Violation<br> Tolerance </td>
+<td align="center"> SE or Diff </td>
+<td align="center"> Cross Section Type </td>
+<td align="center"> Target Z0<br>(Ohms) </td>
+<td align="center"> Violation </td>
+<td align="center"> Layer of Violation </td>
+<td align="center"> Max<br>|Z-Z0|/Z0<br> </td>
+<td align="center"> Z of Max<br>(Ohms) </td>
+<td align="center"> Length of Max<br>(mm) </td>
+<td align="center"> Z of Longest<br>Violation/Warning<br>(Ohms) </td>
+<td align="center"> Length of Longest<br>Violation/Warning<br>(mm) </td>
+<td align="center"> Pairing Ratio<br> length paired/length total<br> </td>
+</tr>
+
+<tr class = pass>
+<td rowspan=1 align="center"> DIFF_DRAM_DQS0 </td>
+<td rowspan=1 align="center"> 10.0%</td>
+<td rowspan=1 align="center"> 20.0%</td>
+<td rowspan=1 align="center"> Diff </td>
+<td rowspan=1 align="center"> MSL; STL </td>
+<td rowspan=1 align="center"> 100.0 </td>
+<td align="center"> No </td>
+<td align="center"> </td>
+<td align="center"> -2.9%</td>
+<td align="center"> 97.1 </td>
+<td align="center"> 2.130 </td>
+<td align="center"> 97.1 </td>
+<td align="center"> 2.130 </td>
+<td align="center"> 70.5% </td>
+</tr>
+
+<tr class = pass>
+<td rowspan=1 align="center"> DRAM_D0 </td>
+<td rowspan=1 align="center"> 10.0%</td>
+<td rowspan=1 align="center"> 20.0%</td>
+<td rowspan=1 align="center"> SE </td>
+<td rowspan=1 align="center"> MSL; STL </td>
+<td rowspan=1 align="center"> 50.0 </td>
+<td align="center"> No </td>
+<td align="center"> </td>
+<td align="center"> 3.2%</td>
+<td align="center"> 51.6 </td>
+<td align="center"> 1.366 </td>
+<td align="center"> 50.0 </td>
+<td align="center"> 17.132 </td>
+<td align="center"> </td>
+</tr>
+
+<tr class = pass>
+<td rowspan=1 align="center"> DRAM_D1 </td>
+<td rowspan=1 align="center"> 10.0%</td>
+<td rowspan=1 align="center"> 20.0%</td>
+<td rowspan=1 align="center"> SE </td>
+<td rowspan=1 align="center"> MSL; STL </td>
+<td rowspan=1 align="center"> 50.0 </td>
+<td align="center"> No </td>
+<td align="center"> </td>
+<td align="center"> 3.2%</td>
+<td align="center"> 51.6 </td>
+<td align="center"> 3.297 </td>
+<td align="center"> 50.0 </td>
+<td align="center"> 15.178 </td>
+<td align="center"> </td>
+</tr>
+
+<tr class = pass>
+<td rowspan=1 align="center"> DRAM_D2 </td>
+<td rowspan=1 align="center"> 10.0%</td>
+<td rowspan=1 align="center"> 20.0%</td>
+<td rowspan=1 align="center"> SE </td>
+<td rowspan=1 align="center"> MSL; STL </td>
+<td rowspan=1 align="center"> 50.0 </td>
+<td align="center"> No </td>
+<td align="center"> </td>
+<td align="center"> -0.1%</td>
+<td align="center"> 49.9 </td>
+<td align="center"> 17.767 </td>
+<td align="center"> 49.9 </td>
+<td align="center"> 17.767 </td>
+<td align="center"> </td>
+</tr>
+
+<tr class = pass>
+<td rowspan=1 align="center"> DRAM_D3 </td>
+<td rowspan=1 align="center"> 10.0%</td>
+<td rowspan=1 align="center"> 20.0%</td>
+<td rowspan=1 align="center"> SE </td>
+<td rowspan=1 align="center"> MSL; STL </td>
+<td rowspan=1 align="center"> 50.0 </td>
+<td align="center"> No </td>
+<td align="center"> </td>
+<td align="center"> 0.0%</td>
+<td align="center"> 50.0 </td>
+<td align="center"> 17.579 </td>
+<td align="center"> 50.0 </td>
+<td align="center"> 17.579 </td>
+<td align="center"> </td>
+</tr>
+
+<tr class = pass>
+<td rowspan=1 align="center"> DRAM_D4 </td>
+<td rowspan=1 align="center"> 10.0%</td>
+<td rowspan=1 align="center"> 20.0%</td>
+<td rowspan=1 align="center"> SE </td>
+<td rowspan=1 align="center"> MSL; STL </td>
+<td rowspan=1 align="center"> 50.0 </td>
+<td align="center"> No </td>
+<td align="center"> </td>
+<td align="center"> 3.2%</td>
+<td align="center"> 51.6 </td>
+<td align="center"> 1.366 </td>
+<td align="center"> 50.0 </td>
+<td align="center"> 16.752 </td>
+<td align="center"> </td>
+</tr>
+
+<tr class = pass>
+<td rowspan=1 align="center"> DRAM_D5 </td>
+<td rowspan=1 align="center"> 10.0%</td>
+<td rowspan=1 align="center"> 20.0%</td>
+<td rowspan=1 align="center"> SE </td>
+<td rowspan=1 align="center"> MSL; STL </td>
+<td rowspan=1 align="center"> 50.0 </td>
+<td align="center"> No </td>
+<td align="center"> </td>
+<td align="center"> 3.2%</td>
+<td align="center"> 51.6 </td>
+<td align="center"> 1.366 </td>
+<td align="center"> 50.0 </td>
+<td align="center"> 17.111 </td>
+<td align="center"> </td>
+</tr>
+
+<tr class = pass>
+<td rowspan=1 align="center"> DRAM_D6 </td>
+<td rowspan=1 align="center"> 10.0%</td>
+<td rowspan=1 align="center"> 20.0%</td>
+<td rowspan=1 align="center"> SE </td>
+<td rowspan=1 align="center"> MSL; STL </td>
+<td rowspan=1 align="center"> 50.0 </td>
+<td align="center"> No </td>
+<td align="center"> </td>
+<td align="center"> -0.1%</td>
+<td align="center"> 50.0 </td>
+<td align="center"> 17.916 </td>
+<td align="center"> 50.0 </td>
+<td align="center"> 17.916 </td>
+<td align="center"> </td>
+</tr>
+
+<tr class = pass>
+<td rowspan=1 align="center"> DRAM_D7 </td>
+<td rowspan=1 align="center"> 10.0%</td>
+<td rowspan=1 align="center"> 20.0%</td>
+<td rowspan=1 align="center"> SE </td>
+<td rowspan=1 align="center"> MSL; STL </td>
+<td rowspan=1 align="center"> 50.0 </td>
+<td align="center"> No </td>
+<td align="center"> </td>
+<td align="center"> -0.0%</td>
+<td align="center"> 50.0 </td>
+<td align="center"> 17.896 </td>
+<td align="center"> 50.0 </td>
+<td align="center"> 17.896 </td>
+<td align="center"> </td>
+</tr>
+
+</table>
+</body>
+</html>
