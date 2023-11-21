@@ -1,0 +1,28 @@
+
+
+
+***********************************************************************
+
+        Validation Check 2022 R2 (Built: May 27 2022 01:12:01)
+    Commenced on host DESKTOP-DD9R41C at Tue Nov 21 15:27:14 2023
+
+------------------------------------------------------------------------
+|               |   Real   |   Cpu    |  Memory  |                     |
+|    Command    |   Time   |   Time   |          |                     |
+| BW Collision  | 00:00:00 | 00:00:00 |  121072K |        1 project    |
+| Vias Check    | 00:00:00 | 00:00:00 |  121072K |        1 project    |
+| Nets & Layers | 00:00:46 | 00:00:42 |  349684K |        1 project    |
+
+
+
+***********************************************************************
+
+        Validation Check 2022 R2 (Built: May 27 2022 01:12:01)
+    Commenced on host DESKTOP-DD9R41C at Tue Nov 21 15:34:30 2023
+
+------------------------------------------------------------------------
+|               |   Real   |   Cpu    |  Memory  |                     |
+|    Command    |   Time   |   Time   |          |                     |
+| BW Collision  | 00:00:00 | 00:00:00 |  120356K |        1 project    |
+| Vias Check    | 00:00:00 | 00:00:00 |  120356K |        1 project    |
+| Nets & Layers | 00:00:49 | 00:00:47 |  354440K |        1 project    |

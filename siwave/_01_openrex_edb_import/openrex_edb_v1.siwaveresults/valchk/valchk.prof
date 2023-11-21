@@ -1,0 +1,98 @@
+
+
+
+***********************************************************************
+
+        Validation Check 2022 R2 (Built: May 27 2022 01:12:01)
+    Commenced on host DESKTOP-DD9R41C at Tue Nov 21 09:45:15 2023
+
+------------------------------------------------------------------------
+|               |   Real   |   Cpu    |  Memory  |                     |
+|    Command    |   Time   |   Time   |          |                     |
+| BW Collision  | 00:00:00 | 00:00:00 |  121092K |        1 project    |
+| Vias Check    | 00:00:00 | 00:00:00 |  121092K |        1 project    |
+| disjoint      | 00:00:02 | 00:00:01 |  121092K |        1 project    |
+
+
+
+***********************************************************************
+
+        Validation Check 2022 R2 (Built: May 27 2022 01:12:01)
+    Commenced on host DESKTOP-DD9R41C at Tue Nov 21 09:52:36 2023
+
+------------------------------------------------------------------------
+|               |   Real   |   Cpu    |  Memory  |                     |
+|    Command    |   Time   |   Time   |          |                     |
+| BW Collision  | 00:00:00 | 00:00:00 |  120416K |        1 project    |
+| Vias Check    | 00:00:00 | 00:00:00 |  120416K |        1 project    |
+| disjoint      | 00:00:03 | 00:00:01 |  120416K |        1 project    |
+
+
+
+***********************************************************************
+
+        Validation Check 2022 R2 (Built: May 27 2022 01:12:01)
+    Commenced on host DESKTOP-DD9R41C at Tue Nov 21 10:06:03 2023
+
+------------------------------------------------------------------------
+|               |   Real   |   Cpu    |  Memory  |                     |
+|    Command    |   Time   |   Time   |          |                     |
+| BW Collision  | 00:00:00 | 00:00:00 |  121784K |        1 project    |
+| Vias Check    | 00:00:00 | 00:00:00 |  121784K |        1 project    |
+| disjoint      | 00:00:03 | 00:00:01 |  121784K |        1 project    |
+
+
+
+***********************************************************************
+
+        Validation Check 2022 R2 (Built: May 27 2022 01:12:01)
+    Commenced on host DESKTOP-DD9R41C at Tue Nov 21 10:10:59 2023
+
+------------------------------------------------------------------------
+|               |   Real   |   Cpu    |  Memory  |                     |
+|    Command    |   Time   |   Time   |          |                     |
+| BW Collision  | 00:00:00 | 00:00:00 |  121824K |        1 project    |
+| Vias Check    | 00:00:00 | 00:00:00 |  121824K |        1 project    |
+| disjoint      | 00:00:02 | 00:00:01 |  121824K |        1 project    |
+
+
+
+***********************************************************************
+
+        Validation Check 2022 R2 (Built: May 27 2022 01:12:01)
+    Commenced on host DESKTOP-DD9R41C at Tue Nov 21 11:14:49 2023
+
+------------------------------------------------------------------------
+|               |   Real   |   Cpu    |  Memory  |                     |
+|    Command    |   Time   |   Time   |          |                     |
+| BW Collision  | 00:00:00 | 00:00:00 |  121620K |        1 project    |
+| Vias Check    | 00:00:00 | 00:00:00 |  121620K |        1 project    |
+| disjoint      | 00:00:03 | 00:00:02 |  121620K |        1 project    |
+
+
+
+***********************************************************************
+
+        Validation Check 2022 R2 (Built: May 27 2022 01:12:01)
+    Commenced on host DESKTOP-DD9R41C at Tue Nov 21 11:19:54 2023
+
+------------------------------------------------------------------------
+|               |   Real   |   Cpu    |  Memory  |                     |
+|    Command    |   Time   |   Time   |          |                     |
+| BW Collision  | 00:00:00 | 00:00:00 |  120464K |        1 project    |
+| Vias Check    | 00:00:00 | 00:00:00 |  120464K |        1 project    |
+| Nets & Layers | 00:00:46 | 00:00:41 |  352720K |        1 project    |
+
+
+
+***********************************************************************
+
+        Validation Check 2022 R2 (Built: May 27 2022 01:12:01)
+    Commenced on host DESKTOP-DD9R41C at Tue Nov 21 11:36:13 2023
+
+------------------------------------------------------------------------
+|               |   Real   |   Cpu    |  Memory  |                     |
+|    Command    |   Time   |   Time   |          |                     |
+| BW Collision  | 00:00:00 | 00:00:00 |  120440K |        1 project    |
+| Vias Check    | 00:00:00 | 00:00:00 |  120440K |        1 project    |
+| Nets & Layers | 00:00:44 | 00:00:43 |  343540K |        1 project    |

@@ -1,0 +1,47 @@
+--------------------- Tue Nov 21 09:11:23 2023 ---------------------
+
+Creating SIwave session log C:\Users\SGI-U3\Documents\GitHub\Ansys\siwave\_01_openrex_edb_import\openrex_edb_v1.log
+OS: Windows 10  (Build 19045)
+
+Saved C:\Users\SGI-U3\Documents\GitHub\Ansys\siwave\_01_openrex_edb_import\openrex_edb_v1.siw
+
+
+--------------------- Tue Nov 21 09:31:59 2023 ---------------------
+
+Appending to SIwave session log C:\Users\SGI-U3\Documents\GitHub\Ansys\siwave\_01_openrex_edb_import\openrex_edb_v1.log
+Saved C:\Users\SGI-U3\Documents\GitHub\Ansys\siwave\_01_openrex_edb_import\openrex_edb_v1.siw
+
+
+--------------------- Tue Nov 21 09:51:07 2023 ---------------------
+
+Appending to SIwave session log C:/Users/SGI-U3/Documents/GitHub/Ansys/siwave/_01_openrex_edb_import/openrex_edb_v1.log
+Loading C:\Users\SGI-U3\Documents\GitHub\Ansys\siwave\_01_openrex_edb_import\openrex_edb_v1.siw...
+
+
+
+--------------------- Tue Nov 21 11:19:34 2023 ---------------------
+
+Appending to SIwave session log C:/Users/SGI-U3/Documents/GitHub/Ansys/siwave/_01_openrex_edb_import/openrex_edb_v1.log
+Loading C:\Users\SGI-U3\Documents\GitHub\Ansys\siwave\_01_openrex_edb_import\openrex_edb_v1.siw...
+
+Warning: Material 'solder' has an unrealistically low conductivity value of 0 S/m; resetting to 7.0e6 S/m
+Warning: Primitives on dielectric layers are not supported.
+Warning: Primitives on dielectric layers are not supported.
+Warning: Primitives on dielectric layers are not supported.
+Warning: Primitives on dielectric layers are not supported.
+Warning: Primitives on dielectric layers are not supported.
+Warning: Primitives on dielectric layers are not supported.
+Warning: Primitives on dielectric layers are not supported.
+Warning: Primitives on dielectric layers are not supported.
+Warning: Primitives on dielectric layers are not supported.
+Warning: Primitives on dielectric layers are not supported.
+Warning: Primitives on dielectric layers are not supported.
+Warning: Primitives on dielectric layers are not supported.
+Warning: Primitives on dielectric layers are not supported.
+Warning: Primitives on dielectric layers are not supported.
+Warning: Primitives on dielectric layers are not supported.
+Warning: Primitives on dielectric layers are not supported.
+437 capacitors read
+13 inductors read
+411 resistors read
+Loaded design "main" from EDB "C:/Users/SGI-U3/Documents/GitHub/Ansys/altium_export/openrex/edb_v2/OpenRex_V1I1_PCB.edb/"

@@ -1,0 +1,7 @@
+# Validation Check Errors/Warnings
+# BEGIN LIST
+
+Disjoint Net Error
+ net "GND"
+
+# END LIST
