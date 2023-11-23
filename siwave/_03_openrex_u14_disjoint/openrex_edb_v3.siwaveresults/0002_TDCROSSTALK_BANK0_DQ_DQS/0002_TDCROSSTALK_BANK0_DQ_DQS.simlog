@@ -1,0 +1,167 @@
+[Thu Nov 23 23:27:07 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0050 siwave_ng 2022 R2 (Built: May 27 2022 01:08:39):
+[Thu Nov 23 23:27:07 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:message Loading project...:
+[Thu Nov 23 23:27:10 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:message Initializing layout database...:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0050 Simulation "TDCROSSTALK_BANK0_DQ_DQS" started on host DESKTOP-9MCAJIT at Thu Nov 23 23:27:11 2023:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:message Generating solver input files...:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:progress  5.000000:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0050 [Simulation Directory]: "C:/Users/HoP/Documents/GitHub/Ansys/siwave/_03_openrex_u14_disjoint/openrex_edb_v3.siwaveresults/0002_TDCROSSTALK_BANK0_DQ_DQS/":
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0050 [Simulation Log File]: "C:/Users/HoP/Documents/GitHub/Ansys/siwave/_03_openrex_u14_disjoint/openrex_edb_v3.siwaveresults/0002_TDCROSSTALK_BANK0_DQ_DQS/0002_TDCROSSTALK_BANK0_DQ_DQS.simlog":
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:warning 0117 All geometry on net "DUMMY" will be ignored:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:message Identifying non-functional pads...:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:progress  10.000000:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:message Identifying nets for inclusion in simulation...:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0051 +0V75_DDR_VTT:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0051 +1V1_NVCC_PLL_OUT:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0051 +1V1_VDDSOC_CAP:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0051 +1V2_ETH:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0051 +1V2_ETH_AVDDL:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0051 +1V2_ETH_AVDDL_PLL:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0051 +1V2_ETH_DVDDL:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0051 +1V2_PMIC:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0051 +1V2_REG:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0051 +1V2_VDD_ARM_CAP:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0051 +1V5_DDR:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0051 +1V5_MPCIE:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0051 +1V8_AUDIO:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0051 +1V375_CORE:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0051 +1V375_SOC:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0051 +2V5:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0051 +2V5_ETH_DVDDH:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0051 +2V5_VDDHIGH_VPH:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0051 +3V0_ALWAYS:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0051 +3V0_VSNVS:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0051 +3V3:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0051 +3V3_COMP:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0051 +3V3_COMP_IO:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0051 +3V3_CSI1:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0051 +3V3_ETH_AVDDH:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0051 +3V3_GYRO:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0051 +3V3_GYRO_IO:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0051 +3V3_HDR:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0051 +3V3_HDR_J1:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0051 +3V3_HDR_J2:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0051 +3V3_MCU:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0051 +3V3_MPCIE:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0051 +3V3_USB_HUB:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0051 +5V:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0051 +5V_FTDI:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0051 +5V_HDMI_CON:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0051 +5V_HDR_J1:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0051 +5V_HDR_J2:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0051 +5V_MPCIE:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0051 +5V_USB_BOT:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0051 +5V_USB_OTG:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0051 +5V_USB_OTG_Q:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0051 +5V_USB_TOP:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0051 +DDR_VREF:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0051 +HDMI_VP:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0051 +HDMI_VPH:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0051 +LVDS_2V5:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0051 +MPCIE_SIM_PWR:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0051 +MPCIE_SIM_VPP:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0051 +NVCC_CSI:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0051 +NVCC_ENET:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0051 +NVCC_MIPI:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0051 +NVCC_RGMII:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0051 +PCIE_VP:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0051 +PCIE_VPH:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0051 +PCIE_VPTX:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0051 +SATA_VP:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0051 +SATA_VPH:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0051 +VCC_CAN:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0051 +VDDA:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0051 +VDDPU:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0051 +VDDUSB:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0051 +VDD_CSI:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0051 +VIN_4V2:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0051 +VIN_5V:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0051 +VIN_ETH:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0051 +V_INPUT:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0051 DRAM_D0:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0051 DRAM_D1:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0051 DRAM_D2:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0051 DRAM_D3:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0051 DRAM_D4:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0051 DRAM_D5:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0051 DRAM_D6:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0051 DRAM_D7:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0051 DRAM_DQS0_N:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0051 DRAM_DQS0_P:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0051 GND:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:progress  15.000000:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:message Performing basic DRC...:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:message Merging appropriate traces...:
+[Thu Nov 23 23:27:11 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:message Identifying traces to process...:
+[Thu Nov 23 23:27:12 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:message Identifying planes to process...:
+[Thu Nov 23 23:27:12 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:progress  17.000000:
+[Thu Nov 23 23:27:12 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:message Generating antipads in planes...:
+[Thu Nov 23 23:27:14 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:message Modeling appropriate pads as planes...:
+[Thu Nov 23 23:27:16 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:progress  20.000000:
+[Thu Nov 23 23:27:16 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:progress  24.000000:
+[Thu Nov 23 23:27:16 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:message Uniting geometry...:
+[Thu Nov 23 23:27:17 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:progress  30.000000:
+[Thu Nov 23 23:27:18 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:message Running geometry preprocessor...:
+[Thu Nov 23 23:27:36 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:message Processing facets...:
+[Thu Nov 23 23:27:44 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:progress  50.000000:
+[Thu Nov 23 23:27:44 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:message Identifying traces to process...:
+[Thu Nov 23 23:27:44 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:message Processing traces...:
+[Thu Nov 23 23:27:45 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:progress  55.000000:
+[Thu Nov 23 23:27:45 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:progress  60.000000:
+[Thu Nov 23 23:27:47 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:message Processing circuit elements...:
+[Thu Nov 23 23:27:48 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:progress  70.000000:
+[Thu Nov 23 23:27:49 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:progress  80.000000:
+[Thu Nov 23 23:27:49 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:message Writing solver input files...:
+[Thu Nov 23 23:27:49 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:progress  90.000000:
+[Thu Nov 23 23:27:50 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:progress  95.000000:
+[Thu Nov 23 23:27:50 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:progress  100.000000:
+[Thu Nov 23 23:27:50 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:message Solving for time domain transmission line crosstalk... :
+D:\programs\AnsysEM\v222\Win64\siwave_solver.exe:message Initializing solution setup: 
+D:\programs\AnsysEM\v222\Win64\siwave_solver.exe:progress 1.000000: 
+D:\programs\AnsysEM\v222\Win64\siwave_solver.exe:progress 2.000000: 
+D:\programs\AnsysEM\v222\Win64\siwave_solver.exe:message Creating initial mesh: 
+D:\programs\AnsysEM\v222\Win64\geomproc.exe:PID 16684: 
+D:\programs\AnsysEM\v222\Win64\siwave_solver.exe:progress 5.000000: 
+D:\programs\AnsysEM\v222\Win64\siwave_solver.exe:message Reading solver input files: 
+D:\programs\AnsysEM\v222\Win64\siwave_solver.exe:message   Importing material definitions: 
+D:\programs\AnsysEM\v222\Win64\siwave_solver.exe:message   Importing stackup definition: 
+D:\programs\AnsysEM\v222\Win64\siwave_solver.exe:message   Importing model information: 
+D:\programs\AnsysEM\v222\Win64\siwave_solver.exe:message   Importing circuit information: 
+D:\programs\AnsysEM\v222\Win64\siwave_solver.exe:message Initializing transmission lines: 
+D:\programs\AnsysEM\v222\Win64\siwave_solver.exe:progress 6.000000: 
+D:\programs\AnsysEM\v222\Win64\siwave_solver.exe:message Initializing vias: 
+D:\programs\AnsysEM\v222\Win64\siwave_solver.exe:message Initializing Bondwires: 
+D:\programs\AnsysEM\v222\Win64\siwave_solver.exe:message Identifying nets: 
+D:\programs\AnsysEM\v222\Win64\siwave_solver.exe:message Processing circuit nodes: 
+D:\programs\AnsysEM\v222\Win64\siwave_solver.exe:message Initializing plane edges: 
+D:\programs\AnsysEM\v222\Win64\siwave_solver.exe:progress 7.000000: 
+D:\programs\AnsysEM\v222\Win64\siwave_solver.exe:message Identifying metal edges...: 
+D:\programs\AnsysEM\v222\Win64\siwave_solver.exe:message Computing plane extent: 
+D:\programs\AnsysEM\v222\Win64\siwave_solver.exe:message Performing smart coupling detection...: 
+D:\programs\AnsysEM\v222\Win64\siwave_solver.exe:message Setting up cavities: 
+D:\programs\AnsysEM\v222\Win64\siwave_solver.exe:progress 11.000000: 
+D:\programs\AnsysEM\v222\Win64\siwave_solver.exe:message Processing trace cross sections: 
+D:\programs\AnsysEM\v222\Win64\siwave_solver.exe:progress 12.000000: 
+D:\programs\AnsysEM\v222\Win64\siwave_solver.exe:message Solving cross sections: 
+D:\programs\AnsysEM\v222\Win64\siwave_solver.exe:message Setting up cross sections: 
+D:\programs\AnsysEM\v222\Win64\siwave_solver.exe:message Setting up resolve cross sections: 
+D:\programs\AnsysEM\v222\Win64\siwave_solver.exe:message Setting up split cross sections: 
+D:\programs\AnsysEM\v222\Win64\siwave_solver.exe:progress 15.000000: 
+D:\programs\AnsysEM\v222\Win64\siwave_solver.exe:message Performing hot spot detection: 
+D:\programs\AnsysEM\v222\Win64\siwave_solver.exe:progress 16.000000: 
+D:\programs\AnsysEM\v222\Win64\siwave_solver.exe:progress 17.000000: 
+D:\programs\AnsysEM\v222\Win64\siwave_solver.exe:progress 18.000000: 
+D:\programs\AnsysEM\v222\Win64\siwave_solver.exe:message Computing Timedomain waveform: 
+D:\programs\AnsysEM\v222\Win64\siwave_solver.exe:message Creating signal paths: 
+D:\programs\AnsysEM\v222\Win64\siwave_solver.exe:message Setting up and Solve crosstalk problems: 
+D:\programs\AnsysEM\v222\Win64\siwave_solver.exe:progress 20.000000: 
+D:\programs\AnsysEM\v222\Win64\siwave_solver.exe:progress 28.000000: 
+D:\programs\AnsysEM\v222\Win64\siwave_solver.exe:progress 46.000000: 
+D:\programs\AnsysEM\v222\Win64\siwave_solver.exe:progress 55.000000: 
+D:\programs\AnsysEM\v222\Win64\siwave_solver.exe:progress 64.000000: 
+D:\programs\AnsysEM\v222\Win64\siwave_solver.exe:progress 73.000000: 
+D:\programs\AnsysEM\v222\Win64\siwave_solver.exe:progress 82.000000: 
+D:\programs\AnsysEM\v222\Win64\siwave_solver.exe:progress 91.000000: 
+D:\programs\AnsysEM\v222\Win64\siwave_solver.exe:progress 100.000000: 
+D:\programs\AnsysEM\v222\Win64\siwave_solver.exe:message SIwave hotspot detection finished: 
+[Thu Nov 23 23:28:17 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0050 Time domain crosstalk scan solve completed with return code 0:
+[Thu Nov 23 23:28:17 2023] D:\programs\AnsysEM\v222\Win64\siwave_ng.exe:information 0050 Simulation "TDCROSSTALK_BANK0_DQ_DQS" completed on host DESKTOP-9MCAJIT at Thu Nov 23 23:28:17 2023:

@@ -72,3 +72,64 @@ Saved C:\Users\HoP\Documents\GitHub\Ansys\siwave\_03_openrex_u14_disjoint\openre
 
 Appending to SIwave session log C:\Users\HoP\Documents\GitHub\Ansys\siwave\_03_openrex_u14_disjoint\openrex_edb_v3.log
 Saved C:\Users\HoP\Documents\GitHub\Ansys\siwave\_03_openrex_u14_disjoint\openrex_edb_v3.siw
+
+
+--------------------- Thu Nov 23 20:48:46 2023 ---------------------
+
+Appending to SIwave session log C:/Users/HoP/Documents/GitHub/Ansys/siwave/_03_openrex_u14_disjoint/openrex_edb_v3.log
+Loading C:\Users\HoP\Documents\GitHub\Ansys\siwave\_03_openrex_u14_disjoint\openrex_edb_v3.siw...
+
+Displaying TraceZ0 for simulation "SDRAM_BANK0_DQ_DQS"...
+
+
+--------------------- Thu Nov 23 20:51:54 2023 ---------------------
+
+Appending to SIwave session log C:/Users/HoP/Documents/GitHub/Ansys/siwave/_03_openrex_u14_disjoint/openrex_edb_v3.log
+Loading C:\Users\HoP\Documents\GitHub\Ansys\siwave\_03_openrex_u14_disjoint\openrex_edb_v3.siw...
+
+
+
+--------------------- Thu Nov 23 20:53:00 2023 ---------------------
+
+Appending to SIwave session log C:/Users/HoP/Documents/GitHub/Ansys/siwave/_03_openrex_u14_disjoint/openrex_edb_v3.log
+Loading C:\Users\HoP\Documents\GitHub\Ansys\siwave\_03_openrex_u14_disjoint\openrex_edb_v3.siw...
+
+Displaying TraceZ0 for simulation "SDRAM_BANK0_DQ_DQS"...
+Displaying ScanWarningsViolations for simulation "SDRAM_BANK0_DQ_DQS"...
+Displaying coupled structures for simulation "SDRAM_BANK0_DQ_DQS"...
+Displaying TraceZ0 for simulation "SDRAM_BANK0_DQ_DQS"...
+Displaying coupled structures for simulation "SDRAM_BANK0_DQ_DQS"...
+Displaying TraceZ0 for simulation "SDRAM_BANK0_DQ_DQS"...
+Displaying TraceZ0 for simulation "SDRAM_BANK0_DQ_DQS"...
+Displaying crosstalk scan for simulation "CROSSTALK_BANK0_DQ_DQS"...
+
+
+--------------------- Thu Nov 23 21:49:35 2023 ---------------------
+
+Appending to SIwave session log C:\Users\HoP\Documents\GitHub\Ansys\siwave\_03_openrex_u14_disjoint\openrex_edb_v3.log
+Saved C:\Users\HoP\Documents\GitHub\Ansys\siwave\_03_openrex_u14_disjoint\openrex_edb_v3.siw
+Displaying crosstalk scan for simulation "CROSSTALK_BANK0_DQ_DQS"...
+Displaying crosstalk scan for simulation "CROSSTALK_BANK0_DQ_DQS"...
+
+
+--------------------- Thu Nov 23 22:04:14 2023 ---------------------
+
+Appending to SIwave session log C:\Users\HoP\Documents\GitHub\Ansys\siwave\_03_openrex_u14_disjoint\openrex_edb_v3.log
+Saved C:\Users\HoP\Documents\GitHub\Ansys\siwave\_03_openrex_u14_disjoint\openrex_edb_v3.siw
+Displaying coupled structures for simulation "CROSSTALK_BANK0_DQ_DQS"...
+
+
+--------------------- Thu Nov 23 23:31:42 2023 ---------------------
+
+Appending to SIwave session log C:\Users\HoP\Documents\GitHub\Ansys\siwave\_03_openrex_u14_disjoint\openrex_edb_v3.log
+Saved C:\Users\HoP\Documents\GitHub\Ansys\siwave\_03_openrex_u14_disjoint\openrex_edb_v3.siw
+Displaying time domain crosstalk scan for simulation "TDCROSSTALK_BANK0_DQ_DQS"...
+Displaying time domain crosstalk scan for simulation "TDCROSSTALK_BANK0_DQ_DQS"...
+Displaying coupled structures for simulation "TDCROSSTALK_BANK0_DQ_DQS"...
+Displaying time domain crosstalk scan for simulation "TDCROSSTALK_BANK0_DQ_DQS"...
+
+
+--------------------- Fri Nov 24 00:00:59 2023 ---------------------
+
+Appending to SIwave session log C:\Users\HoP\Documents\GitHub\Ansys\siwave\_03_openrex_u14_disjoint\openrex_edb_v3.log
+Saved C:\Users\HoP\Documents\GitHub\Ansys\siwave\_03_openrex_u14_disjoint\openrex_edb_v3.siw

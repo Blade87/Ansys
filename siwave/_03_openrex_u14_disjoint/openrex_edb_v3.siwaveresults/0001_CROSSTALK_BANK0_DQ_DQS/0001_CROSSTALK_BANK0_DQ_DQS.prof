@@ -1,0 +1,27 @@
+            siwave_ng 2022 R2 (Built: May 27 2022 01:08:39)
+    Commenced on host DESKTOP-9MCAJIT at Thu Nov 23 21:43:01 2023
+
+------------------------------------------------------------------------
+|               |   Real   |   Cpu    |  Memory  |                     |
+|    Command    |   Time   |   Time   |          |                     |
+| geomproc      | 00:00:17 | 00:00:15 |  158200K |    54554 triangle   |
+| solve_setup   | 00:00:24 | 00:00:41 |  500052K |        1 project    |
+------------------------------------------------------------------------
+         Finished on DESKTOP-9MCAJIT at 11/23/2023 21:43:42
+
+
+           SIwave 2022 R2 May 27 2022 at 00:59:38 beginning
+           D:\programs\AnsysEM\v222\Win64\siwave_solver.exe
+               on DESKTOP-9MCAJIT at 11/23/2023 21:43:43
+------------------------------------------------------------------------
+|               |   Real   |   Cpu    |  Memory  |                     |
+|    Command    |   Time   |   Time   |          | Number of Elements  |
+| geomproc      | 00:00:06 | 00:00:05 |  162688K |    55878 triangle   |
+| coupling      | 00:00:05 | 00:00:08 |  377816K |      402 xsections  |
+| xsec_solve    | 00:00:03 | 00:00:08 |  404704K |       84 MoMs       |
+| hotspot       | 00:00:00 | 00:00:00 |  404704K |        9 nets       |
+| SIwave        | 00:00:12 | 00:00:13 |  404704K |        0 matrix     |
+------------------------------------------------------------------------
+         Finished on DESKTOP-9MCAJIT at 11/23/2023 21:44:09
+
+
