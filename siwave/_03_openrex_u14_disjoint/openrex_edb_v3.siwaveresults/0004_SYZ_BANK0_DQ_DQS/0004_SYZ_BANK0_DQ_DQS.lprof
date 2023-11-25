@@ -1,0 +1,70 @@
+   Module        Real Time   CPU Time     Memory          Size
+_______________________________________________________________________
+
+            siwave_ng 2022 R2 (Built: May 27 2022 01:08:39)
+    Commenced on host DESKTOP-DD9R41C at Sat Nov 25 12:50:33 2023
+
+------------------------------------------------------------------------
+|               |   Real   |   Cpu    |  Memory  |                     |
+|    Command    |   Time   |   Time   |          |                     |
+| solve_setup   | 00:00:15 | 00:00:30 |  412812K |        1 project    |
+------------------------------------------------------------------------
+         Finished on DESKTOP-DD9R41C at 11/25/2023 12:50:48
+
+
+     SIwave DC IR solver 2022 R2 May 27 2022 at 00:56:39 beginning
+        C:\Program Files\AnsysEM\v222\Win64\sidirect_solver.exe
+               on DESKTOP-DD9R41C at 11/25/2023 12:50:48
+------------------------------------------------------------------------
+|               |   Real   |   Cpu    |  Memory  |                     |
+|    Command    |   Time   |   Time   |          | Number of Elements  |
+| InitMesh      | 00:00:24 | 00:01:23 |     557M |   360240 triangles  |
+| PreProc       | 00:00:02 | 00:00:02 |     557M |   360240 triangles  |
+| AdaptMesh_1   | 00:00:05 | 00:00:04 |     557M |   396749 triangles  |
+| Solve(6p)_1   | 00:00:02 | 00:00:05 |     637M |   277373 unknowns   |
+| ErrorCalc_1   | 00:00:01 | 00:00:01 |     637M |   396749 triangles  |
+| AdaptMesh_2   | 00:00:08 | 00:00:07 |     669M |   499906 triangles  |
+| Solve(6p)_2   | 00:00:03 | 00:00:07 |     779M |   330274 unknowns   |
+| ErrorCalc_2   | 00:00:01 | 00:00:01 |     779M |   499906 triangles  |
+| AdaptMesh_3   | 00:00:08 | 00:00:07 |     810M |   629884 triangles  |
+| Solve(6p)_3   | 00:00:02 | 00:00:09 |     950M |   396858 unknowns   |
+| ErrorCalc_3   | 00:00:02 | 00:00:02 |     950M |   629884 triangles  |
+| PostProc      | 00:00:02 | 00:00:01 |     950M |     3424 elements   |
+------------------------------------------------------------------------
+          Finished on DESKTOP-DD9R41C at 11/25/2023 12:51:52
+
+
+_______________________________________________________________________
+
+            siwave_ng 2022 R2 (Built: May 27 2022 01:08:39)
+    Commenced on host DESKTOP-DD9R41C at Sat Nov 25 12:51:53 2023
+
+------------------------------------------------------------------------
+|               |   Real   |   Cpu    |  Memory  |                     |
+|    Command    |   Time   |   Time   |          |                     |
+| geomproc      | 00:00:14 | 00:00:14 |  163640K |    55492 triangle   |
+| solve_setup   | 00:00:20 | 00:00:37 |  545776K |        1 project    |
+------------------------------------------------------------------------
+         Finished on DESKTOP-DD9R41C at 11/25/2023 12:52:27
+
+
+           SIwave 2022 R2 May 27 2022 at 00:59:38 beginning
+         C:\Program Files\AnsysEM\v222\Win64\siwave_solver.exe
+               on DESKTOP-DD9R41C at 11/25/2023 12:52:27
+------------------------------------------------------------------------
+|               |   Real   |   Cpu    |  Memory  |                     |
+|    Command    |   Time   |   Time   |          | Number of Elements  |
+| geomproc      | 00:00:05 | 00:00:04 |  168252K |    56936 triangle   |
+| coupling      | 00:00:06 | 00:00:29 |  465892K |     3895 xsections  |
+| xsec_solve    | 00:00:27 | 00:01:33 |  706548K |      604 MoMs       |
+| via_extract   | 00:00:52 | 00:05:04 |  706548K |     2860 blocks     |
+| bsm_adapt     | 00:00:03 | 00:00:03 |  706548K |    90352 triangles  |
+| Interpolating sweep converged after 806 solutions |
+| DCS_6p        | 00:21:06 | 02:05:29 |    1383M |   241782 matrix     |
+| SIwave        | 00:00:38 | 00:01:45 |    1383M |   241782 matrix     |
+------------------------------------------------------------------------
+         Finished on DESKTOP-DD9R41C at 11/25/2023 13:15:44
+
+
+
+_______________________________________________________________________
