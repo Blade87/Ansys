@@ -1,0 +1,9 @@
+ExecSyzSim
+SetSwp 0 0 1 Linear 0
+AddSwp 1 5E+06 50 Decade 0
+AddSwp 5E+06 1E+10 500 Linear 0
+SetInterpSwp
+InterpSwpCvg 0.1
+NumInterpPts 200
+ComputeExactDcPt
+UseElectronicsPPE

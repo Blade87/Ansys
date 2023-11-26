@@ -1,0 +1,188 @@
+(status): Nexxim version: 2022.2.0 WIN64, build time: May 26 2022, 22:29:33
+
+(status): Analyzing C:/Users/SGI-U3/Documents/GitHub/Ansys/siwave/_03_openrex_u14_disjoint/openrex_edb_v3.siwaveresults/DesignerTDR/TDR1_BANK0_DQ_DQS.aedtresults/openrex_edb_v3_TDR1/temp/DV108_S106_V109.cir.
+(info): Processing circuit for new analysis.
+omp(status): Requested number of threads in UI setting is 3
+circuit_details(status): Total device types: 4
+device type                                       number of devices
+----------------------------------------------------------------------
+field_solver_cosim                                1
+resistor                                          9
+tdr_differential_ended                            1
+tdr_single_ended                                  8
+(status): License checkout took 0.612 seconds.
+models:field_solver_cosim(status): fieldsolver:100 - Cosimulation data transfer complete. Number of freq points = 827.
+models:s_element(status): fieldsolver:100.s - State-space system file 'C:/Users/SGI-U3/Documents/GitHub/Ansys/siwave/_03_openrex_u14_disjoint/openrex_edb_v3.siwaveresults/DesignerTDR/TDR1_BANK0_DQ_DQS.aedtresults/openrex_edb_v3_TDR1/temp/sss_85d74a78cb7ac3b823342138dcd15fad_20.sss' not found.
+models:s_element(status): fieldsolver:100.s - Fitting state-space system using FastFit.
+models:s_element(status): fieldsolver:100.s - Wrote state-space system 'C:/Users/SGI-U3/Documents/GitHub/Ansys/siwave/_03_openrex_u14_disjoint/openrex_edb_v3.siwaveresults/DesignerTDR/TDR1_BANK0_DQ_DQS.aedtresults/openrex_edb_v3_TDR1/temp/sss_85d74a78cb7ac3b823342138dcd15fad_20.sss'.
+models:s_element(status): fieldsolver:100.s - Final error: 0.0051049
+models:s_element(warning): fieldsolver:100.s - Fit is not passive (maximum passivity violation is 0.092293). Results can be unstable or inaccurate. If results seem suspect, repeat the simulation with passivity enforced.
+models:s_element(status): fieldsolver:100.s - Final model order: 3440
+(info): Starting analysis type TRAN.
+analysis(status): linear circuit detected.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:tran(status): converged=1, dc_cpu_time=0.304, timesteps=752, reltol=0.001, vntol=5e-05, maxstep=5e-11, failed_LTEs=10, newton_iters=1546, abstol=1e-09, failed_newtons=0, avg_newtons=2.0
+
+(status): TRAN cpu time = 3.907
+(status): Starting alter adram_d1_ae2_pbga624_u1....
+omp(status): Requested number of threads in UI setting is 3
+circuit_details(status): Total device types: 4
+device type                                       number of devices
+----------------------------------------------------------------------
+field_solver_cosim                                1
+resistor                                          9
+tdr_differential_ended                            1
+tdr_single_ended                                  8
+(status): License checkout took 0.015 seconds.
+models:field_solver_cosim(status): fieldsolver:100 - Cosimulation data transfer complete. Number of freq points = 827.
+models:s_element(status): fieldsolver:100.s - Cached state-space system 'C:/Users/SGI-U3/Documents/GitHub/Ansys/siwave/_03_openrex_u14_disjoint/openrex_edb_v3.siwaveresults/DesignerTDR/TDR1_BANK0_DQ_DQS.aedtresults/openrex_edb_v3_TDR1/temp/sss_85d74a78cb7ac3b823342138dcd15fad_20.sss' acceptable.
+models:s_element(status): fieldsolver:100.s - Final error: 0.0051049
+models:s_element(status): fieldsolver:100.s - Final model order: 3440
+(info): Starting analysis type TRAN.
+analysis(status): linear circuit detected.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:tran(status): converged=1, dc_cpu_time=0.286, timesteps=729, reltol=0.001, vntol=5e-05, maxstep=5e-11, failed_LTEs=10, newton_iters=1500, abstol=1e-09, failed_newtons=0, avg_newtons=2.0
+
+(status): TRAN cpu time = 3.755
+(status): Starting alter adram_d2_ac4_pbga624_u1....
+omp(status): Requested number of threads in UI setting is 3
+circuit_details(status): Total device types: 4
+device type                                       number of devices
+----------------------------------------------------------------------
+field_solver_cosim                                1
+resistor                                          9
+tdr_differential_ended                            1
+tdr_single_ended                                  8
+(status): License checkout took 0.015 seconds.
+models:field_solver_cosim(status): fieldsolver:100 - Cosimulation data transfer complete. Number of freq points = 827.
+models:s_element(status): fieldsolver:100.s - Cached state-space system 'C:/Users/SGI-U3/Documents/GitHub/Ansys/siwave/_03_openrex_u14_disjoint/openrex_edb_v3.siwaveresults/DesignerTDR/TDR1_BANK0_DQ_DQS.aedtresults/openrex_edb_v3_TDR1/temp/sss_85d74a78cb7ac3b823342138dcd15fad_20.sss' acceptable.
+models:s_element(status): fieldsolver:100.s - Final error: 0.0051049
+models:s_element(status): fieldsolver:100.s - Final model order: 3440
+(info): Starting analysis type TRAN.
+analysis(status): linear circuit detected.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:tran(status): converged=1, dc_cpu_time=0.248, timesteps=748, reltol=0.001, vntol=5e-05, maxstep=5e-11, failed_LTEs=10, newton_iters=1538, abstol=1e-09, failed_newtons=0, avg_newtons=2.0
+
+(status): TRAN cpu time = 3.938
+(status): Starting alter adram_d3_aa5_pbga624_u1....
+omp(status): Requested number of threads in UI setting is 3
+circuit_details(status): Total device types: 4
+device type                                       number of devices
+----------------------------------------------------------------------
+field_solver_cosim                                1
+resistor                                          9
+tdr_differential_ended                            1
+tdr_single_ended                                  8
+(status): License checkout took 0.011 seconds.
+models:field_solver_cosim(status): fieldsolver:100 - Cosimulation data transfer complete. Number of freq points = 827.
+models:s_element(status): fieldsolver:100.s - Cached state-space system 'C:/Users/SGI-U3/Documents/GitHub/Ansys/siwave/_03_openrex_u14_disjoint/openrex_edb_v3.siwaveresults/DesignerTDR/TDR1_BANK0_DQ_DQS.aedtresults/openrex_edb_v3_TDR1/temp/sss_85d74a78cb7ac3b823342138dcd15fad_20.sss' acceptable.
+models:s_element(status): fieldsolver:100.s - Final error: 0.0051049
+models:s_element(status): fieldsolver:100.s - Final model order: 3440
+(info): Starting analysis type TRAN.
+analysis(status): linear circuit detected.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:tran(status): converged=1, dc_cpu_time=0.271, timesteps=726, reltol=0.001, vntol=5e-05, maxstep=5e-11, failed_LTEs=10, newton_iters=1494, abstol=1e-09, failed_newtons=0, avg_newtons=2.0
+
+(status): TRAN cpu time = 3.758
+(status): Starting alter adram_d4_ac1_pbga624_u1....
+omp(status): Requested number of threads in UI setting is 3
+circuit_details(status): Total device types: 4
+device type                                       number of devices
+----------------------------------------------------------------------
+field_solver_cosim                                1
+resistor                                          9
+tdr_differential_ended                            1
+tdr_single_ended                                  8
+(status): License checkout took 0.011 seconds.
+models:field_solver_cosim(status): fieldsolver:100 - Cosimulation data transfer complete. Number of freq points = 827.
+models:s_element(status): fieldsolver:100.s - Cached state-space system 'C:/Users/SGI-U3/Documents/GitHub/Ansys/siwave/_03_openrex_u14_disjoint/openrex_edb_v3.siwaveresults/DesignerTDR/TDR1_BANK0_DQ_DQS.aedtresults/openrex_edb_v3_TDR1/temp/sss_85d74a78cb7ac3b823342138dcd15fad_20.sss' acceptable.
+models:s_element(status): fieldsolver:100.s - Final error: 0.0051049
+models:s_element(status): fieldsolver:100.s - Final model order: 3440
+(info): Starting analysis type TRAN.
+analysis(status): linear circuit detected.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:tran(status): converged=1, dc_cpu_time=0.269, timesteps=741, reltol=0.001, vntol=5e-05, maxstep=5e-11, failed_LTEs=10, newton_iters=1524, abstol=1e-09, failed_newtons=0, avg_newtons=2.0
+
+(status): TRAN cpu time = 3.857
+(status): Starting alter adram_d5_ad1_pbga624_u1....
+omp(status): Requested number of threads in UI setting is 3
+circuit_details(status): Total device types: 4
+device type                                       number of devices
+----------------------------------------------------------------------
+field_solver_cosim                                1
+resistor                                          9
+tdr_differential_ended                            1
+tdr_single_ended                                  8
+(status): License checkout took 0.016 seconds.
+models:field_solver_cosim(status): fieldsolver:100 - Cosimulation data transfer complete. Number of freq points = 827.
+models:s_element(status): fieldsolver:100.s - Cached state-space system 'C:/Users/SGI-U3/Documents/GitHub/Ansys/siwave/_03_openrex_u14_disjoint/openrex_edb_v3.siwaveresults/DesignerTDR/TDR1_BANK0_DQ_DQS.aedtresults/openrex_edb_v3_TDR1/temp/sss_85d74a78cb7ac3b823342138dcd15fad_20.sss' acceptable.
+models:s_element(status): fieldsolver:100.s - Final error: 0.0051049
+models:s_element(status): fieldsolver:100.s - Final model order: 3440
+(info): Starting analysis type TRAN.
+analysis(status): linear circuit detected.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:tran(status): converged=1, dc_cpu_time=0.281, timesteps=747, reltol=0.001, vntol=5e-05, maxstep=5e-11, failed_LTEs=10, newton_iters=1536, abstol=1e-09, failed_newtons=0, avg_newtons=2.0
+
+(status): TRAN cpu time = 3.788
+(status): Starting alter adram_d6_ab4_pbga624_u1....
+omp(status): Requested number of threads in UI setting is 3
+circuit_details(status): Total device types: 4
+device type                                       number of devices
+----------------------------------------------------------------------
+field_solver_cosim                                1
+resistor                                          9
+tdr_differential_ended                            1
+tdr_single_ended                                  8
+(status): License checkout took 0.01 seconds.
+models:field_solver_cosim(status): fieldsolver:100 - Cosimulation data transfer complete. Number of freq points = 827.
+models:s_element(status): fieldsolver:100.s - Cached state-space system 'C:/Users/SGI-U3/Documents/GitHub/Ansys/siwave/_03_openrex_u14_disjoint/openrex_edb_v3.siwaveresults/DesignerTDR/TDR1_BANK0_DQ_DQS.aedtresults/openrex_edb_v3_TDR1/temp/sss_85d74a78cb7ac3b823342138dcd15fad_20.sss' acceptable.
+models:s_element(status): fieldsolver:100.s - Final error: 0.0051049
+models:s_element(status): fieldsolver:100.s - Final model order: 3440
+(info): Starting analysis type TRAN.
+analysis(status): linear circuit detected.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:tran(status): converged=1, dc_cpu_time=0.282, timesteps=751, reltol=0.001, vntol=5e-05, maxstep=5e-11, failed_LTEs=10, newton_iters=1544, abstol=1e-09, failed_newtons=0, avg_newtons=2.0
+
+(status): TRAN cpu time = 3.787
+(status): Starting alter adram_d7_ae4_pbga624_u1....
+omp(status): Requested number of threads in UI setting is 3
+circuit_details(status): Total device types: 4
+device type                                       number of devices
+----------------------------------------------------------------------
+field_solver_cosim                                1
+resistor                                          9
+tdr_differential_ended                            1
+tdr_single_ended                                  8
+(status): License checkout took 0.007 seconds.
+models:field_solver_cosim(status): fieldsolver:100 - Cosimulation data transfer complete. Number of freq points = 827.
+models:s_element(status): fieldsolver:100.s - Cached state-space system 'C:/Users/SGI-U3/Documents/GitHub/Ansys/siwave/_03_openrex_u14_disjoint/openrex_edb_v3.siwaveresults/DesignerTDR/TDR1_BANK0_DQ_DQS.aedtresults/openrex_edb_v3_TDR1/temp/sss_85d74a78cb7ac3b823342138dcd15fad_20.sss' acceptable.
+models:s_element(status): fieldsolver:100.s - Final error: 0.0051049
+models:s_element(status): fieldsolver:100.s - Final model order: 3440
+(info): Starting analysis type TRAN.
+analysis(status): linear circuit detected.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:tran(status): converged=1, dc_cpu_time=0.244, timesteps=757, reltol=0.001, vntol=5e-05, maxstep=5e-11, failed_LTEs=10, newton_iters=1556, abstol=1e-09, failed_newtons=0, avg_newtons=2.0
+
+(status): TRAN cpu time = 3.861
+(status): Starting alter adram_dqs0_p_ae3_pbga624_u1....
+omp(status): Requested number of threads in UI setting is 3
+circuit_details(status): Total device types: 4
+device type                                       number of devices
+----------------------------------------------------------------------
+field_solver_cosim                                1
+resistor                                          9
+tdr_differential_ended                            1
+tdr_single_ended                                  8
+(status): License checkout took 0.015 seconds.
+models:field_solver_cosim(status): fieldsolver:100 - Cosimulation data transfer complete. Number of freq points = 827.
+models:s_element(status): fieldsolver:100.s - Cached state-space system 'C:/Users/SGI-U3/Documents/GitHub/Ansys/siwave/_03_openrex_u14_disjoint/openrex_edb_v3.siwaveresults/DesignerTDR/TDR1_BANK0_DQ_DQS.aedtresults/openrex_edb_v3_TDR1/temp/sss_85d74a78cb7ac3b823342138dcd15fad_20.sss' acceptable.
+models:s_element(status): fieldsolver:100.s - Final error: 0.0051049
+models:s_element(status): fieldsolver:100.s - Final model order: 3440
+(info): Starting analysis type TRAN.
+analysis(status): linear circuit detected.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:tran(status): converged=1, dc_cpu_time=0.27, timesteps=660, reltol=0.001, vntol=5e-05, maxstep=5e-11, failed_LTEs=5, newton_iters=1334, abstol=1e-09, failed_newtons=0, avg_newtons=2.0
+
+(status): TRAN cpu time = 3.43
+(info): Simulation succeeded. Total simulator time: 0:01:44
+(status): Start Time:  11/26/2023 14:55:16, End Time:  11/26/2023 14:57:01, Host DESKTOP-DD9R41C, 

@@ -1,0 +1,64 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002023, month=000000000011, day=000000000026, hour=000000000015, min=000000000006, sec=000000000024)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000001502, lin=000000000044, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock5'
+	VariationDataID=-1
+	File='DV108_S106_V109.cir'
+$end 'SolutionBlock5'
+$begin 'SolutionBlock6'
+	SimSetupID=107
+	SimSetupName='Transient1'
+	VersionID=109
+	DefaultSol=106
+$end 'SolutionBlock6'
+$begin 'SolutionBlock7'
+	SolutionName='Transient1'
+	SolutionID=106
+	V=109
+	$begin 'States'
+		F(VID=108, Ver=109)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies()
+		SolutionType=1
+		CenterFreq=0
+	$end 'Definition'
+	AlterName=''
+$end 'SolutionBlock7'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=107, Instance=\'\', Solution=106, VersionID=109)'='SolutionBlock5'
+	'SolutionKey(SimSetup=107, Instance=\'SetupDefinition\', Solution=-1, VersionID=109)'='SolutionBlock6'
+	'SolutionKey(SimSetup=107, Instance=\'SolutionDefinition\', Solution=106, VersionID=109)'='SolutionBlock7'
+$end 'BlockMapName'
+$begin 'SolutionBlock1'
+	ProductName='Circuit Design'
+	CircuitName='openrex_edb_v3_TDR1'
+	VersionID=105
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=110
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='', ID=108)
+	$end 'VariationIDs'
+$end 'SolutionBlock1'
+$begin '$index$'
+	$begin '$index$'
+		SolutionBlock5(pos=370, lin=1, lvl=0)
+		SolutionBlock1(pos=1239, lin=32, lvl=0)
+		BlockMapName(pos=866, lin=26, lvl=0)
+		SolutionBlock7(pos=584, lin=11, lvl=0)
+		SolutionBlock6(pos=464, lin=5, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=1502, lin=44, lvl=0)
+	$end '$index$'
+$end '$index$'

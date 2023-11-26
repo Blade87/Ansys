@@ -1,0 +1,18 @@
+$begin 'ProfileUpdate'
+	Id=''
+	Type='Task'
+	$begin 'ProfileItem'
+		Name='Mesh operation (geomproc)'
+		RealTime=5
+		RealTimeUsecs=0
+		CpuTime=4
+		CpuTimeUsecs=0
+		MemoryInK=167920
+		I(2, 'Number of triangles', 56912, false)
+		HasData=true
+		UseData=true
+	$end 'ProfileItem'
+	Parents[1: 'Preprocessing']
+	GroupOptions=0
+	TaskDataOptions()
+$end 'ProfileUpdate'
