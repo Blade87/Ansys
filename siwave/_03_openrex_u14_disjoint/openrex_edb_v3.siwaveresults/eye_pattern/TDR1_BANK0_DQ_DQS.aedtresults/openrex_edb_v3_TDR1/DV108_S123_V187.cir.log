@@ -1,0 +1,129 @@
+(status): Nexxim version: 2022.2.0 WIN64, build time: May 26 2022, 22:29:33
+
+(status): Analyzing C:/Users/HoP/Documents/GitHub/Ansys/siwave/_03_openrex_u14_disjoint/openrex_edb_v3.siwaveresults/eye_pattern/TDR1_BANK0_DQ_DQS.aedtresults/openrex_edb_v3_TDR1/temp/DV108_S123_V187.cir.
+(info): Processing circuit for new analysis.
+omp(status): Requested number of threads in UI setting is 1
+circuit_details(status): Total device types: 4
+device type                                       number of devices
+----------------------------------------------------------------------
+eye_probe                                         9
+eye_source                                        9
+field_solver_cosim                                1
+resistor                                          9
+(status): License checkout took 0.659 seconds.
+models:field_solver_cosim(status): fieldsolver:100 - Cosimulation data transfer complete. Number of freq points = 827.
+models:s_element(status): fieldsolver:100.s - Cached state-space system 'C:/Users/HoP/Documents/GitHub/Ansys/siwave/_03_openrex_u14_disjoint/openrex_edb_v3.siwaveresults/eye_pattern/TDR1_BANK0_DQ_DQS.aedtresults/openrex_edb_v3_TDR1/temp/sss_64b34f2fb781b34c15b99c449e678b5a_20.sss' acceptable.
+models:s_element(status): fieldsolver:100.s - Final error: 0.0049497
+models:s_element(status): fieldsolver:100.s - Final model order: 3740
+(info): Starting analysis type EYE.
+system_load_interface(warning): .PRINT - Unrecognized quantity "eye".  Ignored.
+(status): Reached the limit (1) for maximum number of warning messages in message manager.
+(info): See simulation logfile for a complete list of warning messages.
+system_load_interface(warning): .PRINT - Unrecognized quantity "eye".  Ignored.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:veye(status): Find bias conditions.
+system_load_interface(warning): .PRINT - Unrecognized quantity "eye".  Ignored.
+analysis:tran(status): converged=1, dc_cpu_time=0, timesteps=106, reltol=0.001, vntol=5e-05, maxstep=1e-09, failed_LTEs=0, newton_iters=218, abstol=1e-09, failed_newtons=0, avg_newtons=2.1
+
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:veye(status): Generating step response
+analysis:tran(status): converged=1, dc_cpu_time=0, timesteps=7440, reltol=0.001, vntol=5e-05, maxstep=2.5e-10, failed_LTEs=27, newton_iters=14940, abstol=1e-09, failed_newtons=0, avg_newtons=2.0
+
+analysis:dc(status): Total DC newton iterations = 7, DC conv = 1.
+analysis:veye(status): Generating step response
+analysis:tran(status): converged=1, dc_cpu_time=0, timesteps=7443, reltol=0.001, vntol=5e-05, maxstep=2.5e-10, failed_LTEs=23, newton_iters=14938, abstol=1e-09, failed_newtons=0, avg_newtons=2.0
+
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:veye(status): Generating step response
+analysis:tran(status): converged=1, dc_cpu_time=0, timesteps=2886, reltol=0.001, vntol=5e-05, maxstep=2.5e-10, failed_LTEs=51, newton_iters=5880, abstol=1e-09, failed_newtons=0, avg_newtons=2.0
+
+analysis:dc(status): Total DC newton iterations = 7, DC conv = 1.
+analysis:veye(status): Generating step response
+analysis:tran(status): converged=1, dc_cpu_time=0, timesteps=2901, reltol=0.001, vntol=5e-05, maxstep=2.5e-10, failed_LTEs=47, newton_iters=5902, abstol=1e-09, failed_newtons=0, avg_newtons=2.0
+
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:veye(status): Generating step response
+analysis:tran(status): converged=1, dc_cpu_time=0, timesteps=7528, reltol=0.001, vntol=5e-05, maxstep=2.5e-10, failed_LTEs=58, newton_iters=15178, abstol=1e-09, failed_newtons=0, avg_newtons=2.0
+
+analysis:dc(status): Total DC newton iterations = 7, DC conv = 1.
+analysis:veye(status): Generating step response
+analysis:tran(status): converged=1, dc_cpu_time=0, timesteps=7771, reltol=0.001, vntol=5e-05, maxstep=2.5e-10, failed_LTEs=50, newton_iters=15648, abstol=1e-09, failed_newtons=0, avg_newtons=2.0
+
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:veye(status): Generating step response
+analysis:tran(status): converged=1, dc_cpu_time=0, timesteps=2870, reltol=0.001, vntol=5e-05, maxstep=2.5e-10, failed_LTEs=25, newton_iters=5796, abstol=1e-09, failed_newtons=0, avg_newtons=2.0
+
+analysis:dc(status): Total DC newton iterations = 7, DC conv = 1.
+analysis:veye(status): Generating step response
+analysis:tran(status): converged=1, dc_cpu_time=0, timesteps=2882, reltol=0.001, vntol=5e-05, maxstep=2.5e-10, failed_LTEs=24, newton_iters=5818, abstol=1e-09, failed_newtons=0, avg_newtons=2.0
+
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:veye(status): Generating step response
+analysis:tran(status): converged=1, dc_cpu_time=0, timesteps=2902, reltol=0.001, vntol=5e-05, maxstep=2.5e-10, failed_LTEs=77, newton_iters=5964, abstol=1e-09, failed_newtons=0, avg_newtons=2.0
+
+analysis:dc(status): Total DC newton iterations = 7, DC conv = 1.
+analysis:veye(status): Generating step response
+analysis:tran(status): converged=1, dc_cpu_time=0, timesteps=2914, reltol=0.001, vntol=5e-05, maxstep=2.5e-10, failed_LTEs=51, newton_iters=5936, abstol=1e-09, failed_newtons=0, avg_newtons=2.0
+
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:veye(status): Generating step response
+analysis:tran(status): converged=1, dc_cpu_time=0, timesteps=2888, reltol=0.001, vntol=5e-05, maxstep=2.5e-10, failed_LTEs=54, newton_iters=5890, abstol=1e-09, failed_newtons=0, avg_newtons=2.0
+
+analysis:dc(status): Total DC newton iterations = 7, DC conv = 1.
+analysis:veye(status): Generating step response
+analysis:tran(status): converged=1, dc_cpu_time=0, timesteps=2913, reltol=0.001, vntol=5e-05, maxstep=2.5e-10, failed_LTEs=48, newton_iters=5928, abstol=1e-09, failed_newtons=0, avg_newtons=2.0
+
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:veye(status): Generating step response
+analysis:tran(status): converged=1, dc_cpu_time=0, timesteps=2898, reltol=0.001, vntol=5e-05, maxstep=2.5e-10, failed_LTEs=70, newton_iters=5942, abstol=1e-09, failed_newtons=0, avg_newtons=2.0
+
+analysis:dc(status): Total DC newton iterations = 7, DC conv = 1.
+analysis:veye(status): Generating step response
+analysis:tran(status): converged=1, dc_cpu_time=0, timesteps=2927, reltol=0.001, vntol=5e-05, maxstep=2.5e-10, failed_LTEs=62, newton_iters=5984, abstol=1e-09, failed_newtons=0, avg_newtons=2.0
+
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:veye(status): Generating step response
+analysis:tran(status): converged=1, dc_cpu_time=0, timesteps=2891, reltol=0.001, vntol=5e-05, maxstep=2.5e-10, failed_LTEs=64, newton_iters=5916, abstol=1e-09, failed_newtons=0, avg_newtons=2.0
+
+analysis:dc(status): Total DC newton iterations = 7, DC conv = 1.
+analysis:veye(status): Generating step response
+analysis:tran(status): converged=1, dc_cpu_time=0, timesteps=2909, reltol=0.001, vntol=5e-05, maxstep=2.5e-10, failed_LTEs=55, newton_iters=5934, abstol=1e-09, failed_newtons=0, avg_newtons=2.0
+
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+analysis:veye(status): Generating step response
+analysis:tran(status): converged=1, dc_cpu_time=0, timesteps=2719, reltol=0.001, vntol=5e-05, maxstep=2.5e-10, failed_LTEs=69, newton_iters=5582, abstol=1e-09, failed_newtons=0, avg_newtons=2.0
+
+analysis:dc(status): Total DC newton iterations = 5, DC conv = 1.
+analysis:veye(status): Generating step response
+analysis:tran(status): converged=1, dc_cpu_time=0, timesteps=2743, reltol=0.001, vntol=5e-05, maxstep=2.5e-10, failed_LTEs=55, newton_iters=5602, abstol=1e-09, failed_newtons=0, avg_newtons=2.0
+
+analysis:veye(status): Step response clock time : 327.397 Step response cpu time : 327.396 
+analysis:veye(warning): aeyeprobe121: Suspect no direct connection with its source aeyesource102.
+analysis:veye(warning): aeyeprobe122: Suspect no direct connection with its source aeyesource102.
+analysis:veye(warning): aeyeprobe123: Suspect no direct connection with its source aeyesource102.
+analysis:veye(warning): aeyeprobe124: Suspect no direct connection with its source aeyesource102.
+analysis:veye(warning): aeyeprobe125: Suspect no direct connection with its source aeyesource102.
+analysis:veye(warning): aeyeprobe126: Suspect no direct connection with its source aeyesource102.
+analysis:veye(warning): aeyeprobe127: Suspect no direct connection with its source aeyesource102.
+analysis:veye(warning): aeyeprobe128: Suspect no direct connection with its source aeyesource112.
+analysis:veye(status): aeyeprobe105: Left of Eye: 1.25999e-09
+analysis:veye(status): aeyeprobe121: Left of Eye: 8.33083e-10
+analysis:veye(status): aeyeprobe122: Left of Eye: 7.71822e-10
+analysis:veye(status): aeyeprobe123: Left of Eye: 8.44722e-10
+analysis:veye(status): aeyeprobe124: Left of Eye: 7.67852e-10
+analysis:veye(status): aeyeprobe125: Left of Eye: 8.54033e-10
+analysis:veye(status): aeyeprobe126: Left of Eye: 8.44294e-10
+analysis:veye(status): aeyeprobe127: Left of Eye: 2.12998e-09
+analysis:veye(status): aeyeprobe128: Left of Eye: 1.90421e-09
+analysis:veye(status): Finding worst case bit pattern for aeyeprobe105 
+analysis:veye(status): Finding worst case bit pattern for aeyeprobe121 
+analysis:veye(status): Finding worst case bit pattern for aeyeprobe122 
+analysis:veye(status): Finding worst case bit pattern for aeyeprobe123 
+analysis:veye(status): Finding worst case bit pattern for aeyeprobe124 
+analysis:veye(status): Finding worst case bit pattern for aeyeprobe125 
+analysis:veye(status): Finding worst case bit pattern for aeyeprobe126 
+analysis:veye(status): Finding worst case bit pattern for aeyeprobe127 
+analysis:veye(status): Finding worst case bit pattern for aeyeprobe128 
+(status): EYE cpu time = 2198.98
+(info): Simulation succeeded. Total simulator time: 0:36:51
+(status): Start Time:  12/02/2023 22:43:09, End Time:  12/02/2023 23:20:01, Host DESKTOP-9MCAJIT, 

@@ -1,0 +1,120 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002023, month=000000000012, day=000000000002, hour=000000000023, min=000000000030, sec=000000000019)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000002962, lin=000000000095, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock1'
+	ProductName='Circuit Design'
+	CircuitName='openrex_edb_v3_TDR1'
+	VersionID=187
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=188
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='', ID=108)
+	$end 'VariationIDs'
+$end 'SolutionBlock1'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=107, Instance=\'SetupDefinition\', Solution=-1, VersionID=187)'='SolutionBlock53'
+	'SolutionKey(SimSetup=107, Instance=\'SolutionDefinition\', Solution=106, VersionID=187)'='SolutionBlock52'
+	'SolutionKey(SimSetup=124, Instance=\'\', Solution=123, VersionID=187)'='SolutionBlock58'
+	'SolutionKey(SimSetup=124, Instance=\'SetupDefinition\', Solution=-1, VersionID=187)'='SolutionBlock55'
+	'SolutionKey(SimSetup=124, Instance=\'SolutionDefinition\', Solution=123, VersionID=187)'='SolutionBlock54'
+	'SolutionKey(SimSetup=126, Instance=\'\', Solution=125, VersionID=187)'='SolutionBlock59'
+	'SolutionKey(SimSetup=126, Instance=\'SetupDefinition\', Solution=-1, VersionID=187)'='SolutionBlock57'
+	'SolutionKey(SimSetup=126, Instance=\'SolutionDefinition\', Solution=125, VersionID=187)'='SolutionBlock56'
+$end 'BlockMapName'
+$begin 'SolutionBlock52'
+	SolutionName='Transient1'
+	SolutionID=106
+	V=187
+	$begin 'States'
+		F(VID=108, Ver=187)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies()
+		SolutionType=1
+		CenterFreq=0
+	$end 'Definition'
+	AlterName=''
+$end 'SolutionBlock52'
+$begin 'SolutionBlock53'
+	SimSetupID=107
+	SimSetupName='Transient1'
+	VersionID=187
+	DefaultSol=106
+$end 'SolutionBlock53'
+$begin 'SolutionBlock54'
+	SolutionName='VerifEyeAnalysis'
+	SolutionID=123
+	V=187
+	$begin 'States'
+		F(VID=108, Ver=187)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies()
+		SolutionType=1
+		CenterFreq=0
+	$end 'Definition'
+	AlterName=''
+$end 'SolutionBlock54'
+$begin 'SolutionBlock55'
+	SimSetupID=124
+	SimSetupName='VerifEyeAnalysis'
+	VersionID=187
+	DefaultSol=123
+$end 'SolutionBlock55'
+$begin 'SolutionBlock56'
+	SolutionName='QuickEyeAnalysis'
+	SolutionID=125
+	V=187
+	$begin 'States'
+		F(VID=108, Ver=187)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies()
+		SolutionType=1
+		CenterFreq=0
+	$end 'Definition'
+	AlterName=''
+$end 'SolutionBlock56'
+$begin 'SolutionBlock57'
+	SimSetupID=126
+	SimSetupName='QuickEyeAnalysis'
+	VersionID=187
+	DefaultSol=125
+$end 'SolutionBlock57'
+$begin 'SolutionBlock59'
+	VariationDataID=-1
+	File='DV108_S125_V187.cir'
+$end 'SolutionBlock59'
+$begin 'SolutionBlock58'
+	VariationDataID=-1
+	File='DV108_S123_V187.cir'
+$end 'SolutionBlock58'
+$begin '$index$'
+	$begin '$index$'
+		SolutionBlock58(pos=2866, lin=91, lvl=0)
+		SolutionBlock1(pos=370, lin=1, lvl=0)
+		BlockMapName(pos=633, lin=13, lvl=0)
+		SolutionBlock52(pos=1528, lin=24, lvl=0)
+		SolutionBlock53(pos=1812, lin=39, lvl=0)
+		SolutionBlock54(pos=1934, lin=45, lvl=0)
+		SolutionBlock55(pos=2224, lin=60, lvl=0)
+		SolutionBlock56(pos=2352, lin=66, lvl=0)
+		SolutionBlock57(pos=2642, lin=81, lvl=0)
+		SolutionBlock59(pos=2770, lin=87, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=2962, lin=95, lvl=0)
+	$end '$index$'
+$end '$index$'

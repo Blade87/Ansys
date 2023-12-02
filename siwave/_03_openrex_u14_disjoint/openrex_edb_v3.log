@@ -239,3 +239,58 @@ Appending to SIwave session log C:\Users\SGI-U3\Documents\GitHub\Ansys\siwave\_0
 Saved C:\Users\SGI-U3\Documents\GitHub\Ansys\siwave\_03_openrex_u14_disjoint\openrex_edb_v3.siw
 SIwave GUI is running in interactive mode.
 SIwave GUI is running in interactive mode.
+
+
+--------------------- Fri Dec  1 16:23:40 2023 ---------------------
+
+Appending to SIwave session log C:/Users/HoP/Documents/GitHub/Ansys/siwave/_03_openrex_u14_disjoint/openrex_edb_v3.log
+Loading C:\Users\HoP\Documents\GitHub\Ansys\siwave\_03_openrex_u14_disjoint\openrex_edb_v3.siw...
+
+Displaying time domain crosstalk scan for simulation "TDCROSSTALK_BANK0_DQ_DQS"...
+Displaying time domain crosstalk scan for simulation "TDCROSSTALK_BANK0_DQ_DQS"...
+Displaying coupled structures for simulation "TDCROSSTALK_BANK0_DQ_DQS"...
+
+
+--------------------- Fri Dec  1 22:31:14 2023 ---------------------
+
+Appending to SIwave session log C:/Users/HoP/Documents/GitHub/Ansys/siwave/_03_openrex_u14_disjoint/openrex_edb_v3.log
+Loading C:\Users\HoP\Documents\GitHub\Ansys\siwave\_03_openrex_u14_disjoint\openrex_edb_v3.siw...
+
+
+
+--------------------- Sat Dec  2 21:16:53 2023 ---------------------
+
+Appending to SIwave session log C:/Users/HoP/Documents/GitHub/Ansys/siwave/_03_openrex_u14_disjoint/openrex_edb_v3.log
+Loading C:\Users\HoP\Documents\GitHub\Ansys\siwave\_03_openrex_u14_disjoint\openrex_edb_v3.siw...
+
+SIwave GUI is running in interactive mode.
+Sending configurable data for sparam link...done.
+SIwave GUI is running in interactive mode.
+Sending configurable data for sparam link...done.
+SIwave GUI is running in interactive mode.
+Sending configurable data for sparam link...done.
+SIwave GUI is running in interactive mode.
+Sending configurable data for sparam link...done.
+SIwave GUI is running in interactive mode.
+
+
+--------------------- Sat Dec  2 21:55:20 2023 ---------------------
+
+Appending to SIwave session log C:/Users/HoP/Documents/GitHub/Ansys/siwave/_03_openrex_u14_disjoint/openrex_edb_v3.siwaveresults/DesignerTDR/../../openrex_edb_v3.log
+Loading C:\Users\HoP\Documents\GitHub\Ansys\siwave\_03_openrex_u14_disjoint\openrex_edb_v3.siwaveresults\DesignerTDR\..\..\openrex_edb_v3.siw...
+
+Sending configurable data for sparam link...done.
+SIwave GUI is running in non-interactive mode.
+Sending configurable data for sparam link...done.
+SIwave GUI is running in non-interactive mode.
+SIwave GUI is running in non-interactive mode.
+SIwave GUI is running in non-interactive mode.
+SIwave GUI is running in non-interactive mode.
+SIwave GUI is running in non-interactive mode.
+SIwave GUI is running in non-interactive mode.
+SIwave GUI is running in non-interactive mode.
+SIwave GUI is running in non-interactive mode.
+SIwave GUI is running in non-interactive mode.
+SIwave GUI is running in non-interactive mode.
+SIwave GUI is running in non-interactive mode.
+SIwave GUI is running in non-interactive mode.
