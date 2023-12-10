@@ -1,0 +1,83 @@
+$begin 'SolutionKey(SimSetup=0, Instance=\'$layer_thickness=\\\'0.0089999999999999993mm\\\' $pad_diameter=\\\'0.40000000000000002mm\\\' $se_trace_width=\\\'0.12mm\\\'\', Solution=-2, VersionID=35)'
+	$begin 'ProfileGroup'
+		MajorVer=2022
+		MinorVer=2
+		Name='Solution Process'
+		$begin 'StartInfo'
+			I(1, 'Start Time', '12/10/2023 10:59:35')
+			I(1, 'Host', 'DESKTOP-DD9R41C')
+			I(1, 'Processor', '8')
+			I(1, 'OS', 'NT 10.0')
+			I(1, 'Product', 'HFSS 2022.2.0')
+		$end 'StartInfo'
+		$begin 'TotalInfo'
+			I(1, 'Elapsed Time', '00:00:16')
+			I(1, 'ComEngine Memory', '56.9 M')
+		$end 'TotalInfo'
+		GroupOptions=10
+		TaskDataOptions('CPU Time'=8, Memory=8, 'Real Time'=8)
+		ProfileItem('', 0, 0, 0, 0, 0, 'I(1, 0, \'Executing from C:\\\\Program Files\\\\AnsysEM\\\\v222\\\\Win64\\\\ENSCOMENGINE.exe\')', false, true)
+		$begin 'ProfileGroup'
+			MajorVer=2022
+			MinorVer=2
+			Name='Solving DC'
+			$begin 'StartInfo'
+				I(2, 'Number of cores allocated', 2, false)
+			$end 'StartInfo'
+			$begin 'TotalInfo'
+				I(0, '')
+			$end 'TotalInfo'
+			GroupOptions=0
+			TaskDataOptions()
+			ProfileItem('Mesh initialization', 3, 0, 4, 0, 64232, 'I(0)', true, true)
+			ProfileItem('Data structure population (PreProc)', 0, 0, 0, 0, 64232, 'I(1, 2, \'Number of triangles\', 27183, false)', true, true)
+			$begin 'ProfileGroup'
+				MajorVer=2022
+				MinorVer=2
+				Name='Adaptive pass 1'
+				$begin 'StartInfo'
+				$end 'StartInfo'
+				$begin 'TotalInfo'
+					I(0, '')
+				$end 'TotalInfo'
+				GroupOptions=0
+				TaskDataOptions()
+				ProfileItem('Mesh adaptation', 0, 0, 0, 0, 64232, 'I(1, 2, \'Number of triangles\', 29902, false)', true, true)
+				ProfileItem('Solver DRS2', 1, 0, 0, 0, 69556, 'I(1, 2, \'Number of unknowns\', 18608, false)', true, true)
+				ProfileItem('Error calculation', 0, 0, 0, 0, 69556, 'I(1, 2, \'Number of triangles\', 29902, false)', true, true)
+			$end 'ProfileGroup'
+			$begin 'ProfileGroup'
+				MajorVer=2022
+				MinorVer=2
+				Name='Adaptive pass 2'
+				$begin 'StartInfo'
+				$end 'StartInfo'
+				$begin 'TotalInfo'
+					I(0, '')
+				$end 'TotalInfo'
+				GroupOptions=0
+				TaskDataOptions()
+				ProfileItem('Mesh adaptation', 0, 0, 0, 0, 77504, 'I(1, 2, \'Number of triangles\', 37679, false)', true, true)
+				ProfileItem('Solver DRS2', 0, 0, 0, 0, 84476, 'I(1, 2, \'Number of unknowns\', 23075, false)', true, true)
+				ProfileItem('Error calculation', 0, 0, 0, 0, 84476, 'I(1, 2, \'Number of triangles\', 37679, false)', true, true)
+			$end 'ProfileGroup'
+			$begin 'ProfileGroup'
+				MajorVer=2022
+				MinorVer=2
+				Name='Adaptive pass 3'
+				$begin 'StartInfo'
+				$end 'StartInfo'
+				$begin 'TotalInfo'
+					I(0, '')
+				$end 'TotalInfo'
+				GroupOptions=0
+				TaskDataOptions()
+				ProfileItem('Mesh adaptation', 1, 0, 0, 0, 90856, 'I(1, 2, \'Number of triangles\', 47481, false)', true, true)
+				ProfileItem('Solver DRS2', 0, 0, 0, 0, 98352, 'I(1, 2, \'Number of unknowns\', 28800, false)', true, true)
+				ProfileItem('Error calculation', 0, 0, 0, 0, 98352, 'I(1, 2, \'Number of triangles\', 47481, false)', true, true)
+			$end 'ProfileGroup'
+			ProfileItem('Circuit parameter calculation (PostProc)', 0, 0, 0, 0, 98352, 'I(1, 2, \'Number of elements\', 420, false)', true, true)
+		$end 'ProfileGroup'
+		ProfileFootnote('I(2, 1, \'Stop Time\', \'12/10/2023 10:59:52\', 1, \'Status\', \'Normal Completion\')', 0)
+	$end 'ProfileGroup'
+$end 'SolutionKey(SimSetup=0, Instance=\'$layer_thickness=\\\'0.0089999999999999993mm\\\' $pad_diameter=\\\'0.40000000000000002mm\\\' $se_trace_width=\\\'0.12mm\\\'\', Solution=-2, VersionID=35)'

@@ -1,0 +1,11 @@
+ExecDcSim
+AnsysEDT
+DesignName "openrex_edb_v3"
+ProjectPath "C:/Users/SGI-U3/Documents/GitHub/Ansys/siwave/_03_openrex_u14_disjoint/"
+SetupName "DC IR Sim 1"
+UseHpcLicenses pool
+UseHpcLicenseVendor Ansys
+UseAutoSettings 0
+SetNumCpus 2
+SolverMemoryLimit  4.500000000000000e+01
+MpiVendor Intel

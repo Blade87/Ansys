@@ -1,0 +1,36 @@
+$begin 'ProfileUpdate'
+	Id=''
+	Type='Task'
+	$begin 'ProfileItem'
+		Name='Error calculation'
+		RealTime=1
+		RealTimeUsecs=0
+		CpuTime=0
+		CpuTimeUsecs=0
+		MemoryInK=71000
+		I(2, 'Number of triangles', 29902, false)
+		HasData=true
+		UseData=true
+	$end 'ProfileItem'
+	Parents[1: 'Adaptive pass 1']
+	GroupOptions=0
+	TaskDataOptions()
+$end 'ProfileUpdate'
+$begin 'ProfileUpdate'
+	Id=''
+	Type='Stop'
+	$begin 'ProfileItem'
+		Name=''
+		RealTime=0
+		RealTimeUsecs=0
+		CpuTime=0
+		CpuTimeUsecs=0
+		MemoryInK=0
+		I(0, '')
+		HasData=false
+		UseData=true
+	$end 'ProfileItem'
+	Parents[1: 'Adaptive pass 1']
+	GroupOptions=0
+	TaskDataOptions()
+$end 'ProfileUpdate'

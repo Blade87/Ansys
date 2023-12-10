@@ -1,0 +1,5525 @@
+$begin 'SolutionKey(SimSetup=3, Instance=\'$layer_thickness=\\\'0.0089999999999999993mm\\\' $pad_diameter=\\\'0.59999999999999998mm\\\' $se_trace_width=\\\'0.059999999999999998mm\\\'\', Solution=-2, VersionID=35)'
+	$begin 'ProfileGroup'
+		MajorVer=2022
+		MinorVer=2
+		Name='Solution Process'
+		$begin 'StartInfo'
+			I(1, 'Start Time', '12/10/2023 10:21:17')
+			I(1, 'Host', 'DESKTOP-DD9R41C')
+			I(1, 'Processor', '8')
+			I(1, 'OS', 'NT 10.0')
+			I(1, 'Product', 'HFSS 2022.2.0')
+		$end 'StartInfo'
+		$begin 'TotalInfo'
+			I(1, 'Elapsed Time', '00:10:28')
+			I(1, 'ComEngine Memory', '58.5 M')
+		$end 'TotalInfo'
+		GroupOptions=10
+		TaskDataOptions('CPU Time'=8, Memory=8, 'Real Time'=8)
+		ProfileItem('', 0, 0, 0, 0, 0, 'I(1, 0, \'Executing from C:\\\\Program Files\\\\AnsysEM\\\\v222\\\\Win64\\\\ENSCOMENGINE.exe\')', false, true)
+		$begin 'ProfileGroup'
+			MajorVer=2022
+			MinorVer=2
+			Name='Frequency Sweep'
+			$begin 'StartInfo'
+				I(1, 'Time', '12/10/2023 10:21:17')
+			$end 'StartInfo'
+			$begin 'TotalInfo'
+				I(1, 'Elapsed Time', '00:10:27')
+			$end 'TotalInfo'
+			GroupOptions=4
+			TaskDataOptions('CPU Time'=8, Memory=8, 'Real Time'=8)
+			$begin 'ProfileGroup'
+				MajorVer=2022
+				MinorVer=2
+				Name='Solution - SYZ_BANK0_DQ_DQS'
+				$begin 'StartInfo'
+					I(1, 'Time', '12/10/2023 10:21:17')
+				$end 'StartInfo'
+				$begin 'TotalInfo'
+					I(1, 'Elapsed Time', '00:06:15')
+				$end 'TotalInfo'
+				GroupOptions=4
+				TaskDataOptions('CPU Time'=8, Memory=8, 'Real Time'=8)
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Solving DC'
+					$begin 'StartInfo'
+						I(2, 'Number of cores allocated', 2, false)
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Mesh initialization', 13, 0, 23, 0, 106436, 'I(0)', true, true)
+					ProfileItem('Data structure population (PreProc)', 1, 0, 1, 0, 106436, 'I(1, 2, \'Number of triangles\', 62112, false)', true, true)
+					$begin 'ProfileGroup'
+						MajorVer=2022
+						MinorVer=2
+						Name='Adaptive pass 1'
+						$begin 'StartInfo'
+						$end 'StartInfo'
+						$begin 'TotalInfo'
+							I(0, '')
+						$end 'TotalInfo'
+						GroupOptions=0
+						TaskDataOptions()
+						ProfileItem('Mesh adaptation', 1, 0, 1, 0, 106436, 'I(1, 2, \'Number of triangles\', 68330, false)', true, true)
+						ProfileItem('Solver DRS2', 0, 0, 1, 0, 124096, 'I(1, 2, \'Number of unknowns\', 44699, false)', true, true)
+						ProfileItem('Error calculation', 1, 0, 0, 0, 124096, 'I(1, 2, \'Number of triangles\', 68330, false)', true, true)
+					$end 'ProfileGroup'
+					$begin 'ProfileGroup'
+						MajorVer=2022
+						MinorVer=2
+						Name='Adaptive pass 2'
+						$begin 'StartInfo'
+						$end 'StartInfo'
+						$begin 'TotalInfo'
+							I(0, '')
+						$end 'TotalInfo'
+						GroupOptions=0
+						TaskDataOptions()
+						ProfileItem('Mesh adaptation', 2, 0, 2, 0, 134620, 'I(1, 2, \'Number of triangles\', 86097, false)', true, true)
+						ProfileItem('Solver DRS2', 1, 0, 1, 0, 148988, 'I(1, 2, \'Number of unknowns\', 54568, false)', true, true)
+						ProfileItem('Error calculation', 0, 0, 0, 0, 148988, 'I(1, 2, \'Number of triangles\', 86097, false)', true, true)
+					$end 'ProfileGroup'
+					$begin 'ProfileGroup'
+						MajorVer=2022
+						MinorVer=2
+						Name='Adaptive pass 3'
+						$begin 'StartInfo'
+						$end 'StartInfo'
+						$begin 'TotalInfo'
+							I(0, '')
+						$end 'TotalInfo'
+						GroupOptions=0
+						TaskDataOptions()
+						ProfileItem('Mesh adaptation', 3, 0, 2, 0, 161260, 'I(1, 2, \'Number of triangles\', 108485, false)', true, true)
+						ProfileItem('Solver DRS2', 1, 0, 1, 0, 177228, 'I(1, 2, \'Number of unknowns\', 66913, false)', true, true)
+						ProfileItem('Error calculation', 0, 0, 0, 0, 177228, 'I(1, 2, \'Number of triangles\', 108485, false)', true, true)
+					$end 'ProfileGroup'
+					ProfileItem('Circuit parameter calculation (PostProc)', 0, 0, 0, 0, 177228, 'I(1, 2, \'Number of elements\', 666, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Generating solver input'
+					$begin 'StartInfo'
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Mesh operation (geomproc)', 2, 0, 2, 0, 37856, 'I(1, 2, \'Number of triangles\', 8782, false)', true, true)
+					ProfileItem('Solve setup', 3, 0, 2, 0, 309148, 'I(0)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Preprocessing'
+					$begin 'StartInfo'
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Mesh operation (geomproc)', 1, 0, 1, 0, 38188, 'I(1, 2, \'Number of triangles\', 9010, false)', true, true)
+					ProfileItem('Cross-section detection', 2, 0, 3, 0, 119524, 'I(1, 2, \'Number of cross-sections identified\', 842, false)', true, true)
+					ProfileItem('Cross-section solve', 40, 0, 75, 0, 201488, 'I(1, 2, \'Number of unique solves\', 365, false)', true, true)
+					ProfileItem('Via extraction', 81, 0, 157, 0, 201488, 'I(1, 2, \'Number of unique solves\', 828, false)', true, true)
+					ProfileItem('Mesh refinement', 1, 0, 0, 0, 201488, 'I(1, 2, \'Number of total triangles\', 14724, false)', true, true)
+				$end 'ProfileGroup'
+				ProfileItem('Using interpolating sweep', 0, 0, 0, 0, 0, 'I(1, 2, \'Number of cores allocated\', 2, false)', false, true)
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 5.05MHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 0, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 50.005kHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 0, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 2.50249498997996GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 0, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 7.49749498997996GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 0, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 75.8577575029184kHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 0, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 2.63026799189538MHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 3.75374749498998GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 1.38038426460289MHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 1.25124248496994GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 7.58577575029184MHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 0, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 1.87186372745491GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 2, 0, 2, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 8.70963589956081MHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 2, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 4.37436873747495GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 0, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 9.54992586021437MHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 4.67466933867736GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 6.30957344480193MHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 2, 0, 2, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 3.13312625250501GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 6.91830970918936MHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 2, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 3.43342685370741GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 0, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 7.24435960074991MHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 2.81280561122244GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 8.31763771102671MHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 2.97296593186373GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 5.75439937337157MHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 4.05404809619238GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 3.80189396320561MHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 4.21420841683367GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 4.36515832240167MHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 0, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 2.65264529058116GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 7.94328234724282MHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 3.8938877755511GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 0, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 724.435960074991kHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 2.19218436873747GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 0, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 416.869383470335kHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 2.03202404809619GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 0, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 1.99526231496888MHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 3.83382765531062GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 4.78630092322638MHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 0, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 2.11210420841683GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 5.49540873857625MHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 0, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 3.27326653306613GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 5.24807460249772MHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 4.13412825651303GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 6.60693448007596MHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 3.35334669338677GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 1.65958690743756MHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 0, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 3.5935871743487GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 1.0471285480509MHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 0, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 3.67366733466934GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 1.20226443461741MHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 4.53452905811623GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 1.81970085860998MHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 4.59458917835671GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 0, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 1.51356124843621MHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 3.97396793587174GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 0, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 1.58489319246111MHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 4.45444889779559GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 0, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 3.16227766016838MHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 2.35234468937876GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 3.46736850452532MHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 2, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 3.19318637274549GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 3.31131121482591MHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 3.51350701402806GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 0, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 2.88403150312661MHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 630.62124248497MHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 4.57088189614875MHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 930.921843687375MHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 0, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 575.439937337157kHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 0, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 1.55154308617234GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 501.187233627272kHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 0, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 1.71170340681363GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 3.63078054770102MHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 310.300601202405MHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 870.963589956081kHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 470.460921843687MHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 794.328234724282kHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 550.541082164329MHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 2.29086765276777MHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 6.02559586074358MHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 9.1201083935591MHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 954.992586021437kHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 790.781563126252MHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 912.01083935591kHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 870.861723446894MHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 660.693448007596kHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 830.821643286573MHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 630.957344480193kHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 263.026799189538kHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 0, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 810.801603206413MHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 0, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 1.39138276553106GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 0, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 181.970085860998kHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 0, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 1.95194388777555GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 1.14815362149688MHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 710.701402805611MHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 1.09647819614319MHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 1.31130260521042GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 0, 0, 0, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 1.44543977074593MHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 1.29128256513026GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 0, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 2.4324248496994GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 1.09108216432866GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 3.55354709418838GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 1.1711623246493GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 3.57356713426854GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 1.91190380761523GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 2.07206412825651GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 0, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 1.79178356713427GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 4.83482965931864GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 2, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 1.21120240480962GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 2, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 4.754749498998GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 2, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 1.19118236472946GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 4.29428857715431GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 1.01100200400802GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 4.25424849699399GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 0, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 1.05104208416834GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 0, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 4.91490981963928GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 1.4714629258517GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 4.87486973947896GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 1.13112224448898GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 1.43142284569138GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 0, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 1.15114228456914GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 0, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 1.99198396793587GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 0, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 1.63162324649299GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 0, 0, 0, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 150.140280561122MHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 1.67166332665331GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 70.060120240481MHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 1.83182364729459GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 750.741482965932MHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 3.63362725450902GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 2, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 230.220440881764MHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 2, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 3.61360721442886GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 190.180360721443MHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 2, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 4.71470941883767GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 2, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 270.260521042084MHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 2, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 4.9549498997996GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 2, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 30.0200400801603MHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 2, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 4.63462925851703GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 2, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 50.0400801603206MHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 2, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 4.79478957915832GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 2, 0, 2, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 210.200400801603MHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 2, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 4.97496993987976GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 2, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 8.7387374749499GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 2, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 3.93392785571142GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 2, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 8.11811623246493GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 2, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 6.25625250501002GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 2, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 7.79779559118236GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 2, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 9.35935871743487GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 6.87687374749499GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 9.67967935871743GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 2, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 5.63563126252505GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 9.05905811623246GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 5.31531062124249GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 7.17717434869739GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 2, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 8.89889779559118GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 2, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 9.21921843687375GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 2, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 9.51951903807615GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 2, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 8.41841683366733GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 2, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 7.63763527054108GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 2, 0, 2, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 7.95795591182365GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 2, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 7.71771543086172GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 2, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 8.57857715430862GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 2, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 9.83983967935872GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 6.55655310621242GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 7.01701402805611GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 5.93593186372745GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 2, 0, 2, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 7.09709418837675GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 6.09609218436874GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 6.71671342685371GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 0, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 8.25825651302605GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 6.39639278557114GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 0, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 8.33833667334669GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 0, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 6.3163126252505GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 2, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 9.75975951903808GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 2, 0, 2, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 5.1551503006012GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 2, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 9.7997995991984GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 2, 0, 2, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 5.23523046092184GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 2, 0, 2, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 9.13913827655311GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 2, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 5.79579158316633GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 2, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 9.17917835671343GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 2, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 6.63663326653307GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 2, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 9.91991983967936GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 2, 0, 2, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 5.47547094188377GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 7.87787575150301GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 5.39539078156313GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 0, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 7.83783567134268GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 6.17617234468938GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 8.65865731462926GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 0, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 6.47647294589178GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 8.81881763527054GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 0, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 7.33733466933868GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 8.85885771543086GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 7.13713426853707GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 0, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 8.03803607214429GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 7.6776753507014GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 7.99799599198397GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 6.93693386773547GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 8.49849699398798GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 6.0160120240481GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 2, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 7.41741482965932GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 6.43643286573146GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 7.377374749499GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 5.07507014028056GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 6.79679358717435GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 0, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 5.03503006012024GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 6.75675350701403GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 5.55555110220441GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 0, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 7.25725450901804GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 2, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 5.51551102204409GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 2, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 7.29729458917836GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 5.85585170340681GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 2, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 6.5165130260521GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 6.35635270541082GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 0, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 6.49649298597194GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 6.45645290581162GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 7.55755511022044GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 5.35535070140281GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 7.53753507014028GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 5.89589178356713GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 0, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 6.59659318637275GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 5.97597194388778GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 7.05705410821643GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 0, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 5.19519038076152GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 7.45745490981964GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 0, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 5.17517034068136GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 6.91691382765531GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 6.2162124248497GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 8.77877755511022GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 2, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 6.05605210420842GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 2, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 8.5385370741483GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 2, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 6.13613226452906GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 2, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 8.19819639278557GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 2, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 6.27627254509018GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 2, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 8.15815631262525GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 2, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 6.1161122244489GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 7.91791583166333GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 0, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 9.43943887775551GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 7.75775551102204GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 9.59959919839679GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 7.73773547094188GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 9.39939879759519GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 8.45845691382766GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 8.97897795591182GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 8.07807615230461GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 8.9389378757515GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 8.79879759519038GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 9.95995991983968GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 8.69869739478958GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 9.97997995991984GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 8.37837675350701GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 9.63963927855711GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 8.35835671342685GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 9.27927855711423GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 8.13813627254509GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 0, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 9.25925851703407GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 9.09909819639279GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 1, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 8.8388376753507GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 0, 0, 1, 0, 255924, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 0, 0, 255924, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				ProfileItem('Interpolating sweep converged after 260 solutions', 0, 0, 0, 0, 0, 'I(0)', false, true)
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Postprocessing'
+					$begin 'StartInfo'
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Passivity enforcement only', 0, 0, 0, 0, 255924, 'I(1, 0, \'\')', true, true)
+				$end 'ProfileGroup'
+			$end 'ProfileGroup'
+			$begin 'ProfileGroup'
+				MajorVer=2022
+				MinorVer=2
+				Name='Solution - SYZ_PARAM_BANK0_DQ_DQS'
+				$begin 'StartInfo'
+					I(1, 'Time', '12/10/2023 10:27:32')
+				$end 'StartInfo'
+				$begin 'TotalInfo'
+					I(1, 'Elapsed Time', '00:04:12')
+				$end 'TotalInfo'
+				GroupOptions=4
+				TaskDataOptions('CPU Time'=8, Memory=8, 'Real Time'=8)
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Solving DC'
+					$begin 'StartInfo'
+						I(2, 'Number of cores allocated', 2, false)
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Mesh initialization', 13, 0, 23, 0, 105316, 'I(0)', true, true)
+					ProfileItem('Data structure population (PreProc)', 1, 0, 0, 0, 105316, 'I(1, 2, \'Number of triangles\', 62112, false)', true, true)
+					$begin 'ProfileGroup'
+						MajorVer=2022
+						MinorVer=2
+						Name='Adaptive pass 1'
+						$begin 'StartInfo'
+						$end 'StartInfo'
+						$begin 'TotalInfo'
+							I(0, '')
+						$end 'TotalInfo'
+						GroupOptions=0
+						TaskDataOptions()
+						ProfileItem('Mesh adaptation', 2, 0, 1, 0, 105316, 'I(1, 2, \'Number of triangles\', 68330, false)', true, true)
+						ProfileItem('Solver DRS2', 0, 0, 1, 0, 124888, 'I(1, 2, \'Number of unknowns\', 44699, false)', true, true)
+						ProfileItem('Error calculation', 1, 0, 0, 0, 124888, 'I(1, 2, \'Number of triangles\', 68330, false)', true, true)
+					$end 'ProfileGroup'
+					$begin 'ProfileGroup'
+						MajorVer=2022
+						MinorVer=2
+						Name='Adaptive pass 2'
+						$begin 'StartInfo'
+						$end 'StartInfo'
+						$begin 'TotalInfo'
+							I(0, '')
+						$end 'TotalInfo'
+						GroupOptions=0
+						TaskDataOptions()
+						ProfileItem('Mesh adaptation', 3, 0, 2, 0, 132764, 'I(1, 2, \'Number of triangles\', 86097, false)', true, true)
+						ProfileItem('Solver DRS2', 1, 0, 1, 0, 146296, 'I(1, 2, \'Number of unknowns\', 54568, false)', true, true)
+						ProfileItem('Error calculation', 0, 0, 0, 0, 146296, 'I(1, 2, \'Number of triangles\', 86097, false)', true, true)
+					$end 'ProfileGroup'
+					$begin 'ProfileGroup'
+						MajorVer=2022
+						MinorVer=2
+						Name='Adaptive pass 3'
+						$begin 'StartInfo'
+						$end 'StartInfo'
+						$begin 'TotalInfo'
+							I(0, '')
+						$end 'TotalInfo'
+						GroupOptions=0
+						TaskDataOptions()
+						ProfileItem('Mesh adaptation', 4, 0, 3, 0, 158288, 'I(1, 2, \'Number of triangles\', 108485, false)', true, true)
+						ProfileItem('Solver DRS2', 0, 0, 1, 0, 176112, 'I(1, 2, \'Number of unknowns\', 66913, false)', true, true)
+						ProfileItem('Error calculation', 1, 0, 0, 0, 176112, 'I(1, 2, \'Number of triangles\', 108485, false)', true, true)
+					$end 'ProfileGroup'
+					ProfileItem('Circuit parameter calculation (PostProc)', 0, 0, 0, 0, 176112, 'I(1, 2, \'Number of elements\', 666, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Generating solver input'
+					$begin 'StartInfo'
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Mesh operation (geomproc)', 4, 0, 4, 0, 37812, 'I(1, 2, \'Number of triangles\', 8782, false)', true, true)
+					ProfileItem('Solve setup', 4, 0, 3, 0, 309028, 'I(0)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Preprocessing'
+					$begin 'StartInfo'
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Mesh operation (geomproc)', 1, 0, 0, 0, 38204, 'I(1, 2, \'Number of triangles\', 9010, false)', true, true)
+					ProfileItem('Cross-section detection', 1, 0, 2, 0, 124168, 'I(1, 2, \'Number of cross-sections identified\', 842, false)', true, true)
+					ProfileItem('Cross-section solve', 40, 0, 74, 0, 201864, 'I(1, 2, \'Number of unique solves\', 365, false)', true, true)
+					ProfileItem('Via extraction', 73, 0, 143, 0, 201864, 'I(1, 2, \'Number of unique solves\', 828, false)', true, true)
+					ProfileItem('Mesh refinement', 1, 0, 0, 0, 201864, 'I(1, 2, \'Number of total triangles\', 14724, false)', true, true)
+				$end 'ProfileGroup'
+				ProfileItem('Using interpolating sweep', 0, 0, 0, 0, 0, 'I(1, 2, \'Number of cores allocated\', 2, false)', false, true)
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 7.5GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 248496, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 248496, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 2.505GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 248496, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 248496, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 3.8GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 249284, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 1, 0, 249284, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 8.7GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 249284, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 1, 0, 249284, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 8.1GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 249376, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 249376, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 4.4GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 249376, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 249376, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 7.8GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 0, 0, 1, 0, 249376, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 249376, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 1.3GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 0, 0, 1, 0, 249376, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 249376, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 6.2GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 249376, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 249376, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 1.9GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 249376, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 249376, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 2.2GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 2, 0, 249456, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 249456, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 9.3GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 2, 0, 249456, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 249456, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 9GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 249644, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 249644, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 4.1GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 249644, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 249644, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 5.6GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 2, 0, 249644, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 249644, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 3.2GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 2, 0, 249644, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 249644, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 6.8GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 249644, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 1, 0, 249644, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 2.9GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 249644, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 1, 0, 249644, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 8.8GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 249644, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 249644, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 3GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 249644, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 249644, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 7.1GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 0, 0, 1, 0, 249644, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 249644, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 3.5GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 0, 0, 1, 0, 249644, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 249644, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 4.2GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 249644, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 1, 0, 249644, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 6.5GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 249644, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 1, 0, 249644, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 2.4GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 249824, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 249824, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 7.6GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 249824, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 249824, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 9.6GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 249824, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 1, 0, 249824, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 2GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 249824, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 1, 0, 249824, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 3.9GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 249824, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 1, 0, 249824, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 8.4GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 249824, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 1, 0, 249824, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 8.5GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 249824, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 249824, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 4.7GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 249824, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 249824, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 4.8GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 249824, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 1, 0, 249824, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 6.9GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 249824, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 1, 0, 249824, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 2.1GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 249824, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 249824, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 7GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 2, 0, 1, 0, 249824, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 1, 0, 249824, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 9.8GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 249824, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 249824, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 4.9GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 249824, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 249824, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 9.7GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 2, 0, 249824, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 249824, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 4.5GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 2, 0, 249824, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 249824, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 9.4GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 249824, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 249824, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 4GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 2, 0, 249824, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 249824, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 9.5GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 249824, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 1, 0, 249824, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 4.3GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 249824, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 1, 0, 249824, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 8.9GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 249824, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 249824, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 3.1GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 249824, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 249824, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 9.1GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 0, 0, 1, 0, 249824, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 249824, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 3.6GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 0, 0, 1, 0, 249824, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 249824, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 3.7GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 249824, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 1, 0, 249824, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 6.3GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 249824, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 1, 0, 249824, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 8.2GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 249824, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 249824, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 4.6GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 249824, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 1, 0, 249824, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 6.6GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 249824, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 249824, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 1.6GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 249824, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 249824, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 5.9GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 0, 0, 1, 0, 249824, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 0, 0, 249824, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 3.3GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 0, 0, 1, 0, 249824, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 249824, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 5.7GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 249824, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 1, 0, 249824, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 3.4GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 249824, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 1, 0, 249824, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 5.3GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 249824, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 249824, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 700MHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 249824, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 249824, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 2.7GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 249824, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 249824, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 6.4GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 249824, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 249824, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 2.6GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 0, 0, 1, 0, 249824, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 249824, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 7.9GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 249824, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 1, 0, 249824, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 7.3GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 249824, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 249824, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 1.7GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 249824, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 249824, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 6GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 249824, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 249824, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 1GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 249824, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 249824, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 7.2GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 249824, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 1, 0, 249824, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 400MHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 249824, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 1, 0, 249824, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 5.4GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 0, 0, 1, 0, 249824, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 249824, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 800MHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 0, 0, 1, 0, 249824, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 249824, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 7.7GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 249824, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 1, 0, 249824, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 1.1GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 249824, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 1, 0, 249824, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 5.5GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 249824, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 1, 0, 249824, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 1.2GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 249824, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 249824, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 6.7GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 0, 0, 1, 0, 249824, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 0, 0, 249824, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 500MHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 0, 0, 1, 0, 249824, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 0, 0, 249824, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 6.1GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 0, 0, 1, 0, 249824, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 0, 0, 249824, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 900MHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 0, 0, 1, 0, 249824, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 0, 0, 249824, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 5.8GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 0, 0, 1, 0, 249824, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 249824, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 1.4GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 0, 0, 1, 0, 249824, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 249824, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 5.1GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 249824, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 1, 0, 249824, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 1.8GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 249824, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 1, 0, 249824, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 5.2GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 249824, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 249824, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 200MHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 249824, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 0, 0, 249824, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 7.4GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 249824, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 249824, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 100MHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 249824, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 249824, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 8GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 0, 0, 1, 0, 249824, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 249824, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 600MHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 249824, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 249824, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 9.2GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 249824, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 249824, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 1.5GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 0, 0, 1, 0, 249824, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 249824, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 8.6GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 249824, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 0, 0, 1, 0, 249824, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 8.3GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 249824, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 249824, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Frequency - 9.9GHz'
+					$begin 'StartInfo'
+						I(0, 'desktop-dd9r41c')
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Matrix Assembly', 1, 0, 1, 0, 249824, 'I(0)', true, true)
+					ProfileItem('Solver DCS1', 1, 0, 1, 0, 249824, 'I(1, 2, \'Matrix size\', 38793, false)', true, true)
+				$end 'ProfileGroup'
+				ProfileItem('Interpolating sweep converged after 100 solutions', 0, 0, 0, 0, 0, 'I(0)', false, true)
+				$begin 'ProfileGroup'
+					MajorVer=2022
+					MinorVer=2
+					Name='Postprocessing'
+					$begin 'StartInfo'
+					$end 'StartInfo'
+					$begin 'TotalInfo'
+						I(0, '')
+					$end 'TotalInfo'
+					GroupOptions=0
+					TaskDataOptions()
+					ProfileItem('Passivity enforcement only', 0, 0, 0, 0, 249824, 'I(1, 0, \'\')', true, true)
+				$end 'ProfileGroup'
+			$end 'ProfileGroup'
+		$end 'ProfileGroup'
+		ProfileFootnote('I(2, 1, \'Stop Time\', \'12/10/2023 10:31:45\', 1, \'Status\', \'Normal Completion\')', 0)
+	$end 'ProfileGroup'
+$end 'SolutionKey(SimSetup=3, Instance=\'$layer_thickness=\\\'0.0089999999999999993mm\\\' $pad_diameter=\\\'0.59999999999999998mm\\\' $se_trace_width=\\\'0.059999999999999998mm\\\'\', Solution=-2, VersionID=35)'

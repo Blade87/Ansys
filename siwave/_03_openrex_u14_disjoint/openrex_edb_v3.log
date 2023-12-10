@@ -294,3 +294,70 @@ SIwave GUI is running in non-interactive mode.
 SIwave GUI is running in non-interactive mode.
 SIwave GUI is running in non-interactive mode.
 SIwave GUI is running in non-interactive mode.
+
+
+--------------------- Sat Dec  9 17:12:54 2023 ---------------------
+
+Appending to SIwave session log C:/Users/SGI-U3/Documents/GitHub/Ansys/siwave/_03_openrex_u14_disjoint/openrex_edb_v3.log
+Loading C:\Users\SGI-U3\Documents\GitHub\Ansys\siwave\_03_openrex_u14_disjoint\openrex_edb_v3.siw...
+
+
+
+--------------------- Sat Dec  9 17:51:28 2023 ---------------------
+
+Appending to SIwave session log C:\Users\SGI-U3\Documents\GitHub\Ansys\siwave\_03_openrex_u14_disjoint\openrex_edb_v3.log
+Saved C:\Users\SGI-U3\Documents\GitHub\Ansys\siwave\_03_openrex_u14_disjoint\openrex_edb_v3.siw
+Warning: Pin <1> at <45.120000, 19.700000> does not belong to a part - passing as ordinary via
+Warning: Pin <2> at <45.735000, 48.100000> does not belong to a part - passing as ordinary via
+Warning: Pin <2> at <42.600000, 48.250000> does not belong to a part - passing as ordinary via
+Warning: Pin <2> at <31.150000, 35.100000> does not belong to a part - passing as ordinary via
+Warning: Pin <2> at <35.050000, 26.100000> does not belong to a part - passing as ordinary via
+Warning: Pin <1> at <29.600000, 39.100000> does not belong to a part - passing as ordinary via
+Warning: Pin <1> at <33.150000, 48.900000> does not belong to a part - passing as ordinary via
+Warning: Pin <1> at <30.400000, 46.450000> does not belong to a part - passing as ordinary via
+Warning: Pin <1> at <29.100000, 45.035000> does not belong to a part - passing as ordinary via
+Warning: Pin <1> at <33.800000, 27.700000> does not belong to a part - passing as ordinary via
+Warning: Pin <1> at <55.235000, 22.900000> does not belong to a part - passing as ordinary via
+Warning: Pin <2> at <34.900000, 25.600000> does not belong to a part - passing as ordinary via
+
+
+--------------------- Sun Dec 10 08:00:44 2023 ---------------------
+
+Appending to SIwave session log C:/Users/SGI-U3/Documents/GitHub/Ansys/siwave/_03_openrex_u14_disjoint/openrex_edb_v3.log
+Loading C:\Users\SGI-U3\Documents\GitHub\Ansys\siwave\_03_openrex_u14_disjoint\openrex_edb_v3.siw...
+
+
+
+--------------------- Sun Dec 10 08:02:17 2023 ---------------------
+
+Appending to SIwave session log C:\Users\SGI-U3\Documents\GitHub\Ansys\siwave\_03_openrex_u14_disjoint\openrex_edb_v3.log
+Saved C:\Users\SGI-U3\Documents\GitHub\Ansys\siwave\_03_openrex_u14_disjoint\openrex_edb_v3.siw
+Saved design "openrex_edb_v3" to EDB "C:\Users\SGI-U3\Documents\GitHub\Ansys\siwave\_03_openrex_u14_disjoint\syz_param_bank0_dq_dqs_clipped.aedb"
+
+
+--------------------- Sun Dec 10 08:03:48 2023 ---------------------
+
+Appending to SIwave session log C:\Users\SGI-U3\Documents\GitHub\Ansys\siwave\_03_openrex_u14_disjoint\openrex_edb_v3.log
+Saved C:\Users\SGI-U3\Documents\GitHub\Ansys\siwave\_03_openrex_u14_disjoint\openrex_edb_v3.siw
+Saved design "openrex_edb_v3" to EDB "C:\Users\SGI-U3\Documents\GitHub\Ansys\siwave\_03_openrex_u14_disjoint\syz_param_bank0_dq_dqs.aedb"
+
+
+--------------------- Sun Dec 10 08:07:53 2023 ---------------------
+
+Appending to SIwave session log C:/Users/SGI-U3/Documents/GitHub/Ansys/siwave/_03_openrex_u14_disjoint/openrex_edb_v3.log
+Loading C:\Users\SGI-U3\Documents\GitHub\Ansys\siwave\_03_openrex_u14_disjoint\openrex_edb_v3.siw...
+
+Saved design "openrex_edb_v3" to EDB "C:\Users\SGI-U3\Documents\GitHub\Ansys\siwave\_03_openrex_u14_disjoint\syz_param_bank0_dq_dqs.aedb"
+
+
+--------------------- Sun Dec 10 08:22:41 2023 ---------------------
+
+Appending to SIwave session log C:\Users\SGI-U3\Documents\GitHub\Ansys\siwave\_03_openrex_u14_disjoint\openrex_edb_v3.log
+Saved C:\Users\SGI-U3\Documents\GitHub\Ansys\siwave\_03_openrex_u14_disjoint\openrex_edb_v3.siw
+Saved design "openrex_edb_v3" to EDB "C:\Users\SGI-U3\Documents\GitHub\Ansys\siwave\_03_openrex_u14_disjoint\syz_param_bank0_dq_dqs.aedb"
+
+
+--------------------- Sun Dec 10 13:33:21 2023 ---------------------
+
+Appending to SIwave session log C:\Users\SGI-U3\Documents\GitHub\Ansys\siwave\_03_openrex_u14_disjoint\openrex_edb_v3.log
+Saved C:\Users\SGI-U3\Documents\GitHub\Ansys\siwave\_03_openrex_u14_disjoint\openrex_edb_v3.siw

@@ -1,0 +1,35 @@
+$begin 'ProfileUpdate'
+	Id=''
+	Type='Start'
+	$begin 'ProfileItem'
+		Name='Adaptive pass 1'
+		RealTime=0
+		RealTimeUsecs=0
+		CpuTime=0
+		CpuTimeUsecs=0
+		MemoryInK=0
+		HasData=false
+		UseData=true
+	$end 'ProfileItem'
+	Parents[0:]
+	GroupOptions=0
+	TaskDataOptions()
+$end 'ProfileUpdate'
+$begin 'ProfileUpdate'
+	Id=''
+	Type='Task'
+	$begin 'ProfileItem'
+		Name='Mesh adaptation'
+		RealTime=0
+		RealTimeUsecs=0
+		CpuTime=0
+		CpuTimeUsecs=0
+		MemoryInK=62880
+		I(2, 'Number of triangles', 29826, false)
+		HasData=true
+		UseData=true
+	$end 'ProfileItem'
+	Parents[1: 'Adaptive pass 1']
+	GroupOptions=0
+	TaskDataOptions()
+$end 'ProfileUpdate'

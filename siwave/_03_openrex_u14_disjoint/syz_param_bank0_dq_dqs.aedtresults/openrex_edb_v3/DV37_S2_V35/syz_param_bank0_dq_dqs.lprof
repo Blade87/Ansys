@@ -1,0 +1,36 @@
+   Module        Real Time   CPU Time     Memory          Size
+_______________________________________________________________________
+
+            siwave_ng 2022 R2 (Built: May 27 2022 01:08:39)
+    Commenced on host DESKTOP-DD9R41C at Sun Dec 10 10:04:53 2023
+
+------------------------------------------------------------------------
+|               |   Real   |   Cpu    |  Memory  |                     |
+|    Command    |   Time   |   Time   |          |                     |
+| solve_setup   | 00:00:01 | 00:00:00 |  308180K |        1 project    |
+------------------------------------------------------------------------
+         Finished on DESKTOP-DD9R41C at 12/10/2023 10:04:54
+
+
+     SIwave DC IR solver 2022 R2 May 27 2022 at 00:56:39 beginning
+        C:\Program Files\AnsysEM\v222\Win64\sidirect_solver.exe
+               on DESKTOP-DD9R41C at 12/10/2023 10:04:54
+------------------------------------------------------------------------
+|               |   Real   |   Cpu    |  Memory  |                     |
+|    Command    |   Time   |   Time   |          | Number of Elements  |
+| InitMesh      | 00:00:03 | 00:00:05 |      61M |    27018 triangles  |
+| PreProc       | 00:00:00 | 00:00:00 |      61M |    27018 triangles  |
+| AdaptMesh_1   | 00:00:00 | 00:00:00 |      61M |    29721 triangles  |
+| Solve(2p)_1   | 00:00:00 | 00:00:00 |      67M |    18418 unknowns   |
+| ErrorCalc_1   | 00:00:00 | 00:00:00 |      67M |    29721 triangles  |
+| AdaptMesh_2   | 00:00:00 | 00:00:00 |      74M |    37453 triangles  |
+| Solve(2p)_2   | 00:00:00 | 00:00:00 |      80M |    23191 unknowns   |
+| ErrorCalc_2   | 00:00:00 | 00:00:00 |      80M |    37453 triangles  |
+| AdaptMesh_3   | 00:00:01 | 00:00:00 |      86M |    47194 triangles  |
+| Solve(2p)_3   | 00:00:00 | 00:00:00 |      92M |    29054 unknowns   |
+| ErrorCalc_3   | 00:00:00 | 00:00:00 |      92M |    47194 triangles  |
+| PostProc      | 00:00:01 | 00:00:00 |      92M |      420 elements   |
+------------------------------------------------------------------------
+          Finished on DESKTOP-DD9R41C at 12/10/2023 10:05:02
+
+_______________________________________________________________________
