@@ -1,0 +1,58 @@
+--------------------- Tue Feb 20 08:31:49 2024 ---------------------
+
+Creating SIwave session log C:\Users\SGI-U3\Documents\GitHub\Ansys\siwave\_04_openrex_dcir\openrex_dcir.log
+OS: Windows 10  (Build 19045)
+
+Saved C:\Users\SGI-U3\Documents\GitHub\Ansys\siwave\_04_openrex_dcir\openrex_dcir.siw
+Reading DC solution data...
+Building DC surface plot(s)...
+Building DC current density/voltage/power dissipation plot for layer L1...done.
+Building DC current density/voltage/power dissipation plot for layer L2...done.
+Building DC current density/voltage/power dissipation plot for layer L4 (PWR)...done.
+Building DC current density/voltage/power dissipation plot for layer L5 (PWR)...done.
+Building DC current density/voltage/power dissipation plot for layer L6 (PWR)...done.
+Building DC current density/voltage/power dissipation plot for layer L7 (PWR)...done.
+Building DC current density/voltage/power dissipation plot for layer L9...done.
+Building DC current density/voltage/power dissipation plot for layer L10...done.
+Building DC current density/voltage/power dissipation plot for vias...done.
+Reading voltage probe data...done.
+Reading element data...done.
+Building DC current magnitude plot for layer L1...done.
+Building DC current magnitude plot for layer L2...done.
+Building DC current magnitude plot for layer L4 (PWR)...done.
+Building DC current magnitude plot for layer L5 (PWR)...done.
+Building DC current magnitude plot for layer L6 (PWR)...done.
+Building DC current magnitude plot for layer L7 (PWR)...done.
+Building DC current magnitude plot for layer L9...done.
+Building DC current magnitude plot for layer L10...done.
+Building DC current magnitude plot for vias...done.
+Read DC coefficient file C:\Program Files\AnsysEM\v222\Win64\dc_coeff.txt
+Read DC coefficient file C:\Program Files\AnsysEM\v222\Win64\dc_coeff.txt
+Read DC coefficient file C:\Program Files\AnsysEM\v222\Win64\dc_coeff.txt
+Building DC current density/voltage/power dissipation plot for layer L1...done. 
+Building DC current density/voltage/power dissipation plot for layer L2...done. 
+Building DC current density/voltage/power dissipation plot for layer L4 (PWR)...done. 
+Building DC current density/voltage/power dissipation plot for layer L5 (PWR)...done. 
+Building DC current density/voltage/power dissipation plot for layer L6 (PWR)...done. 
+Building DC current density/voltage/power dissipation plot for layer L7 (PWR)...done. 
+Building DC current density/voltage/power dissipation plot for layer L9...done. 
+Building DC current density/voltage/power dissipation plot for layer L10...done. 
+Building DC current density/voltage/power dissipation plot for vias...done. 
+Building DC current magnitude plot for layer L1...done. 
+Building DC current magnitude plot for layer L2...done. 
+Building DC current magnitude plot for layer L4 (PWR)...done. 
+Building DC current magnitude plot for layer L5 (PWR)...done. 
+Building DC current magnitude plot for layer L6 (PWR)...done. 
+Building DC current magnitude plot for layer L7 (PWR)...done. 
+Building DC current magnitude plot for layer L9...done. 
+Building DC current magnitude plot for layer L10...done. 
+Building DC current magnitude plot for vias...done. 
+Failed loading thermal data from C:/Users/SGI-U3/Documents/Ansoft/example/ansys_rlc/OpenRex_V1I1_PCB.edb/ 
+DC IR Simulation Report File written : C:/Users/SGI-U3/Documents/GitHub/Ansys/siwave/_04_openrex_dcir/openrex_dcir_DC IR Sim 1.htm
+DC Power Tree Image saved to C:/Users/SGI-U3/Documents/GitHub/Ansys/siwave/_04_openrex_dcir/openrex_dcir.png
+
+
+--------------------- Tue Feb 20 16:30:23 2024 ---------------------
+
+Appending to SIwave session log C:\Users\SGI-U3\Documents\GitHub\Ansys\siwave\_04_openrex_dcir\openrex_dcir.log
+Saved C:\Users\SGI-U3\Documents\GitHub\Ansys\siwave\_04_openrex_dcir\openrex_dcir.siw

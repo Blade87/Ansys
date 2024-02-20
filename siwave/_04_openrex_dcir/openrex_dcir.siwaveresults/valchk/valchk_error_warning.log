@@ -1,0 +1,795 @@
+# Validation Check Errors/Warnings
+# BEGIN LIST
+
+Misalignment Warning
+ The centerline of a trace (35.200000, 57.700010) mm on layer L1 is not connected to the center of a via (35.199990, 57.700010) mm
+Misalignment Warning
+ The centerline of a trace (63.500000, 18.800000) mm on layer L1 is not connected to the center of a via (63.500000, 18.900000) mm
+Misalignment Warning
+ The centerline of a trace (59.725000, 17.400000) mm on layer L1 is not connected to the center of a via (59.925000, 17.400000) mm
+Misalignment Warning
+ The centerline of a trace (23.999990, 53.700000) mm on layer L1 is not connected to the center of a via (23.999990, 53.700010) mm
+Misalignment Warning
+ The centerline of a trace (16.200000, 56.200000) mm on layer L1 is not connected to the center of a via (16.300000, 56.900000) mm
+Misalignment Warning
+ The centerline of a trace (20.799990, 55.300010) mm on layer L1 is not connected to the center of a via (20.800000, 55.300000) mm
+Misalignment Warning
+ The centerline of a trace (30.400000, 40.899990) mm on layer L1 is not connected to the center of a via (30.399980, 40.899990) mm
+Misalignment Warning
+ The centerline of a trace (6.050000, 39.425000) mm on layer L1 is not connected to the center of a via (6.050000, 39.325000) mm
+Misalignment Warning
+ The centerline of a trace (21.599990, 48.100000) mm on layer L1 is not connected to the center of a via (21.599980, 48.100000) mm
+Misalignment Warning
+ The centerline of a trace (25.599990, 53.700010) mm on layer L1 is not connected to the center of a via (25.599990, 53.700000) mm
+Misalignment Warning
+ The centerline of a trace (27.750000, 90.450000) mm on layer L1 is not connected to the center of a via (27.750000, 90.350000) mm
+Misalignment Warning
+ The centerline of a trace (23.999990, 52.100000) mm on layer L1 is not connected to the center of a via (23.999990, 52.100010) mm
+Misalignment Warning
+ The centerline of a trace (12.249990, 24.150010) mm on layer L1 is not connected to the center of a via (12.200000, 24.100000) mm
+Misalignment Warning
+ The centerline of a trace (31.200000, 57.700010) mm on layer L1 is not connected to the center of a via (31.200000, 57.700000) mm
+Misalignment Warning
+ The centerline of a trace (21.599990, 47.300000) mm on layer L1 is not connected to the center of a via (21.599980, 47.300000) mm
+Misalignment Warning
+ The centerline of a trace (21.599990, 49.700000) mm on layer L1 is not connected to the center of a via (21.599980, 49.700000) mm
+Misalignment Warning
+ The centerline of a trace (28.799990, 56.100010) mm on layer L1 is not connected to the center of a via (28.800000, 56.100010) mm
+Misalignment Warning
+ The centerline of a trace (26.800000, 58.799990) mm on layer L1 is not connected to the center of a via (26.799990, 58.799990) mm
+Misalignment Warning
+ The centerline of a trace (28.014990, 56.115010) mm on layer L1 is not connected to the center of a via (28.015000, 56.115010) mm
+Misalignment Warning
+ The centerline of a trace (27.614990, 55.715010) mm on layer L1 is not connected to the center of a via (27.599990, 55.700010) mm
+Misalignment Warning
+ The centerline of a trace (28.800000, 58.500000) mm on layer L1 is not connected to the center of a via (28.799990, 58.500000) mm
+Misalignment Warning
+ The centerline of a trace (29.600000, 56.100010) mm on layer L1 is not connected to the center of a via (29.599990, 56.100010) mm
+Misalignment Warning
+ The centerline of a trace (29.200000, 55.700010) mm on layer L1 is not connected to the center of a via (29.199990, 55.700010) mm
+Misalignment Warning
+ The centerline of a trace (54.099990, 29.499990) mm on layer L1 is not connected to the center of a via (54.100000, 29.500000) mm
+Misalignment Warning
+ The centerline of a trace (54.099990, 41.500000) mm on layer L1 is not connected to the center of a via (54.100000, 41.500000) mm
+Misalignment Warning
+ The centerline of a trace (54.099990, 53.499990) mm on layer L1 is not connected to the center of a via (54.100000, 53.500000) mm
+Misalignment Warning
+ The centerline of a trace (54.099990, 65.500000) mm on layer L1 is not connected to the center of a via (54.100000, 65.500000) mm
+Misalignment Warning
+ The centerline of a trace (55.300000, 31.699990) mm on layer L1 is not connected to the center of a via (55.300000, 31.700000) mm
+Misalignment Warning
+ The centerline of a trace (55.300000, 43.699990) mm on layer L1 is not connected to the center of a via (55.300000, 43.700000) mm
+Misalignment Warning
+ The centerline of a trace (55.300000, 55.699990) mm on layer L1 is not connected to the center of a via (55.300000, 55.700000) mm
+Misalignment Warning
+ The centerline of a trace (55.300000, 67.699990) mm on layer L1 is not connected to the center of a via (55.300000, 67.700000) mm
+Misalignment Warning
+ The centerline of a trace (36.800000, 49.700000) mm on layer L1 is not connected to the center of a via (36.800010, 49.700000) mm
+Misalignment Warning
+ The centerline of a trace (54.500000, 33.299980) mm on layer L1 is not connected to the center of a via (54.499980, 33.300000) mm
+Misalignment Warning
+ The centerline of a trace (54.899990, 32.899990) mm on layer L1 is not connected to the center of a via (54.899990, 32.900000) mm
+Misalignment Warning
+ The centerline of a trace (54.500000, 45.299990) mm on layer L1 is not connected to the center of a via (54.499980, 45.300010) mm
+Misalignment Warning
+ The centerline of a trace (54.899990, 44.899990) mm on layer L1 is not connected to the center of a via (54.899990, 44.900000) mm
+Misalignment Warning
+ The centerline of a trace (54.500000, 57.299980) mm on layer L1 is not connected to the center of a via (54.499980, 57.300000) mm
+Misalignment Warning
+ The centerline of a trace (54.899990, 56.899990) mm on layer L1 is not connected to the center of a via (54.899990, 56.900000) mm
+Misalignment Warning
+ The centerline of a trace (54.500000, 69.299990) mm on layer L1 is not connected to the center of a via (54.499980, 69.300010) mm
+Misalignment Warning
+ The centerline of a trace (54.899990, 68.899990) mm on layer L1 is not connected to the center of a via (54.899990, 68.900000) mm
+Misalignment Warning
+ The centerline of a trace (55.299980, 40.499990) mm on layer L1 is not connected to the center of a via (55.299980, 40.499980) mm
+Misalignment Warning
+ The centerline of a trace (61.199990, 25.335000) mm on layer L1 is not connected to the center of a via (61.200000, 25.335000) mm
+Misalignment Warning
+ The centerline of a trace (55.299980, 64.499990) mm on layer L1 is not connected to the center of a via (55.299980, 64.499980) mm
+Misalignment Warning
+ The centerline of a trace (56.099980, 32.500010) mm on layer L1 is not connected to the center of a via (56.099980, 32.500000) mm
+Misalignment Warning
+ The centerline of a trace (56.099980, 44.500010) mm on layer L1 is not connected to the center of a via (56.099980, 44.500000) mm
+Misalignment Warning
+ The centerline of a trace (56.099980, 56.500010) mm on layer L1 is not connected to the center of a via (56.099980, 56.500000) mm
+Misalignment Warning
+ The centerline of a trace (56.099980, 40.499990) mm on layer L1 is not connected to the center of a via (56.099980, 40.499980) mm
+Misalignment Warning
+ The centerline of a trace (56.099980, 64.499990) mm on layer L1 is not connected to the center of a via (56.099980, 64.499980) mm
+Misalignment Warning
+ The centerline of a trace (58.699990, 31.165000) mm on layer L1 is not connected to the center of a via (58.700000, 31.165000) mm
+Misalignment Warning
+ The centerline of a trace (60.164990, 33.800000) mm on layer L1 is not connected to the center of a via (60.165000, 33.800000) mm
+Misalignment Warning
+ The centerline of a trace (52.499990, 31.500000) mm on layer L1 is not connected to the center of a via (52.500000, 31.500000) mm
+Misalignment Warning
+ The centerline of a trace (52.499990, 43.500000) mm on layer L1 is not connected to the center of a via (52.500000, 43.500000) mm
+Misalignment Warning
+ The centerline of a trace (52.499990, 55.500000) mm on layer L1 is not connected to the center of a via (52.500000, 55.500000) mm
+Misalignment Warning
+ The centerline of a trace (36.800000, 50.500000) mm on layer L1 is not connected to the center of a via (36.800010, 50.500000) mm
+Misalignment Warning
+ The centerline of a trace (52.499990, 67.500000) mm on layer L1 is not connected to the center of a via (52.500000, 67.500000) mm
+Misalignment Warning
+ The centerline of a trace (54.099990, 31.500000) mm on layer L1 is not connected to the center of a via (54.100000, 31.500000) mm
+Misalignment Warning
+ The centerline of a trace (54.099990, 43.500000) mm on layer L1 is not connected to the center of a via (54.100000, 43.500000) mm
+Misalignment Warning
+ The centerline of a trace (54.099990, 55.500000) mm on layer L1 is not connected to the center of a via (54.100000, 55.500000) mm
+Misalignment Warning
+ The centerline of a trace (40.800000, 47.300000) mm on layer L1 is not connected to the center of a via (40.800010, 47.300000) mm
+Misalignment Warning
+ The centerline of a trace (54.099990, 67.500000) mm on layer L1 is not connected to the center of a via (54.100000, 67.500000) mm
+Misalignment Warning
+ The centerline of a trace (56.899990, 28.499990) mm on layer L1 is not connected to the center of a via (56.900000, 28.500000) mm
+Misalignment Warning
+ The centerline of a trace (56.899990, 40.500000) mm on layer L1 is not connected to the center of a via (56.900000, 40.500000) mm
+Misalignment Warning
+ The centerline of a trace (56.899990, 52.499990) mm on layer L1 is not connected to the center of a via (56.900000, 52.500000) mm
+Misalignment Warning
+ The centerline of a trace (56.899990, 64.499990) mm on layer L1 is not connected to the center of a via (56.900000, 64.500000) mm
+Misalignment Warning
+ The centerline of a trace (38.400000, 52.100010) mm on layer L1 is not connected to the center of a via (38.400010, 52.100000) mm
+Misalignment Warning
+ The centerline of a trace (38.000010, 51.700010) mm on layer L1 is not connected to the center of a via (38.000010, 51.700000) mm
+Misalignment Warning
+ The centerline of a trace (60.164990, 34.500000) mm on layer L1 is not connected to the center of a via (60.165000, 34.500000) mm
+Misalignment Warning
+ The centerline of a trace (56.499990, 32.100000) mm on layer L1 is not connected to the center of a via (56.499990, 32.099990) mm
+Misalignment Warning
+ The centerline of a trace (56.499990, 56.100000) mm on layer L1 is not connected to the center of a via (56.499990, 56.099990) mm
+Misalignment Warning
+ The centerline of a trace (53.299990, 31.500010) mm on layer L1 is not connected to the center of a via (53.300000, 31.500000) mm
+Misalignment Warning
+ The centerline of a trace (53.299990, 43.500010) mm on layer L1 is not connected to the center of a via (53.300000, 43.500000) mm
+Misalignment Warning
+ The centerline of a trace (53.299990, 55.500010) mm on layer L1 is not connected to the center of a via (53.300000, 55.500000) mm
+Misalignment Warning
+ The centerline of a trace (53.299990, 67.500010) mm on layer L1 is not connected to the center of a via (53.300000, 67.500000) mm
+Misalignment Warning
+ The centerline of a trace (57.199990, 23.035000) mm on layer L1 is not connected to the center of a via (57.200000, 23.035000) mm
+Misalignment Warning
+ The centerline of a trace (51.200000, 31.600010) mm on layer L1 is not connected to the center of a via (51.200000, 31.600000) mm
+Misalignment Warning
+ The centerline of a trace (51.699990, 32.100000) mm on layer L1 is not connected to the center of a via (51.699990, 32.099990) mm
+Misalignment Warning
+ The centerline of a trace (51.200000, 55.600010) mm on layer L1 is not connected to the center of a via (51.200000, 55.600000) mm
+Misalignment Warning
+ The centerline of a trace (51.699990, 56.100000) mm on layer L1 is not connected to the center of a via (51.699990, 56.099990) mm
+Misalignment Warning
+ The centerline of a trace (51.200000, 67.600010) mm on layer L1 is not connected to the center of a via (51.200000, 67.600000) mm
+Misalignment Warning
+ The centerline of a trace (50.399990, 31.600000) mm on layer L1 is not connected to the center of a via (50.400000, 31.600000) mm
+Misalignment Warning
+ The centerline of a trace (50.899990, 32.100000) mm on layer L1 is not connected to the center of a via (50.899990, 32.099990) mm
+Misalignment Warning
+ The centerline of a trace (50.399990, 43.600000) mm on layer L1 is not connected to the center of a via (50.400000, 43.600000) mm
+Misalignment Warning
+ The centerline of a trace (50.399990, 55.600000) mm on layer L1 is not connected to the center of a via (50.400000, 55.600000) mm
+Misalignment Warning
+ The centerline of a trace (50.899990, 56.100000) mm on layer L1 is not connected to the center of a via (50.899990, 56.099990) mm
+Misalignment Warning
+ The centerline of a trace (50.399990, 67.600000) mm on layer L1 is not connected to the center of a via (50.400000, 67.600000) mm
+Misalignment Warning
+ The centerline of a trace (50.099980, 28.899990) mm on layer L1 is not connected to the center of a via (50.099990, 28.899990) mm
+Misalignment Warning
+ The centerline of a trace (36.800000, 41.700000) mm on layer L1 is not connected to the center of a via (36.800010, 41.700000) mm
+Misalignment Warning
+ The centerline of a trace (48.499980, 32.899990) mm on layer L1 is not connected to the center of a via (48.499980, 32.900000) mm
+Misalignment Warning
+ The centerline of a trace (50.099990, 32.899990) mm on layer L1 is not connected to the center of a via (50.099990, 32.900000) mm
+Misalignment Warning
+ The centerline of a trace (47.299990, 32.499990) mm on layer L1 is not connected to the center of a via (47.299990, 32.499980) mm
+Misalignment Warning
+ The centerline of a trace (46.899970, 32.099970) mm on layer L1 is not connected to the center of a via (46.899980, 32.099990) mm
+Misalignment Warning
+ The centerline of a trace (46.100020, 28.900020) mm on layer L1 is not connected to the center of a via (46.099980, 28.899990) mm
+Misalignment Warning
+ The centerlines of two traces on layer L1 are not connected (45.723620, 33.243010) mm net "DRAM_D10"
+Misalignment Warning
+ The centerline of a trace (36.399990, 42.900010) mm on layer L1 is not connected to the center of a via (36.400000, 42.899990) mm
+Misalignment Warning
+ The centerline of a trace (45.300020, 32.900020) mm on layer L1 is not connected to the center of a via (45.299980, 32.900000) mm
+Misalignment Warning
+ The centerline of a trace (46.099970, 32.899970) mm on layer L1 is not connected to the center of a via (46.099980, 32.900000) mm
+Misalignment Warning
+ The centerline of a trace (45.700030, 27.700000) mm on layer L1 is not connected to the center of a via (45.700000, 27.700000) mm
+Misalignment Warning
+ The centerline of a trace (46.100010, 28.099980) mm on layer L1 is not connected to the center of a via (46.099980, 28.099990) mm
+Misalignment Warning
+ The centerline of a trace (36.800010, 42.499990) mm on layer L1 is not connected to the center of a via (36.800000, 42.499990) mm
+Misalignment Warning
+ The centerlines of two traces on layer L1 are not connected (44.923600, 32.443000) mm net "DRAM_D15"
+Misalignment Warning
+ The centerline of a trace (36.800000, 44.100000) mm on layer L1 is not connected to the center of a via (36.800000, 44.099990) mm
+Misalignment Warning
+ The centerline of a trace (37.600000, 44.900000) mm on layer L1 is not connected to the center of a via (37.600000, 44.899990) mm
+Misalignment Warning
+ The centerline of a trace (50.099990, 44.900010) mm on layer L1 is not connected to the center of a via (50.099990, 44.900000) mm
+Misalignment Warning
+ The centerline of a trace (35.600000, 45.300010) mm on layer L1 is not connected to the center of a via (35.600000, 45.300000) mm
+Misalignment Warning
+ The centerline of a trace (35.600000, 43.700000) mm on layer L1 is not connected to the center of a via (35.600000, 43.699990) mm
+Misalignment Warning
+ The centerline of a trace (35.600000, 44.500000) mm on layer L1 is not connected to the center of a via (35.600000, 44.499990) mm
+Misalignment Warning
+ The centerline of a trace (38.400000, 44.100000) mm on layer L1 is not connected to the center of a via (38.400000, 44.099990) mm
+Misalignment Warning
+ The centerline of a trace (36.800000, 44.900000) mm on layer L1 is not connected to the center of a via (36.800000, 44.899990) mm
+Misalignment Warning
+ The centerline of a trace (40.000010, 45.700000) mm on layer L1 is not connected to the center of a via (40.000000, 45.700000) mm
+Misalignment Warning
+ The centerline of a trace (46.899980, 44.099990) mm on layer L1 is not connected to the center of a via (46.899980, 44.100000) mm
+Misalignment Warning
+ The centerline of a trace (35.200000, 45.699990) mm on layer L1 is not connected to the center of a via (35.199990, 45.699990) mm
+Misalignment Warning
+ The centerline of a trace (35.599990, 46.099990) mm on layer L1 is not connected to the center of a via (35.600000, 46.100000) mm
+Misalignment Warning
+ The centerline of a trace (45.299980, 44.900010) mm on layer L1 is not connected to the center of a via (45.299980, 44.900000) mm
+Misalignment Warning
+ The centerline of a trace (46.100020, 40.100020) mm on layer L1 is not connected to the center of a via (46.099980, 40.099990) mm
+Misalignment Warning
+ The centerline of a trace (36.800010, 46.500000) mm on layer L1 is not connected to the center of a via (36.800000, 46.500000) mm
+Misalignment Warning
+ The centerline of a trace (46.100010, 44.899980) mm on layer L1 is not connected to the center of a via (46.099980, 44.900000) mm
+Misalignment Warning
+ The centerline of a trace (39.200000, 46.500010) mm on layer L1 is not connected to the center of a via (39.200000, 46.500000) mm
+Misalignment Warning
+ The centerline of a trace (44.499970, 40.899990) mm on layer L1 is not connected to the center of a via (44.499980, 40.899990) mm
+Misalignment Warning
+ The centerline of a trace (49.700010, 52.500020) mm on layer L1 is not connected to the center of a via (49.700000, 52.500020) mm
+Misalignment Warning
+ The centerline of a trace (36.800000, 52.900000) mm on layer L1 is not connected to the center of a via (36.800010, 52.900000) mm
+Misalignment Warning
+ The centerline of a trace (38.400000, 52.900000) mm on layer L1 is not connected to the center of a via (38.400010, 52.900000) mm
+Misalignment Warning
+ The centerline of a trace (48.499980, 52.099980) mm on layer L1 is not connected to the center of a via (48.499980, 52.099990) mm
+Misalignment Warning
+ The centerline of a trace (48.499980, 56.899990) mm on layer L1 is not connected to the center of a via (48.499980, 56.900000) mm
+Misalignment Warning
+ The centerline of a trace (37.600000, 53.700000) mm on layer L1 is not connected to the center of a via (37.600010, 53.700000) mm
+Misalignment Warning
+ The centerline of a trace (50.099990, 56.899990) mm on layer L1 is not connected to the center of a via (50.099990, 56.900000) mm
+Misalignment Warning
+ The centerline of a trace (38.400000, 53.700000) mm on layer L1 is not connected to the center of a via (38.400010, 53.700000) mm
+Misalignment Warning
+ The centerline of a trace (46.899990, 56.100010) mm on layer L1 is not connected to the center of a via (46.899980, 56.099990) mm
+Misalignment Warning
+ The centerline of a trace (46.099980, 52.099980) mm on layer L1 is not connected to the center of a via (46.099980, 52.099990) mm
+Misalignment Warning
+ The centerline of a trace (37.600000, 55.300010) mm on layer L1 is not connected to the center of a via (37.600010, 55.300010) mm
+Misalignment Warning
+ The centerline of a trace (36.000000, 53.700010) mm on layer L1 is not connected to the center of a via (36.000000, 53.700000) mm
+Misalignment Warning
+ The centerline of a trace (45.299990, 56.900000) mm on layer L1 is not connected to the center of a via (45.299980, 56.900000) mm
+Misalignment Warning
+ The centerline of a trace (50.099990, 68.099990) mm on layer L1 is not connected to the center of a via (50.099990, 68.100000) mm
+Misalignment Warning
+ The centerline of a trace (36.800010, 55.300010) mm on layer L1 is not connected to the center of a via (36.800000, 55.300010) mm
+Misalignment Warning
+ The centerline of a trace (50.099990, 64.900010) mm on layer L1 is not connected to the center of a via (50.099990, 64.899990) mm
+Misalignment Warning
+ The centerline of a trace (38.400000, 59.300000) mm on layer L1 is not connected to the center of a via (38.400010, 59.300000) mm
+Misalignment Warning
+ The centerline of a trace (37.600000, 59.300000) mm on layer L1 is not connected to the center of a via (37.600010, 59.300000) mm
+Misalignment Warning
+ The centerline of a trace (37.600000, 58.500000) mm on layer L1 is not connected to the center of a via (37.600010, 58.500020) mm
+Misalignment Warning
+ The centerline of a trace (36.000000, 58.500010) mm on layer L1 is not connected to the center of a via (35.999990, 58.500020) mm
+Misalignment Warning
+ The centerline of a trace (45.299980, 68.899990) mm on layer L1 is not connected to the center of a via (45.299980, 68.900000) mm
+Misalignment Warning
+ The centerline of a trace (35.200000, 56.900010) mm on layer L1 is not connected to the center of a via (35.200000, 56.900000) mm
+Misalignment Warning
+ The centerline of a trace (48.099970, 31.700010) mm on layer L1 is not connected to the center of a via (48.099970, 31.699990) mm
+Misalignment Warning
+ The centerline of a trace (38.000000, 40.499980) mm on layer L1 is not connected to the center of a via (38.000010, 40.499990) mm
+Misalignment Warning
+ The centerline of a trace (37.600000, 44.100000) mm on layer L1 is not connected to the center of a via (37.600000, 44.099990) mm
+Misalignment Warning
+ The centerline of a trace (48.099970, 44.500000) mm on layer L1 is not connected to the center of a via (48.100000, 44.500000) mm
+Misalignment Warning
+ The centerline of a trace (47.699980, 56.100000) mm on layer L1 is not connected to the center of a via (47.699980, 56.099990) mm
+Misalignment Warning
+ The centerline of a trace (37.600000, 52.900000) mm on layer L1 is not connected to the center of a via (37.600010, 52.900000) mm
+Misalignment Warning
+ The centerline of a trace (49.300010, 28.899990) mm on layer L1 is not connected to the center of a via (49.299990, 28.899990) mm
+Misalignment Warning
+ The centerline of a trace (48.499980, 28.900010) mm on layer L1 is not connected to the center of a via (48.499980, 28.899990) mm
+Misalignment Warning
+ The centerline of a trace (45.299980, 32.099980) mm on layer L1 is not connected to the center of a via (45.299980, 32.099990) mm
+Misalignment Warning
+ The centerline of a trace (46.500000, 31.700000) mm on layer L1 is not connected to the center of a via (46.500000, 31.686830) mm
+Misalignment Warning
+ The centerline of a trace (46.106580, 32.093420) mm on layer L1 is not connected to the center of a via (46.099980, 32.099990) mm
+Misalignment Warning
+ The centerline of a trace (49.300010, 40.899990) mm on layer L1 is not connected to the center of a via (49.299990, 40.899990) mm
+Misalignment Warning
+ The centerline of a trace (48.500000, 52.899990) mm on layer L1 is not connected to the center of a via (48.499980, 52.899990) mm
+Misalignment Warning
+ The centerline of a trace (50.899990, 29.500000) mm on layer L1 is not connected to the center of a via (50.900000, 29.500000) mm
+Misalignment Warning
+ The centerline of a trace (50.899990, 41.500000) mm on layer L1 is not connected to the center of a via (50.900000, 41.500000) mm
+Misalignment Warning
+ The centerline of a trace (50.899990, 53.500000) mm on layer L1 is not connected to the center of a via (50.900000, 53.500000) mm
+Misalignment Warning
+ The centerline of a trace (37.600000, 50.500000) mm on layer L1 is not connected to the center of a via (37.600010, 50.500000) mm
+Misalignment Warning
+ The centerline of a trace (50.899990, 65.500000) mm on layer L1 is not connected to the center of a via (50.900000, 65.500000) mm
+Misalignment Warning
+ The centerline of a trace (35.600000, 42.900000) mm on layer L1 is not connected to the center of a via (35.600000, 42.899990) mm
+Misalignment Warning
+ The centerline of a trace (58.100000, 52.099990) mm on layer L1 is not connected to the center of a via (58.100000, 52.100000) mm
+Misalignment Warning
+ The centerline of a trace (58.099990, 40.099980) mm on layer L1 is not connected to the center of a via (58.100000, 40.100000) mm
+Misalignment Warning
+ The centerline of a trace (56.499990, 40.099980) mm on layer L1 is not connected to the center of a via (56.499990, 40.099990) mm
+Misalignment Warning
+ The centerline of a trace (53.299990, 28.100010) mm on layer L1 is not connected to the center of a via (53.299990, 28.099990) mm
+Misalignment Warning
+ The centerline of a trace (53.299990, 40.100010) mm on layer L1 is not connected to the center of a via (53.299990, 40.099990) mm
+Misalignment Warning
+ The centerline of a trace (53.299990, 52.100010) mm on layer L1 is not connected to the center of a via (53.299990, 52.099990) mm
+Misalignment Warning
+ The centerline of a trace (57.899990, 23.035000) mm on layer L1 is not connected to the center of a via (57.900000, 23.035000) mm
+Misalignment Warning
+ The centerline of a trace (38.400000, 50.500000) mm on layer L1 is not connected to the center of a via (38.400010, 50.500000) mm
+Misalignment Warning
+ The centerline of a trace (53.299990, 64.100010) mm on layer L1 is not connected to the center of a via (53.299990, 64.099990) mm
+Misalignment Warning
+ The centerline of a trace (53.700000, 32.500000) mm on layer L1 is not connected to the center of a via (53.699980, 32.500000) mm
+Misalignment Warning
+ The centerline of a trace (53.700000, 44.500000) mm on layer L1 is not connected to the center of a via (53.699980, 44.500000) mm
+Misalignment Warning
+ The centerline of a trace (53.700000, 56.500000) mm on layer L1 is not connected to the center of a via (53.699980, 56.500000) mm
+Misalignment Warning
+ The centerline of a trace (53.700000, 68.500010) mm on layer L1 is not connected to the center of a via (53.699980, 68.500010) mm
+Misalignment Warning
+ The centerline of a trace (53.299990, 29.499990) mm on layer L1 is not connected to the center of a via (53.300000, 29.500000) mm
+Misalignment Warning
+ The centerline of a trace (53.299990, 41.500000) mm on layer L1 is not connected to the center of a via (53.300000, 41.500000) mm
+Misalignment Warning
+ The centerline of a trace (53.299990, 53.499990) mm on layer L1 is not connected to the center of a via (53.300000, 53.500000) mm
+Misalignment Warning
+ The centerline of a trace (59.699990, 24.465000) mm on layer L1 is not connected to the center of a via (59.700000, 24.465000) mm
+Misalignment Warning
+ The centerline of a trace (53.299990, 65.500000) mm on layer L1 is not connected to the center of a via (53.300000, 65.500000) mm
+Misalignment Warning
+ The centerline of a trace (51.299990, 34.100000) mm on layer L1 is not connected to the center of a via (51.300000, 34.100000) mm
+Misalignment Warning
+ The centerline of a trace (51.299990, 46.100000) mm on layer L1 is not connected to the center of a via (51.300000, 46.100000) mm
+Misalignment Warning
+ The centerline of a trace (51.299990, 58.100000) mm on layer L1 is not connected to the center of a via (51.300000, 58.100000) mm
+Misalignment Warning
+ The centerline of a trace (51.299990, 70.100000) mm on layer L1 is not connected to the center of a via (51.300000, 70.100000) mm
+Misalignment Warning
+ The centerline of a trace (51.699990, 38.700000) mm on layer L1 is not connected to the center of a via (51.700000, 38.700000) mm
+Misalignment Warning
+ The centerline of a trace (51.699990, 50.700000) mm on layer L1 is not connected to the center of a via (51.700000, 50.700000) mm
+Misalignment Warning
+ The centerline of a trace (51.699990, 62.700000) mm on layer L1 is not connected to the center of a via (51.700000, 62.700000) mm
+Misalignment Warning
+ The centerline of a trace (52.100000, 29.299980) mm on layer L1 is not connected to the center of a via (52.100000, 29.300000) mm
+Misalignment Warning
+ The centerline of a trace (52.100000, 41.299990) mm on layer L1 is not connected to the center of a via (52.100000, 41.300000) mm
+Misalignment Warning
+ The centerline of a trace (52.100000, 53.299980) mm on layer L1 is not connected to the center of a via (52.100000, 53.300000) mm
+Misalignment Warning
+ The centerline of a trace (37.600000, 51.300000) mm on layer L1 is not connected to the center of a via (37.600010, 51.300000) mm
+Misalignment Warning
+ The centerline of a trace (52.100000, 65.299990) mm on layer L1 is not connected to the center of a via (52.100000, 65.300000) mm
+Misalignment Warning
+ The centerlines of two traces on layer L1 are not connected (20.693431, 66.457000) mm net "ENET_REF_CLK_R"
+Misalignment Warning
+ The centerlines of two traces on layer L1 are not connected (27.530812, 64.411422) mm net "ENET_REF_CLK"
+Misalignment Warning
+ The centerline of a trace (21.599990, 52.100000) mm on layer L1 is not connected to the center of a via (21.599990, 52.100010) mm
+Misalignment Warning
+ The centerline of a trace (22.399990, 52.100000) mm on layer L1 is not connected to the center of a via (22.399990, 52.100010) mm
+Misalignment Warning
+ The centerline of a trace (23.199990, 52.100000) mm on layer L1 is not connected to the center of a via (23.199990, 52.100010) mm
+Misalignment Warning
+ The centerline of a trace (21.599990, 52.900000) mm on layer L1 is not connected to the center of a via (21.599990, 52.900010) mm
+Misalignment Warning
+ The centerline of a trace (27.600000, 42.100000) mm on layer L1 is not connected to the center of a via (27.599990, 42.099990) mm
+Misalignment Warning
+ The centerline of a trace (40.999980, 85.140000) mm on layer L1 is not connected to the center of a via (40.999980, 85.440000) mm
+Misalignment Warning
+ The centerline of a trace (39.600000, 81.700000) mm on layer L1 is not connected to the center of a via (39.499990, 82.050000) mm
+Misalignment Warning
+ The centerline of a trace (38.999990, 83.100000) mm on layer L1 is not connected to the center of a via (39.000000, 83.100010) mm
+Misalignment Warning
+ The centerline of a trace (39.299970, 88.000000) mm on layer L1 is not connected to the center of a via (39.300000, 88.000000) mm
+Misalignment Warning
+ The centerline of a trace (25.199980, 42.099980) mm on layer L1 is not connected to the center of a via (25.199990, 42.099990) mm
+Misalignment Warning
+ The centerline of a trace (21.599990, 40.099990) mm on layer L1 is not connected to the center of a via (21.599980, 40.099990) mm
+Misalignment Warning
+ The centerline of a trace (11.800000, 53.300000) mm on layer L1 is not connected to the center of a via (6.050000, 49.125000) mm
+Misalignment Warning
+ The centerline of a trace (26.800000, 87.750000) mm on layer L1 is not connected to the center of a via (26.800000, 87.650000) mm
+Misalignment Warning
+ The centerline of a trace (21.599990, 43.299990) mm on layer L1 is not connected to the center of a via (21.599980, 43.299990) mm
+Misalignment Warning
+ The centerline of a trace (32.000000, 57.700010) mm on layer L1 is not connected to the center of a via (32.000000, 57.700000) mm
+Misalignment Warning
+ The centerline of a trace (69.400000, 6.700000) mm on layer L1 is not connected to the center of a via (69.400000, 6.740000) mm
+Misalignment Warning
+ The centerline of a trace (22.200000, 21.100000) mm on layer L1 is not connected to the center of a via (23.500000, 21.100000) mm
+Misalignment Warning
+ The centerlines of two traces on layer L1 are not connected (25.970383, 67.470573) mm net "POR_BN"
+Misalignment Warning
+ The centerline of a trace (34.400000, 53.700010) mm on layer L1 is not connected to the center of a via (34.400000, 53.700000) mm
+Misalignment Warning
+ The centerline of a trace (34.400000, 56.900010) mm on layer L1 is not connected to the center of a via (34.400000, 56.900000) mm
+Misalignment Warning
+ The centerline of a trace (26.400000, 66.200000) mm on layer L1 is not connected to the center of a via (26.500000, 66.200000) mm
+Misalignment Warning
+ The centerline of a trace (25.500000, 66.100000) mm on layer L1 is not connected to the center of a via (25.500000, 66.200000) mm
+Misalignment Warning
+ The centerline of a trace (21.199990, 58.700000) mm on layer L1 is not connected to the center of a via (21.199980, 58.700000) mm
+Misalignment Warning
+ The centerline of a trace (21.599990, 55.300010) mm on layer L1 is not connected to the center of a via (21.599980, 55.300010) mm
+Misalignment Warning
+ The centerline of a trace (21.599990, 44.900000) mm on layer L1 is not connected to the center of a via (21.599980, 44.900000) mm
+Misalignment Warning
+ The centerline of a trace (21.599990, 48.900000) mm on layer L1 is not connected to the center of a via (21.599980, 48.900000) mm
+Misalignment Warning
+ The centerline of a trace (2.500000, 19.780000) mm on layer L1 is not connected to the center of a via (2.500000, 19.800000) mm
+Misalignment Warning
+ The centerline of a trace (19.950000, 6.000000) mm on layer L1 is not connected to the center of a via (20.050000, 5.900000) mm
+Misalignment Warning
+ The centerline of a trace (42.795000, 76.795000) mm on layer L1 is not connected to the center of a via (42.800000, 76.800000) mm
+Misalignment Warning
+ The centerlines of two traces on layer L1 are not connected (64.199995, 70.357000) mm net "USBDN2_PWR_EN"
+Misalignment Warning
+ The centerline of a trace (8.800000, 70.100000) mm on layer L1 is not connected to the center of a via (8.800000, 70.275000) mm
+Misalignment Warning
+ The centerline of a trace (23.199990, 53.700000) mm on layer L1 is not connected to the center of a via (23.199990, 53.700010) mm
+Misalignment Warning
+ The centerlines of two traces on layer L1 are not connected (66.073837, 74.981054) mm net "HUB_VBUS_DET"
+Misalignment Warning
+ The centerline of a trace (69.400000, 9.400000) mm on layer L1 is not connected to the center of a via (69.400000, 9.390000) mm
+Misalignment Warning
+ The centerline of a trace (32.399980, 42.900010) mm on layer L1 is not connected to the center of a via (32.400000, 42.899990) mm
+Misalignment Warning
+ The centerline of a trace (59.725000, 16.900000) mm on layer L1 is not connected to the center of a via (59.925000, 16.900000) mm
+Misalignment Warning
+ The centerline of a trace (59.725000, 17.900000) mm on layer L1 is not connected to the center of a via (59.925000, 17.900000) mm
+Misalignment Warning
+ The centerline of a trace (4.500000, 80.465000) mm on layer L1 is not connected to the center of a via (4.500000, 80.500000) mm
+Misalignment Warning
+ The centerline of a trace (14.150000, 22.850000) mm on layer L1 is not connected to the center of a via (14.200000, 22.950000) mm
+Misalignment Warning
+ The centerlines of two traces on layer L1 are not connected (12.350351, 20.572000) mm net "MCU_SWDIO_SEL"
+Misalignment Warning
+ The centerline of a trace (67.300000, 71.500000) mm on layer L1 is not connected to the center of a via (67.300000, 71.600000) mm
+Misalignment Warning
+ The centerline of a trace (5.040000, 19.780000) mm on layer L1 is not connected to the center of a via (5.040000, 19.800000) mm
+Misalignment Warning
+ The centerlines of two traces on layer L1 are not connected (52.574980, 70.363681) mm net "DRAM3_ZQ1"
+Misalignment Warning
+ The centerline of a trace (22.200000, 20.100000) mm on layer L1 is not connected to the center of a via (22.850000, 20.200000) mm
+Misalignment Warning
+ The centerline of a trace (24.350010, 30.149990) mm on layer L1 is not connected to the center of a via (24.300000, 29.500000) mm
+Misalignment Warning
+ The centerline of a trace (30.800000, 52.500000) mm on layer L1 is not connected to the center of a via (31.200000, 52.100010) mm
+Misalignment Warning
+ The centerline of a trace (32.550000, 51.850000) mm on layer L1 is not connected to the center of a via (31.600000, 51.700000) mm
+Misalignment Warning
+ The centerline of a trace (29.850002, 52.650002) mm on layer L1 is not connected to the center of a via (30.000000, 52.500000) mm
+Misalignment Warning
+ The centerline of a trace (49.299990, 56.900000) mm on layer L1 is not connected to the center of a via (48.899990, 57.299980) mm
+Misalignment Warning
+ The centerline of a trace (49.299990, 32.900000) mm on layer L1 is not connected to the center of a via (48.899990, 33.299980) mm
+Misalignment Warning
+ The centerline of a trace (49.299990, 44.900000) mm on layer L1 is not connected to the center of a via (48.899990, 45.299980) mm
+Misalignment Warning
+ The centerline of a trace (50.200000, 11.350000) mm on layer L1 is not connected to the center of a via (48.800000, 10.500000) mm
+Misalignment Warning
+ The centerline of a trace (46.099980, 69.700000) mm on layer L1 is not connected to the center of a via (46.499970, 70.099990) mm
+Misalignment Warning
+ The centerline of a trace (49.300000, 25.400000) mm on layer L1 is not connected to the center of a via (49.565000, 24.900000) mm
+Misalignment Warning
+ The centerline of a trace (19.843970, 21.250000) mm on layer L1 is not connected to the center of a via (21.000000, 21.300000) mm
+Misalignment Warning
+ The centerline of a trace (12.300000, 43.050000) mm on layer L1 is not connected to the center of a via (12.800000, 43.600000) mm
+Misalignment Warning
+ The centerline of a trace (62.000000, 14.000000) mm on layer L3 is not connected to the center of a via (61.950000, 14.000000) mm
+Misalignment Warning
+ The centerlines of two traces on layer L3 are not connected (52.974990, 9.016095) mm net "PCIE_RSTN"
+Misalignment Warning
+ The centerlines of two traces on layer L3 are not connected (52.974990, 12.384607) mm net "PCIE_RSTN"
+Misalignment Warning
+ The centerlines of two traces on layer L3 are not connected (55.259990, 15.545565) mm net "SD2_CD"
+Misalignment Warning
+ The centerlines of two traces on layer L3 are not connected (18.299319, 12.615829) mm net "I2C1_SDA_MCU"
+Misalignment Warning
+ The centerlines of two traces on layer L3 are not connected (18.334171, 26.549319) mm net "MCU_GPIO1"
+Misalignment Warning
+ The centerlines of two traces on layer L3 are not connected (15.156927, 70.758220) mm net "VID_IN_CSI1_D6"
+Misalignment Warning
+ The centerlines of two traces on layer L3 are not connected (15.643073, 70.758220) mm net "VID_IN_CSI1_D6"
+Misalignment Warning
+ The centerlines of two traces on layer L3 are not connected (22.709983, 73.538220) mm net "VID_IN_CSI1_D9"
+Misalignment Warning
+ The centerlines of two traces on layer L3 are not connected (6.256927, 71.658220) mm net "VID_IN_CSI1_D9"
+Misalignment Warning
+ The centerlines of two traces on layer L3 are not connected (19.404843, 73.519990) mm net "VID_IN_CSI1_D9"
+Misalignment Warning
+ The centerlines of two traces on layer L3 are not connected (5.660000, 76.175147) mm net "VID_IN_CSI1_D14"
+Misalignment Warning
+ The centerlines of two traces on layer L3 are not connected (54.559980, 27.757961) mm net "DRAM_A3"
+Misalignment Warning
+ The centerlines of two traces on layer L3 are not connected (54.559980, 51.698451) mm net "DRAM_A3"
+Misalignment Warning
+ The centerlines of two traces on layer L3 are not connected (54.459435, 45.344238) mm net "DRAM_A4"
+Misalignment Warning
+ The centerline of a trace (54.500020, 45.299970) mm on layer L3 is not connected to the center of a via (54.499980, 57.300000) mm
+Misalignment Warning
+ The centerline of a trace (58.400000, 25.000000) mm on layer L3 is not connected to the center of a via (54.499980, 33.300000) mm
+Misalignment Warning
+ The centerlines of two traces on layer L3 are not connected (52.559990, 43.501095) mm net "DRAM_A10"
+Misalignment Warning
+ The centerlines of two traces on layer L3 are not connected (52.440000, 55.498905) mm net "DRAM_A10"
+Misalignment Warning
+ The centerline of a trace (48.700000, 73.400010) mm on layer L3 is not connected to the center of a via (48.700000, 73.400000) mm
+Misalignment Warning
+ The centerlines of two traces on layer L3 are not connected (52.039980, 28.501569) mm net "DRAM_CAS_B"
+Misalignment Warning
+ The centerlines of two traces on layer L3 are not connected (41.075440, 38.424862) mm net "DRAM_D9"
+Misalignment Warning
+ The centerlines of two traces on layer L3 are not connected (41.075440, 39.479435) mm net "DRAM_D9"
+Misalignment Warning
+ The centerlines of two traces on layer L3 are not connected (47.643220, 45.416377) mm net "DRAM_D17"
+Misalignment Warning
+ The centerlines of two traces on layer L3 are not connected (43.834607, 61.075000) mm net "DRAM_D59"
+Misalignment Warning
+ The centerlines of two traces on layer L3 are not connected (43.138447, 60.063750) mm net "DRAM_D60"
+Misalignment Warning
+ The centerlines of two traces on layer L3 are not connected (42.328603, 59.943750) mm net "DRAM_D60"
+Misalignment Warning
+ The centerlines of two traces on layer L3 are not connected (42.039843, 61.154990) mm net "DRAM_D61"
+Misalignment Warning
+ The centerlines of two traces on layer L3 are not connected (43.013593, 61.173220) mm net "DRAM_D61"
+Misalignment Warning
+ The centerlines of two traces on layer L3 are not connected (42.143884, 60.428737) mm net "DRAM_DQM7"
+Misalignment Warning
+ The centerlines of two traces on layer L3 are not connected (50.941770, 29.456927) mm net "DRAM_RAS_B"
+Misalignment Warning
+ The centerlines of two traces on layer L3 are not connected (52.941770, 28.456927) mm net "DRAM_SDBA0"
+Misalignment Warning
+ The centerlines of two traces on layer L3 are not connected (53.759980, 32.500005) mm net "DRAM_SDBA1"
+Misalignment Warning
+ The centerlines of two traces on layer L3 are not connected (53.656451, 44.458717) mm net "DRAM_SDBA1"
+Misalignment Warning
+ The centerlines of two traces on layer L3 are not connected (53.639980, 44.475187) mm net "DRAM_SDBA1"
+Misalignment Warning
+ The centerlines of two traces on layer L3 are not connected (53.759980, 44.498461) mm net "DRAM_SDBA1"
+Misalignment Warning
+ The centerlines of two traces on layer L3 are not connected (51.341495, 34.056662) mm net "DRAM_SDCKE0"
+Misalignment Warning
+ The centerline of a trace (14.623040, 55.800000) mm on layer L3 is not connected to the center of a via (14.600000, 55.800000) mm
+Misalignment Warning
+ The centerlines of two traces on layer L3 are not connected (34.248905, 3.474990) mm net "MCU_SWDIO_SEL"
+Misalignment Warning
+ The centerline of a trace (1.300000, 21.200000) mm on layer L8 is not connected to the center of a via (1.300000, 21.250000) mm
+Misalignment Warning
+ The centerlines of two traces on layer L8 are not connected (36.136292, 61.479235) mm net "BOARD_ID_1"
+Misalignment Warning
+ The centerlines of two traces on layer L8 are not connected (26.708216, 15.576637) mm net "SD2_DATA2"
+Misalignment Warning
+ The centerlines of two traces on layer L8 are not connected (26.735000, 12.290303) mm net "SD2_DATA2"
+Misalignment Warning
+ The centerlines of two traces on layer L8 are not connected (27.484990, 17.600137) mm net "SD2_DATA1"
+Misalignment Warning
+ The centerlines of two traces on layer L8 are not connected (27.383220, 12.139967) mm net "SD2_DATA1"
+Misalignment Warning
+ The centerline of a trace (11.500000, 48.800000) mm on layer L8 is not connected to the center of a via (11.500000, 48.700000) mm
+Misalignment Warning
+ The centerlines of two traces on layer L8 are not connected (62.050681, 55.465829) mm net "CSPI2_CS0"
+Misalignment Warning
+ The centerlines of two traces on layer L8 are not connected (29.874990, 75.290137) mm net "VID_IN_CSI1_D0"
+Misalignment Warning
+ The centerlines of two traces on layer L8 are not connected (28.774990, 61.730597) mm net "VID_IN_CSI1_D1"
+Misalignment Warning
+ The centerlines of two traces on layer L8 are not connected (28.673217, 60.141920) mm net "VID_IN_CSI1_D1"
+Misalignment Warning
+ The centerlines of two traces on layer L8 are not connected (26.067050, 67.787193) mm net "VID_IN_CSI1_D3"
+Misalignment Warning
+ The centerlines of two traces on layer L8 are not connected (27.574990, 75.851495) mm net "VID_IN_CSI1_D13"
+Misalignment Warning
+ The centerlines of two traces on layer L8 are not connected (27.574990, 72.600015) mm net "VID_IN_CSI1_D13"
+Misalignment Warning
+ The centerlines of two traces on layer L8 are not connected (23.748400, 68.859527) mm net "VID_IN_CSI1_D18"
+Misalignment Warning
+ The centerlines of two traces on layer L8 are not connected (24.829990, 61.985157) mm net "VID_IN_CSI1_HSYNC"
+Misalignment Warning
+ The centerlines of two traces on layer L8 are not connected (54.040000, 41.498895) mm net "DRAM_A0"
+Misalignment Warning
+ The centerlines of two traces on layer L8 are not connected (54.040000, 29.501085) mm net "DRAM_A0"
+Misalignment Warning
+ The centerlines of two traces on layer L8 are not connected (55.240000, 31.701095) mm net "DRAM_A1"
+Misalignment Warning
+ The centerlines of two traces on layer L8 are not connected (55.360000, 67.699995) mm net "DRAM_A1"
+Misalignment Warning
+ The centerlines of two traces on layer L8 are not connected (55.360000, 55.699995) mm net "DRAM_A1"
+Misalignment Warning
+ The centerlines of two traces on layer L8 are not connected (55.360000, 43.699995) mm net "DRAM_A1"
+Misalignment Warning
+ The centerlines of two traces on layer L8 are not connected (54.899990, 29.560000) mm net "DRAM_A2"
+Misalignment Warning
+ The centerlines of two traces on layer L8 are not connected (54.899995, 29.560000) mm net "DRAM_A2"
+Misalignment Warning
+ The centerlines of two traces on layer L8 are not connected (54.959980, 65.498451) mm net "DRAM_A2"
+Misalignment Warning
+ The centerlines of two traces on layer L8 are not connected (54.840000, 41.498063) mm net "DRAM_A2"
+Misalignment Warning
+ The centerlines of two traces on layer L8 are not connected (54.899985, 29.439980) mm net "DRAM_A2"
+Misalignment Warning
+ The centerlines of two traces on layer L8 are not connected (54.840010, 29.502171) mm net "DRAM_A2"
+Misalignment Warning
+ The centerlines of two traces on layer L8 are not connected (54.857559, 29.457569) mm net "DRAM_A2"
+Misalignment Warning
+ The centerlines of two traces on layer L8 are not connected (54.840010, 29.501897) mm net "DRAM_A2"
+Misalignment Warning
+ The centerline of a trace (48.300000, 74.600000) mm on layer L8 is not connected to the center of a via (51.200000, 55.600000) mm
+Misalignment Warning
+ The centerlines of two traces on layer L8 are not connected (50.345000, 43.600005) mm net "DRAM_CLK0_P"
+Misalignment Warning
+ The centerlines of two traces on layer L8 are not connected (52.858200, 27.743073) mm net "DRAM_CS0_B"
+Misalignment Warning
+ The centerlines of two traces on layer L8 are not connected (52.899975, 27.760000) mm net "DRAM_CS0_B"
+Misalignment Warning
+ The centerlines of two traces on layer L8 are not connected (38.845000, 55.195393) mm net "DRAM_D42"
+Misalignment Warning
+ The centerlines of two traces on layer L8 are not connected (48.440000, 66.199995) mm net "DRAM_D50"
+Misalignment Warning
+ The centerlines of two traces on layer L8 are not connected (52.159980, 27.698451) mm net "DRAM_SDODT0"
+Misalignment Warning
+ The centerlines of two traces on layer L8 are not connected (1.989422, 45.655195) mm net "USER_LED_1"
+Misalignment Warning
+ The centerline of a trace (31.300000, 31.100000) mm on layer L8 is not connected to the center of a via (31.300000, 30.900000) mm
+Misalignment Warning
+ The centerlines of two traces on layer L8 are not connected (3.458220, 67.412457) mm net "USER_LED_D_7"
+Misalignment Warning
+ The centerline of a trace (1.300000, 58.200000) mm on layer L10 is not connected to the center of a via (1.300000, 58.400000) mm
+Misalignment Warning
+ The centerline of a trace (22.300000, 14.000000) mm on layer L10 is not connected to the center of a via (22.680800, 15.200000) mm
+Misalignment Warning
+ The centerlines of two traces on layer L10 are not connected (1.222409, 21.246981) mm net "USB_CONNECT_OR_USER_LED_2"
+Misalignment Warning
+ The centerline of a trace (68.040000, 78.700000) mm on layer L10 is not connected to the center of a via (68.040000, 78.680000) mm
+Misalignment Warning
+ The centerline of a trace (1.400000, 31.100000) mm on layer L10 is not connected to the center of a via (2.700000, 30.900000) mm
+Misalignment Warning
+ The centerline of a trace (1.395000, 48.500000) mm on layer L10 is not connected to the center of a via (1.295000, 48.500000) mm
+Misalignment Warning
+ The centerline of a trace (12.500000, 89.450000) mm on layer L10 is not connected to the center of a via (12.490000, 89.450000) mm
+Misalignment Warning
+ The centerlines of two traces on layer L10 are not connected (34.157000, 35.205944) mm net "GYRO_INT"
+Misalignment Warning
+ The centerline of a trace (17.200000, 82.400000) mm on layer L10 is not connected to the center of a via (17.200000, 82.700000) mm
+Misalignment Warning
+ The centerline of a trace (16.800000, 12.000000) mm on layer L10 is not connected to the center of a via (16.800000, 12.600000) mm
+Misalignment Warning
+ The centerline of a trace (13.100000, 22.205000) mm on layer L10 is not connected to the center of a via (13.100000, 22.200000) mm
+Misalignment Warning
+ The centerline of a trace (41.700000, 10.399990) mm on layer L10 is not connected to the center of a via (41.700000, 10.400000) mm
+Misalignment Warning
+ The centerline of a trace (41.700000, 10.399990) mm on layer L10 is not connected to the center of a via (41.700000, 10.400000) mm
+Misalignment Warning
+ The centerline of a trace (43.100000, 10.399990) mm on layer L10 is not connected to the center of a via (43.100000, 10.400000) mm
+Misalignment Warning
+ The centerline of a trace (43.100000, 10.399990) mm on layer L10 is not connected to the center of a via (43.100000, 10.400000) mm
+Misalignment Warning
+ The centerline of a trace (37.900000, 10.399990) mm on layer L10 is not connected to the center of a via (37.900000, 10.400000) mm
+Misalignment Warning
+ The centerline of a trace (37.900000, 10.399990) mm on layer L10 is not connected to the center of a via (37.900000, 10.400000) mm
+Misalignment Warning
+ The centerline of a trace (39.300000, 10.399990) mm on layer L10 is not connected to the center of a via (39.300000, 10.400000) mm
+Misalignment Warning
+ The centerline of a trace (39.300000, 10.399990) mm on layer L10 is not connected to the center of a via (39.300000, 10.400000) mm
+Misalignment Warning
+ The centerline of a trace (45.900000, 9.500000) mm on layer L10 is not connected to the center of a via (45.900000, 9.400000) mm
+Misalignment Warning
+ The centerline of a trace (48.350000, 13.450000) mm on layer L10 is not connected to the center of a via (48.350000, 13.460000) mm
+Misalignment Warning
+ The centerline of a trace (22.296000, 74.213000) mm on layer L10 is not connected to the center of a via (22.296000, 74.513000) mm
+Misalignment Warning
+ The centerlines of two traces on layer L10 are not connected (21.147418, 76.903260) mm net "TCT1"
+Misalignment Warning
+ The centerline of a trace (10.104000, 72.700000) mm on layer L10 is not connected to the center of a via (10.100000, 72.700000) mm
+Misalignment Warning
+ The centerline of a trace (33.400000, 36.600000) mm on layer L10 is not connected to the center of a via (33.300000, 36.600000) mm
+Misalignment Warning
+ The centerline of a trace (64.300000, 19.100000) mm on layer L10 is not connected to the center of a via (64.300000, 19.000000) mm
+Misalignment Warning
+ The centerline of a trace (50.350000, 13.450000) mm on layer L10 is not connected to the center of a via (50.350000, 13.460000) mm
+Misalignment Warning
+ The centerline of a trace (47.650000, 12.750000) mm on layer L10 is not connected to the center of a via (47.640000, 12.750000) mm
+Misalignment Warning
+ The centerline of a trace (59.900000, 8.875000) mm on layer L10 is not connected to the center of a via (59.800000, 8.875000) mm
+Misalignment Warning
+ The centerline of a trace (14.500000, 44.800000) mm on layer L10 is not connected to the center of a via (15.900000, 44.800000) mm
+Misalignment Warning
+ The centerline of a trace (16.350000, 48.850000) mm on layer L10 is not connected to the center of a via (15.000000, 50.100000) mm
+Misalignment Warning
+ The centerlines of two traces on layer L10 are not connected (47.261370, 46.541990) mm net "DRAM_A6"
+Misalignment Warning
+ The centerline of a trace (48.700000, 73.400010) mm on layer L10 is not connected to the center of a via (48.700000, 73.400000) mm
+Misalignment Warning
+ The centerline of a trace (38.400010, 52.100010) mm on layer L10 is not connected to the center of a via (38.400010, 52.100000) mm
+Misalignment Warning
+ The centerlines of two traces on layer L10 are not connected (51.064150, 67.272000) mm net "DRAM_A15"
+Misalignment Warning
+ The centerline of a trace (35.200000, 43.299990) mm on layer L10 is not connected to the center of a via (39.800000, 42.935000) mm
+Misalignment Warning
+ The centerlines of two traces on layer L10 are not connected (45.538630, 65.741980) mm net "DRAM_SDBA0"
+Misalignment Warning
+ The centerlines of two traces on layer L10 are not connected (43.932095, 61.047105) mm net "DRAM_SDODT0"
+Misalignment Warning
+ The centerline of a trace (38.400000, 51.300010) mm on layer L10 is not connected to the center of a via (38.400000, 51.300000) mm
+Misalignment Warning
+ The centerline of a trace (13.800000, 50.500000) mm on layer L10 is not connected to the center of a via (14.350000, 51.750000) mm
+Misalignment Warning
+ The centerline of a trace (58.400000, 3.600000) mm on layer L10 is not connected to the center of a via (58.400000, 3.500000) mm
+Misalignment Warning
+ The centerline of a trace (59.800000, 6.325000) mm on layer L10 is not connected to the center of a via (59.800000, 6.525000) mm
+Misalignment Warning
+ The centerline of a trace (61.500000, 8.600000) mm on layer L10 is not connected to the center of a via (62.400000, 7.500000) mm
+Misalignment Warning
+ The centerline of a trace (61.500000, 8.600000) mm on layer L10 is not connected to the center of a via (61.400000, 8.600000) mm
+Misalignment Warning
+ The centerline of a trace (8.500000, 86.900000) mm on layer L10 is not connected to the center of a via (8.400000, 87.000000) mm
+Misalignment Warning
+ The centerline of a trace (8.000000, 78.300000) mm on layer L10 is not connected to the center of a via (8.000000, 78.500000) mm
+Misalignment Warning
+ The centerline of a trace (8.000000, 78.300000) mm on layer L10 is not connected to the center of a via (8.200000, 77.300000) mm
+Misalignment Warning
+ The centerline of a trace (48.350000, 8.550010) mm on layer L10 is not connected to the center of a via (48.350000, 8.540010) mm
+Misalignment Warning
+ The centerline of a trace (32.300000, 24.950000) mm on layer L10 is not connected to the center of a via (33.800000, 27.700000) mm
+Misalignment Warning
+ The centerlines of two traces on layer L10 are not connected (14.051183, 39.570573) mm net "POR_BN"
+Misalignment Warning
+ The centerline of a trace (18.400000, 43.575000) mm on layer L10 is not connected to the center of a via (18.300000, 43.575000) mm
+Misalignment Warning
+ The centerline of a trace (7.700000, 13.700000) mm on layer L10 is not connected to the center of a via (7.700000, 13.800000) mm
+Misalignment Warning
+ The centerline of a trace (15.500000, 41.600000) mm on layer L10 is not connected to the center of a via (14.100000, 41.600000) mm
+Misalignment Warning
+ The centerlines of two traces on layer L10 are not connected (50.575325, 24.755935) mm net "MPCIE_SIM_RST"
+Misalignment Warning
+ The centerlines of two traces on layer L10 are not connected (8.570573, 37.748817) mm net "RSTINN_BUFF"
+Misalignment Warning
+ The centerline of a trace (69.400000, 9.400000) mm on layer L10 is not connected to the center of a via (69.400000, 9.390000) mm
+Misalignment Warning
+ The centerlines of two traces on layer L10 are not connected (22.100000, 8.342084) mm net "NetR292_1"
+Misalignment Warning
+ The centerline of a trace (36.100000, 91.400010) mm on layer L10 is not connected to the center of a via (36.100000, 91.400000) mm
+Misalignment Warning
+ The centerline of a trace (36.100000, 91.400010) mm on layer L10 is not connected to the center of a via (36.100000, 91.400000) mm
+Misalignment Warning
+ The centerline of a trace (36.200000, 90.700000) mm on layer L10 is not connected to the center of a via (36.200000, 90.700010) mm
+Misalignment Warning
+ The centerline of a trace (13.450000, 31.600000) mm on layer L10 is not connected to the center of a via (13.450000, 31.590000) mm
+Misalignment Warning
+ The centerline of a trace (51.000000, 7.300000) mm on layer L10 is not connected to the center of a via (51.100000, 7.300000) mm
+Misalignment Warning
+ The centerline of a trace (39.600000, 13.375000) mm on layer L10 is not connected to the center of a via (39.599980, 14.000010) mm
+Misalignment Warning
+ The centerline of a trace (68.500000, 72.000000) mm on layer L10 is not connected to the center of a via (68.000000, 71.400000) mm
+Misalignment Warning
+ The centerline of a trace (16.800000, 57.700000) mm on layer L10 is not connected to the center of a via (17.100000, 57.200000) mm
+Misalignment Warning
+ The centerline of a trace (26.900000, 52.435000) mm on layer L10 is not connected to the center of a via (27.500000, 52.435000) mm
+Misalignment Warning
+ The centerline of a trace (29.300000, 52.400000) mm on layer L10 is not connected to the center of a via (29.100000, 52.435000) mm
+Misalignment Warning
+ The centerline of a trace (27.999990, 52.100000) mm on layer L10 is not connected to the center of a via (28.500000, 52.435000) mm
+Misalignment Warning
+ The centerline of a trace (64.100000, 18.300000) mm on layer L10 is not connected to the center of a via (63.600000, 18.700000) mm
+
+# END LIST

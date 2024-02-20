@@ -1,0 +1,36 @@
+            siwave_ng 2022 R2 (Built: May 27 2022 01:08:39)
+    Commenced on host DESKTOP-DD9R41C at Tue Feb 20 10:52:57 2024
+
+------------------------------------------------------------------------
+|               |   Real   |   Cpu    |  Memory  |                     |
+|    Command    |   Time   |   Time   |          |                     |
+| solve_setup   | 00:00:09 | 00:00:15 |  361776K |        1 project    |
+------------------------------------------------------------------------
+         Finished on DESKTOP-DD9R41C at 02/20/2024 10:53:06
+
+
+     SIwave DC IR solver 2022 R2 May 27 2022 at 00:56:39 beginning
+        C:\Program Files\AnsysEM\v222\Win64\sidirect_solver.exe
+               on DESKTOP-DD9R41C at 02/20/2024 10:53:07
+------------------------------------------------------------------------
+|               |   Real   |   Cpu    |  Memory  |                     |
+|    Command    |   Time   |   Time   |          | Number of Elements  |
+| InitMesh      | 00:00:25 | 00:01:36 |     351M |   208714 triangles  |
+| PreProc       | 00:00:02 | 00:00:02 |     351M |   208714 triangles  |
+| AdaptMesh_1   | 00:00:03 | 00:00:03 |     351M |   229811 triangles  |
+| Solve(6p)_1   | 00:00:01 | 00:00:03 |     357M |   148031 unknowns   |
+| ErrorCalc_1   | 00:00:01 | 00:00:00 |     357M |   229811 triangles  |
+| AdaptMesh_2   | 00:00:04 | 00:00:04 |     383M |   289571 triangles  |
+| Solve(6p)_2   | 00:00:01 | 00:00:03 |     438M |   178522 unknowns   |
+| ErrorCalc_2   | 00:00:01 | 00:00:00 |     438M |   289571 triangles  |
+| AdaptMesh_3   | 00:00:05 | 00:00:04 |     452M |   364867 triangles  |
+| Solve(6p)_3   | 00:00:02 | 00:00:04 |     527M |   217106 unknowns   |
+| ErrorCalc_3   | 00:00:01 | 00:00:01 |     527M |   364867 triangles  |
+| AdaptMesh_4   | 00:00:05 | 00:00:05 |     562M |   459738 triangles  |
+| Solve(6p)_4   | 00:00:02 | 00:00:05 |     651M |   265399 unknowns   |
+| ErrorCalc_4   | 00:00:01 | 00:00:01 |     651M |   459738 triangles  |
+| PostProc      | 00:00:03 | 00:00:02 |     651M |     2643 elements   |
+| ResCalc       | 00:00:03 | 00:00:07 |     672M |        9 terminals  |
+| IndCalc(6p)   | 00:03:49 | 00:20:46 |    3285M |   459738 triangles  |
+------------------------------------------------------------------------
+          Finished on DESKTOP-DD9R41C at 02/20/2024 10:58:01
