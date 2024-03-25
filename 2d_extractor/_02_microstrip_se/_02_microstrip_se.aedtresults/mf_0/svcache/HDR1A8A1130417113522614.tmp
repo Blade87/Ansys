@@ -77,13 +77,40 @@ $begin 'SimValueCache'
 						SimValueContext(0, 0, 2, 0, false, false, 0, 1, 0, 1, 1, '', 0, 0)
 					$end 'ReportTypeSolnDef'
 					$begin 'MajorVVMap'
-						VersionID=0
+						VersionID=235
 						$begin 'MinorVVMap'
 							MajorVariation='$dielectric_thickness=\'-2.5mil\' $dielectric_width=\'17mil\' $dielectric_xpos=\'-8.5mil\' $ref_thickness=\'-0.69999999999999996mil\' $trace_thickness=\'0.69999999999999996mil\' $trace_width=\'4.25mil\' $trace_xpos=\'-2.125mil\''
-							MinorCacheFile='min7A9E11304171135979325.tmp'
+							MinorCacheFile='min498A303617113659808.tmp'
 						$end 'MinorVVMap'
 					$end 'MajorVVMap'
 				$end 'VersionMap'
+			$end 'ContextMap'
+			$begin 'ContextMap'
+				SolutionID=301
+				$begin 'VersionMap'
+					$begin 'ReportTypeSolnDef'
+						ReportType=0
+						SimValueContext(0, 0, 2, 0, false, false, 0, 1, 0, 1, 1, '', 0, 0)
+					$end 'ReportTypeSolnDef'
+					$begin 'MajorVVMap'
+						VersionID=0
+						$begin 'MinorVVMap'
+							MajorVariation='$dielectric_thickness=\'-4mil\' $dielectric_width=\'17mil\' $dielectric_xpos=\'-8.5mil\' $ref_thickness=\'-0.69999999999999996mil\' $trace_thickness=\'0.69999999999999996mil\' $trace_width=\'4.25mil\' $trace_xpos=\'-2.125mil\''
+							MinorCacheFile='min62283036171137794440.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='$dielectric_thickness=\'-3.0000000000000004mil\' $dielectric_width=\'17mil\' $dielectric_xpos=\'-8.5mil\' $ref_thickness=\'-0.69999999999999996mil\' $trace_thickness=\'0.69999999999999996mil\' $trace_width=\'4.25mil\' $trace_xpos=\'-2.125mil\''
+							MinorCacheFile='min62283036171137794441.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='$dielectric_thickness=\'-2mil\' $dielectric_width=\'17mil\' $dielectric_xpos=\'-8.5mil\' $ref_thickness=\'-0.69999999999999996mil\' $trace_thickness=\'0.69999999999999996mil\' $trace_width=\'4.25mil\' $trace_xpos=\'-2.125mil\''
+							MinorCacheFile='min62283036171137794442.tmp'
+						$end 'MinorVVMap'
+					$end 'MajorVVMap'
+				$end 'VersionMap'
+			$end 'ContextMap'
+			$begin 'ContextMap'
+				SolutionID=302
 			$end 'ContextMap'
 		$end 'SolutionMap'
 	$end 'DesignMap'
