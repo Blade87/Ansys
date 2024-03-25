@@ -1,0 +1,323 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002024, month=000000000003, day=000000000025, hour=000000000013, min=000000000037, sec=000000000033)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000010344, lin=000000000301, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock4'
+	SolutionName='LastAdaptive'
+	SolutionID=26
+	V=0
+	$begin 'States'
+		F(VID=28, Ver=0)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(1000000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	SweepID=-1
+	$begin 'MCAP'
+		$begin 'SubData'
+			ID=0
+			MCAP(VID=28, Ver=0, File='DV28_SOL26_MCAP0_V0.sd')
+		$end 'SubData'
+	$end 'MCAP'
+	$begin 'MCOND'
+		$begin 'SubData'
+			ID=0
+			MCOND(VID=28, Ver=0, File='DV28_SOL26_MCOND0_V0.sd')
+		$end 'SubData'
+	$end 'MCOND'
+	$begin 'MRES'
+		$begin 'SubData'
+			ID=0
+			MRES(VID=28, Ver=0, File='DV28_SOL26_MRES0_V0.sd')
+		$end 'SubData'
+	$end 'MRES'
+	$begin 'MIND'
+		$begin 'SubData'
+			ID=0
+			MIND(VID=28, Ver=0, File='DV28_SOL26_MIND0_V0.sd')
+		$end 'SubData'
+	$end 'MIND'
+	$begin 'CGSurfFields'
+		IDDblMap(63, 1000000000)
+		$begin 'DataMap'
+			VID=28
+			Ver=0
+			CGF(DblID=63, Dir='DV28_SOL26_V0_F63_CGF/')
+		$end 'DataMap'
+	$end 'CGSurfFields'
+	$begin 'RLSurfFields'
+		IDDblMap(79, 1000000000)
+		$begin 'DataMap'
+			VID=28
+			Ver=0
+			RLF(DblID=79, Dir='DV28_SOL26_V0_F79_RLF/')
+		$end 'DataMap'
+	$end 'RLSurfFields'
+$end 'SolutionBlock4'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=25, Instance=\'$dielectric_thickness=\\\'-2.5mil\\\' $dielectric_width=\\\'17mil\\\' $dielectric_xpos=\\\'-8.5mil\\\' $ref_thickness=\\\'-0.69999999999999996mil\\\' $trace_thickness=\\\'0.69999999999999996mil\\\' $trace_width=\\\'4.25mil\\\' $trace_xpos=\\\'-2.125mil\\\'\', Solution=-3, VersionID=0)'='SolutionBlock6'
+	'SolutionKey(SimSetup=25, Instance=\'SetupDefinition\', Solution=-1, VersionID=0)'='SolutionBlock2'
+	'SolutionKey(SimSetup=25, Instance=\'SolutionDefinition\', Solution=26, VersionID=0)'='SolutionBlock4'
+	'SolutionKey(SimSetup=25, Instance=\'SolutionDefinition\', Solution=27, VersionID=0)'='SolutionBlock5'
+	'SolutionKey(SimSetup=25, Instance=\'SolutionDefinition\', Solution=29, VersionID=0)'='SolutionBlock3'
+$end 'BlockMapName'
+$begin 'SolutionBlock5'
+	SolutionName='AdaptivePass'
+	SolutionID=27
+	V=0
+	$begin 'States'
+		F(VID=28, Ver=0)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(1000000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	SweepID=-1
+	$begin 'MCAP'
+		$begin 'SubData'
+			ID=1
+			MCAP(VID=28, Ver=0, File='DV28_SOL27_MCAP1_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			MCAP(VID=28, Ver=0, File='DV28_SOL27_MCAP2_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=3
+			MCAP(VID=28, Ver=0, File='DV28_SOL27_MCAP3_V0.sd')
+		$end 'SubData'
+	$end 'MCAP'
+	$begin 'MCOND'
+		$begin 'SubData'
+			ID=1
+			MCOND(VID=28, Ver=0, File='DV28_SOL27_MCOND1_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			MCOND(VID=28, Ver=0, File='DV28_SOL27_MCOND2_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=3
+			MCOND(VID=28, Ver=0, File='DV28_SOL27_MCOND3_V0.sd')
+		$end 'SubData'
+	$end 'MCOND'
+	$begin 'MRES'
+		$begin 'SubData'
+			ID=1
+			MRES(VID=28, Ver=0, File='DV28_SOL27_MRES1_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			MRES(VID=28, Ver=0, File='DV28_SOL27_MRES2_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=3
+			MRES(VID=28, Ver=0, File='DV28_SOL27_MRES3_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=4
+			MRES(VID=28, Ver=0, File='DV28_SOL27_MRES4_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=5
+			MRES(VID=28, Ver=0, File='DV28_SOL27_MRES5_V0.sd')
+		$end 'SubData'
+	$end 'MRES'
+	$begin 'MIND'
+		$begin 'SubData'
+			ID=1
+			MIND(VID=28, Ver=0, File='DV28_SOL27_MIND1_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			MIND(VID=28, Ver=0, File='DV28_SOL27_MIND2_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=3
+			MIND(VID=28, Ver=0, File='DV28_SOL27_MIND3_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=4
+			MIND(VID=28, Ver=0, File='DV28_SOL27_MIND4_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=5
+			MIND(VID=28, Ver=0, File='DV28_SOL27_MIND5_V0.sd')
+		$end 'SubData'
+	$end 'MIND'
+$end 'SolutionBlock5'
+$begin 'SolutionBlock3'
+	SolutionName='Sweep1'
+	SolutionID=29
+	V=0
+	$begin 'States'
+		F(VID=28, Ver=0)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(0, 1, 1.25892541179417, 1.58489319246111, 1.99526231496888, 2.51188643150958, 3.16227766016838, 3.98107170553497, 5.01187233627272, 6.30957344480193, 7.94328234724282, 10, 12.5892541179417, 15.8489319246111, 19.9526231496888, 25.1188643150958, 31.6227766016838, 39.8107170553497, 50.1187233627272, 63.0957344480193, 79.4328234724281, 100, 125.892541179417, 158.489319246111, 199.526231496888, 251.188643150958, 316.227766016838, 398.107170553497, 501.187233627272, 630.957344480193, 794.3282347242809, 1000, 1258.92541179417, 1584.89319246111, 1995.26231496888, 2511.88643150958, 3162.27766016838, 3981.07170553497, 5011.87233627273, 6309.57344480193, 7943.28234724281, 10000, 12589.2541179417, 15848.9319246111, 19952.6231496888, 25118.8643150958, 31622.7766016838, 39810.7170553497, 50118.7233627273, 63095.7344480193, 79432.82347242819, 100000, 125892.541179417, 158489.319246111, 199526.231496888, 251188.643150958, 316227.766016838, 398107.170553497, 501187.233627272, 630957.344480193, 794328.2347242821, 1000000, 1258925.41179417, 1584893.19246111, 1995262.31496888, 2511886.43150958, 3162277.66016838, 3981071.70553497, 5011872.33627272, 6309573.44480193, 7943282.34724282, 10000000, 12589254.1179417, 15848931.9246111, 19952623.1496888, 25118864.3150958, 31622776.6016838, 39810717.0553497, 50118723.3627272, 63095734.4480193, 79432823.4724282, 100000000, 125892541.179417, 158489319.246111, 199526231.496888, 251188643.150958, 316227766.016838, 398107170.553497, 501187233.627271, 630957344.480194, 794328234.724282, 1000000000, 2154434690.03188, 4641588833.612781, 10000000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	SweepID=0
+	$begin 'MCAP'
+		$begin 'SubData'
+			ID=0
+			MCAP(VID=28, Ver=0, File='DV28_SOL29_MCAP0_V0.sd')
+		$end 'SubData'
+	$end 'MCAP'
+	$begin 'MCOND'
+		$begin 'SubData'
+			ID=0
+			MCOND(VID=28, Ver=0, File='DV28_SOL29_MCOND0_V0.sd')
+		$end 'SubData'
+	$end 'MCOND'
+	$begin 'MRES'
+		$begin 'SubData'
+			ID=0
+			MRES(VID=28, Ver=0, File='DV28_SOL29_MRES0_V0.sd')
+		$end 'SubData'
+	$end 'MRES'
+	$begin 'MIND'
+		$begin 'SubData'
+			ID=0
+			MIND(VID=28, Ver=0, File='DV28_SOL29_MIND0_V0.sd')
+		$end 'SubData'
+	$end 'MIND'
+$end 'SolutionBlock3'
+$begin 'SolutionBlock2'
+	SimSetupID=25
+	SimSetupName='Setup_1GHz'
+	VersionID=0
+	SolveSetupID=0
+	$begin 'CGCurrentPassNum'
+		'CG.CP'(VID=28, Ver=0, P=4)
+	$end 'CGCurrentPassNum'
+	$begin 'CGCurrentMeshes'
+		IDDblMap(60, 1, 61, 2, 68, 3, 71, 4)
+		$begin 'DataMap'
+			VID=28
+			Ver=0
+			'CG.cmesh'(DblID=68, Dir='DV28_S25_V0_CG.cmesh68/')
+			'CG.cmesh'(DblID=71, Dir='DV28_S25_V0_CG.cmesh71/')
+		$end 'DataMap'
+	$end 'CGCurrentMeshes'
+	$begin 'RLCurrentPassNum'
+		'RL.CP'(VID=28, Ver=0, P=6)
+	$end 'RLCurrentPassNum'
+	$begin 'RLCurrentMeshes'
+		IDDblMap(76, 1, 77, 2, 84, 3, 87, 4, 90, 5, 93, 6)
+		$begin 'DataMap'
+			VID=28
+			Ver=0
+			'RL.cmesh'(DblID=90, Dir='DV28_S25_V0_RL.cmesh90/')
+			'RL.cmesh'(DblID=93, Dir='DV28_S25_V0_RL.cmesh93/')
+		$end 'DataMap'
+	$end 'RLCurrentMeshes'
+	$begin 'CapLastPassNumbers'
+		'Cap.LP'(VID=28, Ver=0, P=3)
+	$end 'CapLastPassNumbers'
+	$begin 'CondLastPassNumbers'
+		'Cond.LP'(VID=28, Ver=0, P=3)
+	$end 'CondLastPassNumbers'
+	$begin 'ResLastPassNumbers'
+		'Res.LP'(VID=28, Ver=0, P=5)
+	$end 'ResLastPassNumbers'
+	$begin 'IndLastPassNumbers'
+		'Ind.LP'(VID=28, Ver=0, P=5)
+	$end 'IndLastPassNumbers'
+	$begin 'Profiles'
+		PRF(VID=28, Ver=0, File='DV28_S25_V0.profile')
+	$end 'Profiles'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=45520
+			MI(VID=28, Ver=0, Dir='DV28_S25_MI45520_V0.sd/')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=45521
+			MI(VID=28, Ver=0, Dir='DV28_S25_MI45521_V0.sd/')
+		$end 'SubData'
+	$end 'MI'
+	$begin 'MeshGeometryInfo'
+		MGEOM(VID=28, Ver=0, Dir='DV28_S25_V0.meshgeom/')
+	$end 'MeshGeometryInfo'
+$end 'SolutionBlock2'
+$begin 'SolutionBlock1'
+	ProductName='2D Extractor'
+	CircuitName='microstrip_se'
+	VersionID=22
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=106
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='$dielectric_thickness=\'-2.5mil\' $dielectric_width=\'17mil\' $dielectric_xpos=\'-8.5mil\' $ref_thickness=\'-0.69999999999999996mil\' $trace_thickness=\'0.69999999999999996mil\' $trace_width=\'4.25mil\' $trace_xpos=\'-2.125mil\'', ID=28)
+	$end 'VariationIDs'
+	$begin 'LinkedDataList'
+	$end 'LinkedDataList'
+	$begin 'InitialMeshes'
+		M(VID=28, Ver=22, Dir='DV28_V22.imesh/')
+	$end 'InitialMeshes'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=45520
+			MI(VID=28, Ver=22, Dir='DV28_MI45520_V22.sd/')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=45521
+			MI(VID=28, Ver=22, Dir='DV28_MI45521_V22.sd/')
+		$end 'SubData'
+	$end 'MI'
+$end 'SolutionBlock1'
+$begin 'SolutionBlock6'
+	$begin '45520'
+		ConvSetupName='CGConv'
+		MaxPasses='10'
+		MinPasses='1'
+		ConvTarget='1'
+		ConvTargetConsecPasses='N/A'
+		ConvCurrentConsecPasses='N/A'
+		c(le=0, p=1, ee=0.0348084, tl=0.00661859, tri=370, te=3.1185e-11, ce='(N/A, 0.034808)')
+		c(le=0, p=2, de=5.38552, ee=0.0100984, tl=0.00647696, dl=2.13991, tri=514, te=2.95055e-11, ce='(5.3855, 0.010098)')
+		c(le=0, p=3, de=0.294931, ee=0.0048087, tl=0.00645316, dl=0.367401, tri=682, te=2.94185e-11, ce='(0.29493, 0.0048087)')
+	$end '45520'
+	$begin '45521'
+		ConvSetupName='RLConv'
+		MaxPasses='10'
+		MinPasses='1'
+		ConvTarget='1'
+		ConvTargetConsecPasses='N/A'
+		ConvCurrentConsecPasses='N/A'
+		c(p=1, te=7.11473e-08, le=0, tri=370, ce='(N/A, 17.573)', ee=17.5732, tl=65.7328)
+		c(p=2, te=7.69633e-08, dl=9.336399999999999, le=0, tri=542, ce='(8.1747, 6.2062)', ee=6.20621, de=8.17468, tl=59.5957)
+		c(p=3, te=7.813160000000001e-08, dl=26.4527, le=0, tri=706, ce='(1.518, 2.5215)', ee=2.52146, de=1.51796, tl=43.831)
+		c(p=4, te=7.83758e-08, dl=5.35015, le=0, tri=920, ce='(0.31257, 1.1072)', ee=1.10719, de=0.312574, tl=46.1761)
+		c(p=5, te=7.86601e-08, dl=21.0601, le=0, tri=1200, ce='(0.36266, 0.31411)', ee=0.314113, de=0.362663, tl=36.4513)
+	$end '45521'
+$end 'SolutionBlock6'
+$begin '$index$'
+	$begin '$index$'
+		SolutionBlock6(pos=9079, lin=275, lvl=0)
+		SolutionBlock4(pos=370, lin=1, lvl=0)
+		BlockMapName(pos=1510, lin=56, lvl=0)
+		SolutionBlock5(pos=2336, lin=64, lvl=0)
+		SolutionBlock3(pos=4310, lin=151, lvl=0)
+		SolutionBlock2(pos=6674, lin=190, lvl=0)
+		SolutionBlock1(pos=8241, lin=248, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=10344, lin=301, lvl=0)
+	$end '$index$'
+$end '$index$'

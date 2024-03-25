@@ -1,0 +1,12 @@
+$begin 'CacheDataVersion'
+	DataVersion=-1
+$end 'CacheDataVersion'
+$begin 'VariableValues'
+	$trace_width='4.25mil'
+	$trace_thickness='0.7mil'
+	$trace_xpos='$trace_width/(-2)'
+	$dielectric_width='$trace_width*4'
+	$dielectric_thickness='-2.5mil'
+	$dielectric_xpos='$dielectric_width/(-2)'
+	$ref_thickness='-0.7mil'
+$end 'VariableValues'
