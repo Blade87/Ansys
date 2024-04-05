@@ -1,0 +1,1539 @@
+$begin 'MatrixData'
+	Frequency=1000000000
+	SolutionType='Adaptive'
+	Names(0, 2)
+	$begin 'Frequencies'
+		NumberOfFreqs=1
+		$begin 'DataPoint'
+			Frequency=1000000000
+			$begin 'Matrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(59.007528118918)
+					c(4.378804220228929)
+				$end 'r0'
+				$begin 'r1'
+					c(4.378804220228929)
+					c(59.17350464989367)
+				$end 'r1'
+			$end 'Matrix'
+		$end 'DataPoint'
+	$end 'Frequencies'
+	Type='ResMatrix'
+$end 'MatrixData'
+$begin 'Added'
+	Frequency=0
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(5.405035577449361)
+			c(0.4789272030651331)
+		$end 'r0'
+		$begin 'r1'
+			c(0.4789272030651331)
+			c(5.405035577449357)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=1
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(5.40503557745027)
+			c(0.4789272030650351)
+		$end 'r0'
+		$begin 'r1'
+			c(0.4789272030650351)
+			c(5.405035577450261)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=1.25892541179417
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(5.405035577450797)
+			c(0.478927203064978)
+		$end 'r0'
+		$begin 'r1'
+			c(0.478927203064978)
+			c(5.405035577450795)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=1.58489319246111
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(5.40503557745164)
+			c(0.4789272030648885)
+		$end 'r0'
+		$begin 'r1'
+			c(0.4789272030648885)
+			c(5.405035577451636)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=1.99526231496888
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(5.405035577452965)
+			c(0.4789272030647449)
+		$end 'r0'
+		$begin 'r1'
+			c(0.4789272030647449)
+			c(5.405035577452964)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=2.51188643150958
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(5.405035577455068)
+			c(0.4789272030645174)
+		$end 'r0'
+		$begin 'r1'
+			c(0.4789272030645174)
+			c(5.405035577455062)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=3.16227766016838
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(5.405035577458401)
+			c(0.478927203064157)
+		$end 'r0'
+		$begin 'r1'
+			c(0.478927203064157)
+			c(5.405035577458401)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=3.98107170553497
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(5.405035577463682)
+			c(0.4789272030635863)
+		$end 'r0'
+		$begin 'r1'
+			c(0.4789272030635863)
+			c(5.405035577463679)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=5.01187233627272
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(5.405035577472052)
+			c(0.4789272030626807)
+		$end 'r0'
+		$begin 'r1'
+			c(0.4789272030626807)
+			c(5.405035577472065)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=6.30957344480193
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(5.405035577485328)
+			c(0.4789272030612474)
+		$end 'r0'
+		$begin 'r1'
+			c(0.4789272030612474)
+			c(5.405035577485342)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=7.94328234724282
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(5.405035577506352)
+			c(0.4789272030589753)
+		$end 'r0'
+		$begin 'r1'
+			c(0.4789272030589753)
+			c(5.405035577506377)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=10
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(5.405035577539695)
+			c(0.4789272030553741)
+		$end 'r0'
+		$begin 'r1'
+			c(0.4789272030553741)
+			c(5.405035577539735)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=12.5892541179417
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(5.405035577592523)
+			c(0.4789272030496661)
+		$end 'r0'
+		$begin 'r1'
+			c(0.4789272030496661)
+			c(5.405035577592602)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=15.8489319246111
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(5.405035577676258)
+			c(0.4789272030406192)
+		$end 'r0'
+		$begin 'r1'
+			c(0.4789272030406192)
+			c(5.405035577676389)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=19.9526231496888
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(5.405035577808958)
+			c(0.4789272030262808)
+		$end 'r0'
+		$begin 'r1'
+			c(0.4789272030262808)
+			c(5.405035577809159)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=25.1188643150958
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(5.405035578019273)
+			c(0.4789272030035544)
+		$end 'r0'
+		$begin 'r1'
+			c(0.4789272030035544)
+			c(5.4050355780196)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=31.6227766016838
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(5.405035578352611)
+			c(0.4789272029675371)
+		$end 'r0'
+		$begin 'r1'
+			c(0.4789272029675371)
+			c(5.405035578353127)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=39.8107170553497
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(5.405035578880928)
+			c(0.4789272029104553)
+		$end 'r0'
+		$begin 'r1'
+			c(0.4789272029104553)
+			c(5.40503557888175)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=50.1187233627272
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(5.405035579718223)
+			c(0.478927202819985)
+		$end 'r0'
+		$begin 'r1'
+			c(0.478927202819985)
+			c(5.405035579719536)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=63.0957344480193
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(5.405035581045276)
+			c(0.4789272026765998)
+		$end 'r0'
+		$begin 'r1'
+			c(0.4789272026765998)
+			c(5.405035581047352)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=79.4328234724281
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(5.405035583148497)
+			c(0.4789272024493507)
+		$end 'r0'
+		$begin 'r1'
+			c(0.4789272024493507)
+			c(5.405035583151796)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=100
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(5.405035586481882)
+			c(0.4789272020891849)
+		$end 'r0'
+		$begin 'r1'
+			c(0.4789272020891849)
+			c(5.405035586487113)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=125.892541179417
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(5.405035591764936)
+			c(0.4789272015183578)
+		$end 'r0'
+		$begin 'r1'
+			c(0.4789272015183578)
+			c(5.405035591773227)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=158.489319246111
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(5.405035600138016)
+			c(0.4789272006136617)
+		$end 'r0'
+		$begin 'r1'
+			c(0.4789272006136617)
+			c(5.405035600151166)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=199.526231496888
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(5.405035613408447)
+			c(0.4789271991798126)
+		$end 'r0'
+		$begin 'r1'
+			c(0.4789271991798126)
+			c(5.405035613429291)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=251.188643150958
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(5.405035634440674)
+			c(0.4789271969073168)
+		$end 'r0'
+		$begin 'r1'
+			c(0.4789271969073168)
+			c(5.405035634473719)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=316.227766016838
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(5.405035667774489)
+			c(0.4789271933056563)
+		$end 'r0'
+		$begin 'r1'
+			c(0.4789271933056563)
+			c(5.405035667826861)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=398.107170553497
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(5.405035720605023)
+			c(0.4789271875974133)
+		$end 'r0'
+		$begin 'r1'
+			c(0.4789271875974133)
+			c(5.405035720688029)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=501.187233627272
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(5.405035804335747)
+			c(0.4789271785504706)
+		$end 'r0'
+		$begin 'r1'
+			c(0.4789271785504706)
+			c(5.405035804467305)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=630.957344480193
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(5.405035937039925)
+			c(0.4789271642120676)
+		$end 'r0'
+		$begin 'r1'
+			c(0.4789271642120676)
+			c(5.40503593724843)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=794.3282347242809
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(5.405036147361691)
+			c(0.4789271414873116)
+		$end 'r0'
+		$begin 'r1'
+			c(0.4789271414873116)
+			c(5.405036147692152)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=1000
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(5.405036480698798)
+			c(0.4789271054712127)
+		$end 'r0'
+		$begin 'r1'
+			c(0.4789271054712127)
+			c(5.405036481222544)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=1258.92541179417
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(5.405037009001372)
+			c(0.4789270483900679)
+		$end 'r0'
+		$begin 'r1'
+			c(0.4789270483900679)
+			c(5.405037009831456)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=1584.89319246111
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(5.405037846301722)
+			c(0.4789269579238727)
+		$end 'r0'
+		$begin 'r1'
+			c(0.4789269579238727)
+			c(5.405037847617313)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=1995.26231496888
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(5.405039173326269)
+			c(0.4789268145479364)
+		$end 'r0'
+		$begin 'r1'
+			c(0.4789268145479364)
+			c(5.405039175411329)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=2511.88643150958
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(5.405041276500692)
+			c(0.4789265873207341)
+		$end 'r0'
+		$begin 'r1'
+			c(0.4789265873207341)
+			c(5.405041279805245)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=3162.27766016838
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(5.405044609762935)
+			c(0.4789262272108423)
+		$end 'r0'
+		$begin 'r1'
+			c(0.4789262272108423)
+			c(5.405044615000181)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=3981.07170553497
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(5.405049892515525)
+			c(0.4789256565277585)
+		$end 'r0'
+		$begin 'r1'
+			c(0.4789256565277585)
+			c(5.405049900815712)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=5011.87233627273
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(5.405058264832819)
+			c(0.4789247521882173)
+		$end 'r0'
+		$begin 'r1'
+			c(0.4789247521882173)
+			c(5.405058277986976)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=6309.57344480193
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(5.405071533354837)
+			c(0.4789233192386373)
+		$end 'r0'
+		$begin 'r1'
+			c(0.4789233192386373)
+			c(5.405071554200873)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=7943.28234724281
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(5.405092560770271)
+			c(0.4789210490003443)
+		$end 'r0'
+		$begin 'r1'
+			c(0.4789210490003443)
+			c(5.405092593804256)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=10000
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(5.405125882520899)
+			c(0.4789174530085563)
+		$end 'r0'
+		$begin 'r1'
+			c(0.4789174530085563)
+			c(5.405125934864273)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=12589.2541179417
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(5.405178682745488)
+			c(0.4789117590007806)
+		$end 'r0'
+		$begin 'r1'
+			c(0.4789117590007806)
+			c(5.405178765674121)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=15848.9319246111
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(5.405262337368212)
+			c(0.4789027477936961)
+		$end 'r0'
+		$begin 'r1'
+			c(0.4789027477936961)
+			c(5.405262468725851)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=19952.6231496888
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(5.405394850509534)
+			c(0.4788884990648429)
+		$end 'r0'
+		$begin 'r1'
+			c(0.4788884990648429)
+			c(5.40539505850821)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=25118.8643150958
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(5.405604692864067)
+			c(0.478865999215723)
+		$end 'r0'
+		$begin 'r1'
+			c(0.478865999215723)
+			c(5.40560502204544)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=31622.7766016838
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(5.405936827495841)
+			c(0.4788305466760914)
+		$end 'r0'
+		$begin 'r1'
+			c(0.4788305466760914)
+			c(5.405937348025062)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=39810.7170553497
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(5.406462116653906)
+			c(0.4787748756719289)
+		$end 'r0'
+		$begin 'r1'
+			c(0.4787748756719289)
+			c(5.406462938665881)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=50118.7233627273
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(5.407291875482247)
+			c(0.4786879300227274)
+		$end 'r0'
+		$begin 'r1'
+			c(0.4786879300227274)
+			c(5.407293170871857)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=63095.7344480193
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(5.408600066375229)
+			c(0.4785533124531617)
+		$end 'r0'
+		$begin 'r1'
+			c(0.4785533124531617)
+			c(5.408602101016251)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=79432.82347242819
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(5.410656363003677)
+			c(0.4783477537526473)
+		$end 'r0'
+		$begin 'r1'
+			c(0.4783477537526473)
+			c(5.410659542236278)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=100000
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(5.413873544513497)
+			c(0.4780407910778753)
+		$end 'r0'
+		$begin 'r1'
+			c(0.4780407910778753)
+			c(5.41387847214739)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=125892.541179417
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(5.418871116866605)
+			c(0.477598734597572)
+		$end 'r0'
+		$begin 'r1'
+			c(0.477598734597572)
+			c(5.418878659185391)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=158489.319246111
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(5.426551109144699)
+			c(0.4769994237628356)
+		$end 'r0'
+		$begin 'r1'
+			c(0.4769994237628356)
+			c(5.426562434066812)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=199526.231496888
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(5.438167935382414)
+			c(0.4762681898159269)
+		$end 'r0'
+		$begin 'r1'
+			c(0.4762681898159269)
+			c(5.43818445687528)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=251188.643150958
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(5.455350363507835)
+			c(0.4755428803950523)
+		$end 'r0'
+		$begin 'r1'
+			c(0.4755428803950523)
+			c(5.455373471763489)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=316227.766016838
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(5.480009077118767)
+			c(0.4751478911563963)
+		$end 'r0'
+		$begin 'r1'
+			c(0.4751478911563963)
+			c(5.480039535444721)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=398107.170553497
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(5.514065543940278)
+			c(0.4755835167509574)
+		$end 'r0'
+		$begin 'r1'
+			c(0.4755835167509574)
+			c(5.514102613151087)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=501187.233627272
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(5.558994570548714)
+			c(0.4772608281791548)
+		$end 'r0'
+		$begin 'r1'
+			c(0.4772608281791548)
+			c(5.559035346613286)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=630957.344480193
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(5.615271042817687)
+			c(0.4799193417080166)
+		$end 'r0'
+		$begin 'r1'
+			c(0.4799193417080166)
+			c(5.615310821816919)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=794328.2347242821
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(5.681920546100045)
+			c(0.4821014415641022)
+		$end 'r0'
+		$begin 'r1'
+			c(0.4821014415641022)
+			c(5.68195453105607)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=1000000
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(5.756477702045265)
+			c(0.4814195724761605)
+		$end 'r0'
+		$begin 'r1'
+			c(0.4814195724761605)
+			c(5.756503021404642)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=1258925.41179417
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(5.835596093917454)
+			c(0.475841003165029)
+		$end 'r0'
+		$begin 'r1'
+			c(0.475841003165029)
+			c(5.835612416456183)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=1584893.19246111
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(5.916164886320934)
+			c(0.4650621484718175)
+		$end 'r0'
+		$begin 'r1'
+			c(0.4650621484718175)
+			c(5.916173110982679)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=1995262.31496888
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(5.996430904891372)
+			c(0.4507883883404627)
+		$end 'r0'
+		$begin 'r1'
+			c(0.4507883883404627)
+			c(5.996431161833912)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=2511886.43150958
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(6.076770160882633)
+			c(0.4358222026841243)
+		$end 'r0'
+		$begin 'r1'
+			c(0.4358222026841243)
+			c(6.076760486128954)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=3162277.66016838
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(6.160171870224344)
+			c(0.4228160798708172)
+		$end 'r0'
+		$begin 'r1'
+			c(0.4228160798708172)
+			c(6.160147613088627)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=3981071.70553497
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(6.252657255675386)
+			c(0.4134855231767141)
+		$end 'r0'
+		$begin 'r1'
+			c(0.4134855231767141)
+			c(6.252610503395632)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=5011872.33627272
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(6.363667849137575)
+			c(0.4085448571176701)
+		$end 'r0'
+		$begin 'r1'
+			c(0.4085448571176701)
+			c(6.363586506924824)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=6309573.44480193
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(6.506191691884515)
+			c(0.4081716358451677)
+		$end 'r0'
+		$begin 'r1'
+			c(0.4081716358451677)
+			c(6.506058455178237)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=7943282.34724282
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(6.696203429598792)
+			c(0.4126049232672068)
+		$end 'r0'
+		$begin 'r1'
+			c(0.4126049232672068)
+			c(6.695995447322581)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=10000000
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(6.95105674353031)
+			c(0.4225701132959623)
+		$end 'r0'
+		$begin 'r1'
+			c(0.4225701132959623)
+			c(6.950747397482511)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=12589254.1179417
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(7.287250449339393)
+			c(0.4394284720770468)
+		$end 'r0'
+		$begin 'r1'
+			c(0.4394284720770468)
+			c(7.2868145942127)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=15848931.9246111
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(7.719507537516032)
+			c(0.4650782505625948)
+		$end 'r0'
+		$begin 'r1'
+			c(0.4650782505625948)
+			c(7.718929553888293)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=19952623.1496888
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(8.263507897840309)
+			c(0.5017090206705447)
+		$end 'r0'
+		$begin 'r1'
+			c(0.5017090206705447)
+			c(8.262788360153085)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=25118864.3150958
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(8.941410222829122)
+			c(0.5516014890624221)
+		$end 'r0'
+		$begin 'r1'
+			c(0.5516014890624221)
+			c(8.940566457024666)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=31622776.6016838
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(9.784537320296465)
+			c(0.6170687633628433)
+		$end 'r0'
+		$begin 'r1'
+			c(0.6170687633628433)
+			c(9.783601134744877)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=39810717.0553497
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(10.82769748120699)
+			c(0.7002184871097431)
+		$end 'r0'
+		$begin 'r1'
+			c(0.7002184871097431)
+			c(10.82672499057061)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=50118723.3627272
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(12.0962235337404)
+			c(0.8021026510182078)
+		$end 'r0'
+		$begin 'r1'
+			c(0.8021026510182078)
+			c(12.09533040722436)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=63095734.4480193
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(13.59430272473054)
+			c(0.9217043593395681)
+		$end 'r0'
+		$begin 'r1'
+			c(0.9217043593395681)
+			c(13.593717172365)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=79432823.4724282
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(15.30564181299778)
+			c(1.056236973624243)
+		$end 'r0'
+		$begin 'r1'
+			c(1.056236973624243)
+			c(15.30575610446209)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=100000000
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(17.21147701483635)
+			c(1.203522747938482)
+		$end 'r0'
+		$begin 'r1'
+			c(1.203522747938482)
+			c(17.21290649384774)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=125892541.179417
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(19.31680376013802)
+			c(1.36491167287782)
+		$end 'r0'
+		$begin 'r1'
+			c(1.36491167287782)
+			c(19.32049643970529)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=158489319.246111
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(21.66551130540125)
+			c(1.546239416634247)
+		$end 'r0'
+		$begin 'r1'
+			c(1.546239416634247)
+			c(21.67293743889155)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=199526231.496888
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(24.33318575735265)
+			c(1.756042763678832)
+		$end 'r0'
+		$begin 'r1'
+			c(1.756042763678832)
+			c(24.34657686104591)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=251188643.150958
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(27.40541954904941)
+			c(2.002375554534192)
+		$end 'r0'
+		$begin 'r1'
+			c(2.002375554534192)
+			c(27.42794775532103)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=316227766.016838
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(30.96078261809095)
+			c(2.290337120292158)
+		$end 'r0'
+		$begin 'r1'
+			c(2.290337120292158)
+			c(30.99654108184362)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=398107170.553497
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(35.073039176462)
+			c(2.621904503095815)
+		$end 'r0'
+		$begin 'r1'
+			c(2.621904503095815)
+			c(35.12679469928258)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=501187233.627271
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(39.82754370325001)
+			c(2.997661308080628)
+		$end 'r0'
+		$begin 'r1'
+			c(2.997661308080628)
+			c(39.90435200753377)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=630957344.480194
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(45.32902581615151)
+			c(3.417770281869182)
+		$end 'r0'
+		$begin 'r1'
+			c(3.417770281869182)
+			c(45.43361647054166)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=794328234.724282
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(51.68872552664171)
+			c(3.880332191920603)
+		$end 'r0'
+		$begin 'r1'
+			c(3.880332191920603)
+			c(51.82425909457801)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=1258925411.79417
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(67.37677810538497)
+			c(4.901518285528958)
+		$end 'r0'
+		$begin 'r1'
+			c(4.901518285528958)
+			c(67.56637502843058)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=1584893192.46111
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(76.89475607703937)
+			c(5.434035305325946)
+		$end 'r0'
+		$begin 'r1'
+			c(5.434035305325946)
+			c(77.09200158633068)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=1995262314.96888
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(87.67446009561237)
+			c(5.963045319528771)
+		$end 'r0'
+		$begin 'r1'
+			c(5.963045319528771)
+			c(87.85175437458295)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=2511886431.50958
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(99.80647013266963)
+			c(6.479966539578236)
+		$end 'r0'
+		$begin 'r1'
+			c(6.479966539578236)
+			c(99.9237118119421)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=3162277660.16838
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(113.2483984551463)
+			c(6.981557497144514)
+		$end 'r0'
+		$begin 'r1'
+			c(6.981557497144514)
+			c(113.2556411518113)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=3981071705.53497
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(127.6700371121922)
+			c(7.46602163971157)
+		$end 'r0'
+		$begin 'r1'
+			c(7.46602163971157)
+			c(127.5150946705112)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=5011872336.27272
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(142.3666330514983)
+			c(7.927327960452537)
+		$end 'r0'
+		$begin 'r1'
+			c(7.927327960452537)
+			c(142.0070368646116)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=6309573444.801929
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(156.364956777112)
+			c(8.352808326063155)
+		$end 'r0'
+		$begin 'r1'
+			c(8.352808326063155)
+			c(155.7803055329352)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=7943282347.24282
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(168.7209815201679)
+			c(8.726442582819672)
+		$end 'r0'
+		$begin 'r1'
+			c(8.726442582819672)
+			c(167.9189365646299)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=10000000000
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(178.831739235403)
+			c(9.035540266949127)
+		$end 'r0'
+		$begin 'r1'
+			c(9.035540266949127)
+			c(177.8432082383322)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'

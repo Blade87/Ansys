@@ -1,0 +1,12 @@
+$begin 'CacheDataVersion'
+	DataVersion=34
+$end 'CacheDataVersion'
+$begin 'VariableValues'
+	$plane_tickness='0.018mm'
+	$plane_width='2mm'
+	$dielectric_thickness='0.0994mm'
+	$trace_width='0.15mm'
+	$trace_thickness='0.035mm'
+	$solder_thickness='0.015mm'
+	$trace_separation='0.3mm'
+$end 'VariableValues'

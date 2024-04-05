@@ -1,0 +1,18 @@
+$begin 'MatrixData'
+	Frequency=100000000
+	SolutionType='Adaptive'
+	Names(0, 2)
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(14.96239416227775)
+			c(1.291457490134111)
+		$end 'r0'
+		$begin 'r1'
+			c(1.291457490134111)
+			c(15.51492281628625)
+		$end 'r1'
+	$end 'Matrix'
+	Type='ResMatrix'
+$end 'MatrixData'

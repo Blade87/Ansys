@@ -1,0 +1,18 @@
+$begin 'MatrixData'
+	Frequency=1000000000
+	SolutionType='Adaptive'
+	Names(0, 2)
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(1.149323335781682e-10)
+			c(-2.631014530193752e-12)
+		$end 'r0'
+		$begin 'r1'
+			c(-2.631014530193752e-12)
+			c(1.149453353559001e-10)
+		$end 'r1'
+	$end 'Matrix'
+	Type='CapMatrix'
+$end 'MatrixData'

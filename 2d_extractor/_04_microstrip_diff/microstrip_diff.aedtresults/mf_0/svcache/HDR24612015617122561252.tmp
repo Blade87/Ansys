@@ -1,0 +1,453 @@
+SimValueCacheVersionID=1
+$begin 'SimValueInfos'
+	NextUniqueID=33
+	MoveBackwards=false
+	$begin 'SimValue'
+		ID=0
+		$begin 'SimValueParams'
+			QuantityName='C(trace,trace)'
+			ValueState(28, 4, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=1
+		$begin 'SimValueParams'
+			QuantityName='Z0(trace,trace)'
+			ValueState(90, 15, 1, 2)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=2
+		$begin 'SimValueParams'
+			QuantityName='Kb(trace,trace)'
+			ValueState(90, 15, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=3
+		$begin 'SimValueParams'
+			QuantityName='VelModal(Mode1)'
+			ValueState(138, 20, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=4
+		$begin 'SimValueParams'
+			QuantityName='DelayModal(Mode1)'
+			ValueState(90, 15, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=5
+		$begin 'SimValueParams'
+			QuantityName='AttenModal(Mode1)'
+			ValueState(90, 15, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=6
+		$begin 'SimValueParams'
+			QuantityName='EpsEffModal(Mode1)'
+			ValueState(90, 15, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=7
+		$begin 'SimValueParams'
+			QuantityName='LambdaEffModal(Mode1)'
+			ValueState(36, 5, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=8
+		$begin 'SimValueParams'
+			QuantityName='Kf(trace,trace)'
+			ValueState(90, 15, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=9
+		$begin 'SimValueParams'
+			QuantityName='C(trace_n,trace_n)'
+			ValueState(28, 4, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=10
+		$begin 'SimValueParams'
+			QuantityName='C(Pair1:cm,Pair1:cm)'
+			ValueState(28, 4, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=11
+		$begin 'SimValueParams'
+			QuantityName='Z0(Pair1:cm,Pair1:cm)'
+			ValueState(90, 15, 1, 2)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=12
+		$begin 'SimValueParams'
+			QuantityName='Z0(Pair1:df,Pair1:cm)'
+			ValueState(90, 15, 1, 2)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=13
+		$begin 'SimValueParams'
+			QuantityName='lumpKf(Pair1:cm,Pair1:cm)'
+			ValueState(90, 15, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=14
+		$begin 'SimValueParams'
+			QuantityName='Z0Modal(Mode1)'
+			ValueState(90, 15, 1, 2)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=15
+		$begin 'SimValueParams'
+			QuantityName='Z0Modal(Mode2)'
+			ValueState(90, 15, 1, 2)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=16
+		$begin 'SimValueParams'
+			QuantityName='Z0(trace_n,trace_n)'
+			ValueState(90, 15, 1, 2)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=17
+		$begin 'SimValueParams'
+			QuantityName='Z0(trace_p,trace_n)'
+			ValueState(90, 15, 1, 2)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=18
+		$begin 'SimValueParams'
+			QuantityName='Z0(trace_n,trace_p)'
+			ValueState(90, 15, 1, 2)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=19
+		$begin 'SimValueParams'
+			QuantityName='Z0(trace_p,trace_p)'
+			ValueState(90, 15, 1, 2)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=20
+		$begin 'SimValueParams'
+			QuantityName='EpsEffModal(Mode2)'
+			ValueState(90, 15, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=21
+		$begin 'SimValueParams'
+			QuantityName='Z0(Pair1:df,Pair1:df)'
+			ValueState(90, 15, 1, 2)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=22
+		$begin 'SimValueParams'
+			QuantityName='Z0(Pair1:cm,Pair1:df)'
+			ValueState(90, 15, 1, 2)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=23
+		$begin 'SimValueParams'
+			QuantityName='VelModal(Mode2)'
+			ValueState(138, 20, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=24
+		$begin 'SimValueParams'
+			QuantityName='Kf(trace_n,trace_n)'
+			ValueState(90, 15, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=25
+		$begin 'SimValueParams'
+			QuantityName='Kb(Pair1:cm,Pair1:cm)'
+			ValueState(90, 15, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=26
+		$begin 'SimValueParams'
+			QuantityName='Kf(trace_p,trace_n)'
+			ValueState(90, 15, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=27
+		$begin 'SimValueParams'
+			QuantityName='lumpKf(trace_n,trace_n)'
+			ValueState(90, 15, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=28
+		$begin 'SimValueParams'
+			QuantityName='Kb(trace_n,trace_n)'
+			ValueState(90, 15, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=29
+		$begin 'SimValueParams'
+			QuantityName='Vmodal(trace_n,Mode1)'
+			ValueState(90, 15, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=30
+		$begin 'SimValueParams'
+			QuantityName='Vmodal(Pair1:cm,Mode1)'
+			ValueState(90, 15, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=31
+		$begin 'SimValueParams'
+			QuantityName='Area(ref_gnd)'
+			ValueState(235, 35, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=32
+		$begin 'SimValueParams'
+			QuantityName='AttenModal(Mode2)'
+			ValueState(90, 15, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+$end 'SimValueInfos'
+$begin 'SimValueCache'
+	$begin 'DesignMap'
+		DesignID=0
+		$begin 'SolutionMap'
+			$begin 'ContextMap'
+				SolutionID=74
+				$begin 'VersionMap'
+					$begin 'ReportTypeSolnDef'
+						ReportType=0
+						SimValueContext(0, 0, 2, 0, false, false, 1, 1, 0, 1, 1, '', 0, 0)
+					$end 'ReportTypeSolnDef'
+					$begin 'MajorVVMap'
+						VersionID=850
+						$begin 'MinorVVMap'
+							MajorVariation='$dielectric_thickness=\'0.099400000000000002mm\' $plane_tickness=\'0.017999999999999999mm\' $plane_width=\'2mm\' $solder_thickness=\'0.014999999999999999mm\' $trace_separation=\'0.14999999999999999mm\' $trace_thickness=\'0.035000000000000003mm\' $trace_width=\'0.1351mm\''
+							MinorCacheFile='min1A4C1540171232557517.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='$dielectric_thickness=\'0.099400000000000002mm\' $plane_tickness=\'0.017999999999999999mm\' $plane_width=\'2mm\' $solder_thickness=\'0.014999999999999999mm\' $trace_separation=\'0.29999999999999999mm\' $trace_thickness=\'0.035000000000000003mm\' $trace_width=\'0.1351mm\''
+							MinorCacheFile='min1A4C1540171232557518.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='$dielectric_thickness=\'0.099400000000000002mm\' $plane_tickness=\'0.017999999999999999mm\' $plane_width=\'2mm\' $solder_thickness=\'0.014999999999999999mm\' $trace_separation=\'0.45000000000000001mm\' $trace_thickness=\'0.035000000000000003mm\' $trace_width=\'0.1351mm\''
+							MinorCacheFile='min1A4C1540171232557519.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='$dielectric_thickness=\'0.099400000000000002mm\' $plane_tickness=\'0.017999999999999999mm\' $plane_width=\'2mm\' $solder_thickness=\'0.014999999999999999mm\' $trace_separation=\'0.5mm\' $trace_thickness=\'0.035000000000000003mm\' $trace_width=\'0.1351mm\''
+							MinorCacheFile='min1A4C1540171232557520.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='$dielectric_thickness=\'0.099400000000000002mm\' $plane_tickness=\'0.017999999999999999mm\' $plane_width=\'2mm\' $solder_thickness=\'0.014999999999999999mm\' $trace_separation=\'0.14999999999999999mm\' $trace_thickness=\'0.035000000000000003mm\' $trace_width=\'0.10000000000000001mm\''
+							MinorCacheFile='min2C1E1540171232697231.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='$dielectric_thickness=\'0.099400000000000002mm\' $plane_tickness=\'0.017999999999999999mm\' $plane_width=\'2mm\' $solder_thickness=\'0.014999999999999999mm\' $trace_separation=\'0.29999999999999999mm\' $trace_thickness=\'0.035000000000000003mm\' $trace_width=\'0.10000000000000001mm\''
+							MinorCacheFile='min2C1E1540171232697234.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='$dielectric_thickness=\'0.099400000000000002mm\' $plane_tickness=\'0.017999999999999999mm\' $plane_width=\'2mm\' $solder_thickness=\'0.014999999999999999mm\' $trace_separation=\'0.45000000000000001mm\' $trace_thickness=\'0.035000000000000003mm\' $trace_width=\'0.10000000000000001mm\''
+							MinorCacheFile='min2C1E1540171232697237.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='$dielectric_thickness=\'0.099400000000000002mm\' $plane_tickness=\'0.017999999999999999mm\' $plane_width=\'2mm\' $solder_thickness=\'0.014999999999999999mm\' $trace_separation=\'0.14999999999999999mm\' $trace_thickness=\'0.035000000000000003mm\' $trace_width=\'0.14999999999999999mm\''
+							MinorCacheFile='min2C1E1540171232697232.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='$dielectric_thickness=\'0.099400000000000002mm\' $plane_tickness=\'0.017999999999999999mm\' $plane_width=\'2mm\' $solder_thickness=\'0.014999999999999999mm\' $trace_separation=\'0.45000000000000001mm\' $trace_thickness=\'0.035000000000000003mm\' $trace_width=\'0.14999999999999999mm\''
+							MinorCacheFile='min2C1E1540171232697238.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='$dielectric_thickness=\'0.099400000000000002mm\' $plane_tickness=\'0.017999999999999999mm\' $plane_width=\'2mm\' $solder_thickness=\'0.014999999999999999mm\' $trace_separation=\'0.14999999999999999mm\' $trace_thickness=\'0.035000000000000003mm\' $trace_width=\'0.20000000000000001mm\''
+							MinorCacheFile='min2C1E1540171232697233.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='$dielectric_thickness=\'0.099400000000000002mm\' $plane_tickness=\'0.017999999999999999mm\' $plane_width=\'2mm\' $solder_thickness=\'0.014999999999999999mm\' $trace_separation=\'0.29999999999999999mm\' $trace_thickness=\'0.035000000000000003mm\' $trace_width=\'0.20000000000000001mm\''
+							MinorCacheFile='min2C1E1540171232697236.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='$dielectric_thickness=\'0.099400000000000002mm\' $plane_tickness=\'0.017999999999999999mm\' $plane_width=\'2mm\' $solder_thickness=\'0.014999999999999999mm\' $trace_separation=\'0.45000000000000001mm\' $trace_thickness=\'0.035000000000000003mm\' $trace_width=\'0.20000000000000001mm\''
+							MinorCacheFile='min2C1E1540171232697239.tmp'
+						$end 'MinorVVMap'
+					$end 'MajorVVMap'
+				$end 'VersionMap'
+				$begin 'VersionMap'
+					$begin 'ReportTypeSolnDef'
+						ReportType=0
+						SimValueContext(0, 0, 2, 0, false, false, 0, 1, 0, 1, 1, '', 0, 0)
+					$end 'ReportTypeSolnDef'
+					$begin 'MajorVVMap'
+						VersionID=850
+						$begin 'MinorVVMap'
+							MajorVariation='$dielectric_thickness=\'0.099400000000000002mm\' $plane_tickness=\'0.017999999999999999mm\' $plane_width=\'2mm\' $solder_thickness=\'0.014999999999999999mm\' $trace_separation=\'0.14999999999999999mm\' $trace_thickness=\'0.035000000000000003mm\' $trace_width=\'0.1351mm\''
+							MinorCacheFile='min1A4C1540171232557521.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='$dielectric_thickness=\'0.099400000000000002mm\' $plane_tickness=\'0.017999999999999999mm\' $plane_width=\'2mm\' $solder_thickness=\'0.014999999999999999mm\' $trace_separation=\'0.29999999999999999mm\' $trace_thickness=\'0.035000000000000003mm\' $trace_width=\'0.1351mm\''
+							MinorCacheFile='min1A4C1540171232557522.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='$dielectric_thickness=\'0.099400000000000002mm\' $plane_tickness=\'0.017999999999999999mm\' $plane_width=\'2mm\' $solder_thickness=\'0.014999999999999999mm\' $trace_separation=\'0.45000000000000001mm\' $trace_thickness=\'0.035000000000000003mm\' $trace_width=\'0.1351mm\''
+							MinorCacheFile='min1A4C1540171232557523.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='$dielectric_thickness=\'0.099400000000000002mm\' $plane_tickness=\'0.017999999999999999mm\' $plane_width=\'2mm\' $solder_thickness=\'0.014999999999999999mm\' $trace_separation=\'0.5mm\' $trace_thickness=\'0.035000000000000003mm\' $trace_width=\'0.1351mm\''
+							MinorCacheFile='min1A4C1540171232557524.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='$dielectric_thickness=\'0.099400000000000002mm\' $plane_tickness=\'0.017999999999999999mm\' $plane_width=\'2mm\' $solder_thickness=\'0.014999999999999999mm\' $trace_separation=\'0.14999999999999999mm\' $trace_thickness=\'0.035000000000000003mm\' $trace_width=\'0.10000000000000001mm\''
+							MinorCacheFile='min2C1E1540171232697240.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='$dielectric_thickness=\'0.099400000000000002mm\' $plane_tickness=\'0.017999999999999999mm\' $plane_width=\'2mm\' $solder_thickness=\'0.014999999999999999mm\' $trace_separation=\'0.29999999999999999mm\' $trace_thickness=\'0.035000000000000003mm\' $trace_width=\'0.10000000000000001mm\''
+							MinorCacheFile='min2C1E1540171232697243.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='$dielectric_thickness=\'0.099400000000000002mm\' $plane_tickness=\'0.017999999999999999mm\' $plane_width=\'2mm\' $solder_thickness=\'0.014999999999999999mm\' $trace_separation=\'0.45000000000000001mm\' $trace_thickness=\'0.035000000000000003mm\' $trace_width=\'0.10000000000000001mm\''
+							MinorCacheFile='min2C1E1540171232697246.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='$dielectric_thickness=\'0.099400000000000002mm\' $plane_tickness=\'0.017999999999999999mm\' $plane_width=\'2mm\' $solder_thickness=\'0.014999999999999999mm\' $trace_separation=\'0.14999999999999999mm\' $trace_thickness=\'0.035000000000000003mm\' $trace_width=\'0.14999999999999999mm\''
+							MinorCacheFile='min2C1E1540171232697241.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='$dielectric_thickness=\'0.099400000000000002mm\' $plane_tickness=\'0.017999999999999999mm\' $plane_width=\'2mm\' $solder_thickness=\'0.014999999999999999mm\' $trace_separation=\'0.45000000000000001mm\' $trace_thickness=\'0.035000000000000003mm\' $trace_width=\'0.14999999999999999mm\''
+							MinorCacheFile='min2C1E1540171232697247.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='$dielectric_thickness=\'0.099400000000000002mm\' $plane_tickness=\'0.017999999999999999mm\' $plane_width=\'2mm\' $solder_thickness=\'0.014999999999999999mm\' $trace_separation=\'0.14999999999999999mm\' $trace_thickness=\'0.035000000000000003mm\' $trace_width=\'0.20000000000000001mm\''
+							MinorCacheFile='min2C1E1540171232697242.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='$dielectric_thickness=\'0.099400000000000002mm\' $plane_tickness=\'0.017999999999999999mm\' $plane_width=\'2mm\' $solder_thickness=\'0.014999999999999999mm\' $trace_separation=\'0.29999999999999999mm\' $trace_thickness=\'0.035000000000000003mm\' $trace_width=\'0.20000000000000001mm\''
+							MinorCacheFile='min2C1E1540171232697245.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='$dielectric_thickness=\'0.099400000000000002mm\' $plane_tickness=\'0.017999999999999999mm\' $plane_width=\'2mm\' $solder_thickness=\'0.014999999999999999mm\' $trace_separation=\'0.45000000000000001mm\' $trace_thickness=\'0.035000000000000003mm\' $trace_width=\'0.20000000000000001mm\''
+							MinorCacheFile='min2C1E1540171232697248.tmp'
+						$end 'MinorVVMap'
+					$end 'MajorVVMap'
+				$end 'VersionMap'
+			$end 'ContextMap'
+			$begin 'ContextMap'
+				SolutionID=75
+			$end 'ContextMap'
+			$begin 'ContextMap'
+				SolutionID=101
+				$begin 'VersionMap'
+					$begin 'ReportTypeSolnDef'
+						ReportType=0
+						SimValueContext(0, 0, 2, 0, false, false, 1, 1, 0, 1, 1, '', 0, 0)
+					$end 'ReportTypeSolnDef'
+					$begin 'MajorVVMap'
+						VersionID=850
+						$begin 'MinorVVMap'
+							MajorVariation='$dielectric_thickness=\'0.099400000000000002mm\' $plane_tickness=\'0.017999999999999999mm\' $plane_width=\'2mm\' $solder_thickness=\'0.014999999999999999mm\' $trace_separation=\'0.27000000000000002mm\' $trace_thickness=\'0.035000000000000003mm\' $trace_width=\'0.1351mm\''
+							MinorCacheFile='min28C15840171231667415.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='$dielectric_thickness=\'0.099400000000000002mm\' $plane_tickness=\'0.017999999999999999mm\' $plane_width=\'2mm\' $solder_thickness=\'0.014999999999999999mm\' $trace_separation=\'0.29999999999999999mm\' $trace_thickness=\'0.035000000000000003mm\' $trace_width=\'0.1351mm\''
+							MinorCacheFile='min35361540171232768558.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='$dielectric_thickness=\'0.099400000000000002mm\' $plane_tickness=\'0.017999999999999999mm\' $plane_width=\'2mm\' $solder_thickness=\'0.014999999999999999mm\' $trace_separation=\'0.14999999999999999mm\' $trace_thickness=\'0.035000000000000003mm\' $trace_width=\'0.10000000000000001mm\''
+							MinorCacheFile='min4EDA1959217123296955.tmp'
+						$end 'MinorVVMap'
+					$end 'MajorVVMap'
+				$end 'VersionMap'
+				$begin 'VersionMap'
+					$begin 'ReportTypeSolnDef'
+						ReportType=0
+						SimValueContext(0, 0, 2, 0, false, false, 0, 1, 0, 1, 1, '', 0, 0)
+					$end 'ReportTypeSolnDef'
+					$begin 'MajorVVMap'
+						VersionID=850
+						$begin 'MinorVVMap'
+							MajorVariation='$dielectric_thickness=\'0.099400000000000002mm\' $plane_tickness=\'0.017999999999999999mm\' $plane_width=\'2mm\' $solder_thickness=\'0.014999999999999999mm\' $trace_separation=\'0.27000000000000002mm\' $trace_thickness=\'0.035000000000000003mm\' $trace_width=\'0.1351mm\''
+							MinorCacheFile='min28C15840171231667416.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='$dielectric_thickness=\'0.099400000000000002mm\' $plane_tickness=\'0.017999999999999999mm\' $plane_width=\'2mm\' $solder_thickness=\'0.014999999999999999mm\' $trace_separation=\'0.29999999999999999mm\' $trace_thickness=\'0.035000000000000003mm\' $trace_width=\'0.1351mm\''
+							MinorCacheFile='min35361540171232768559.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='$dielectric_thickness=\'0.099400000000000002mm\' $plane_tickness=\'0.017999999999999999mm\' $plane_width=\'2mm\' $solder_thickness=\'0.014999999999999999mm\' $trace_separation=\'0.14999999999999999mm\' $trace_thickness=\'0.035000000000000003mm\' $trace_width=\'0.10000000000000001mm\''
+							MinorCacheFile='min4EDA1959217123296956.tmp'
+						$end 'MinorVVMap'
+					$end 'MajorVVMap'
+				$end 'VersionMap'
+			$end 'ContextMap'
+			$begin 'ContextMap'
+				SolutionID=148
+			$end 'ContextMap'
+			$begin 'ContextMap'
+				SolutionID=149
+			$end 'ContextMap'
+			$begin 'ContextMap'
+				SolutionID=1016
+			$end 'ContextMap'
+			$begin 'ContextMap'
+				SolutionID=1017
+			$end 'ContextMap'
+		$end 'SolutionMap'
+	$end 'DesignMap'
+$end 'SimValueCache'
